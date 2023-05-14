@@ -2,7 +2,7 @@
 <div class="accordion-card {% if forloop.index == 1 %}active{% endif %}">
     <div class="accordion-header" id="collapse2-item-{{forloop.index}}">
         <button class="accordion-button {% if forloop.index != 1 %}collapsed{% endif %}" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2-{{forloop.index}}"
-            aria-expanded="{% if forloop.index == 1 %}true{% endif %}" aria-controls="collapse2-{{forloop.index}}">{{ block.settings.faq_heading }}</button>
+            aria-expanded="{% if forloop.index != 1 %}false{% endif %}" aria-controls="collapse2-{{forloop.index}}">{{ block.settings.faq_heading }}</button>
     </div>
     <div id="collapse2-{{forloop.index}}" class="accordion-collapse collapse show" aria-labelledby="collapse2-item-{{forloop.index}}"
         data-bs-parent="#faqAccordion2">

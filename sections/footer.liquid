@@ -46,17 +46,17 @@
                             <div class="all-menu">
                                 <ul class="menu">
                                   {% for link in linklists[section.settings.footer].links %}
-                                      <li><a href="{{link.url}}">{{ link.title}}</li>
+                                      <li><a href="{{link.url}}">{{ link.title}}</a></li>
                                   {% endfor %}
                                 </ul>
                                 <ul class="menu">
                                   {% for link in linklists[section.settings.footer-menu-two].links %}
-                                    <li><a href="{{link.url}}">{{ link.title}}</li>
+                                    <li><a href="{{link.url}}">{{ link.title}}</a></li>
                                   {% endfor %}
                                 </ul>
                                 <ul class="menu d-none d-lg-block">
                                   {% for link in linklists[section.settings.footer-menu-three].links %}
-                                    <li><a href="{{link.url}}">{{ link.title}}</li>
+                                    <li><a href="{{link.url}}">{{ link.title}}</a></li>
                                   {% endfor %}
                                 </ul>
                             </div>

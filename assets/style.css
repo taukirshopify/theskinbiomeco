@@ -75,7 +75,7 @@ Version: 1.0.0
 
 @font-face {
   font-family: 'Calluna Sans';
-  src: url("https://cdn.shopify.com/s/files/1/0756/6203/3212/files/CallunaSans-Italic.woff2?v=1684052665") format("woff2"), url("{{'CallunaSans-Italic.woff' | asset_url }}") format("woff");
+  src: url("https://cdn.shopify.com/s/files/1/0756/6203/3212/files/CallunaSans-Italic.woff2?v=1684052665") format("woff2"), url("https://cdn.shopify.com/s/files/1/0756/6203/3212/files/CallunaSans-Italic.woff?v=1684052665") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;

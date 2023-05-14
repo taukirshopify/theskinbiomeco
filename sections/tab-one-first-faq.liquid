@@ -1,45 +1,56 @@
+<h5 class="border-title">Contents of my Derma Relief Cream</h5>
+
 <div class="accordion-area accordion" id="faqAccordion">
 
-    {% for block in section.blocks %}
-    <div class="accordion-card {% if forloop.index == 1 %}active{% endif %}">
+
+    <div class="accordion-card active">
         <div class="accordion-header" id="collapse-item-1">
             <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1"
-                aria-expanded="true" aria-controls="collapse-1">{{ block.settings.faq_heading }}</button>
+                aria-expanded="true" aria-controls="collapse-1">What does
+                my Derma Relief Cream contain?</button>
         </div>
         <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="collapse-item-1"
             data-bs-parent="#faqAccordion">
             <div class="accordion-body">
-                <p class="faq-text">{{ block.settings.faq_text }}</p>
+                <p class="faq-text">The SkinBiome Co.’s Derma Relief Cream is carefully formulated in
+                    the science lab of Dr Davide Pennino. Each jar of Derma Relief Cream contains just
+                    14 ingredients: Aqua, Disodium Ethylenediaminetetraacetic acid (EDTA),
+                    Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Glycerin, Dermafixium, Niacinamide
+                    phenoxyethanol, Shea butter, Sodium acrylate, Helianthus Annuus (Sunflower) Seed
+                    Oil, Ethyl Olivate/Olea Europaea (Olive) Leaf Extract, Hydrolyzed Jojoba Esters,
+                    Phytosteryl/Octyldodecyl Lauroyl Glutamate, Ethylhexylglycerin and Penoxyethanol.
+                    Also, the Derma Relief Cream is GMO-free!</p>
             </div>
         </div>
     </div>
-    {% endfor %}
-    
+
+
+
 </div>
 
 {% schema %}
-    {
-      "name": "History Content",
-      
-      "blocks": [
-        {
-          "type": "text_block",
-          "name": "FAQ Tab One First Content",
-          "settings": [
-           
-            {
-            "type": "text",
-            "id": "faq_heading",
-            "label": "Heading"
-            },
-            {
-            "type": "textarea",
-            "id": "faq_text",
-            "label": "Description"
-            }
-          ]
-        }
-      ]
-  
-    }
-  {% endschema %}
+{
+"name": "History Content",
+
+"blocks": [
+{
+"type": "text_block",
+"name": "FAQ Tab One First Content",
+"settings": [
+
+{
+"type": "text",
+"id": "faq_heading",
+"label": "Heading"
+},
+{
+"type": "textarea",
+"id": "faq_text",
+"label": "Description"
+}
+]
+}
+]
+
+}
+{% endschema %}

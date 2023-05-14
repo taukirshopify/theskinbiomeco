@@ -1,6 +1,6 @@
 <div class="space-top">
         <div class="container">
-            <h2 class="sec-title text-center">Frequently asked questions</h2>
+            <h2 class="sec-title text-center">{{section.settings.heading }}</h2>
             <div class="nav faq-tab" id="faqTab" role="tablist">
                 {% for block in section.blocks %}
                 <a class="nav-link ot-btn {% if forloop.index == 1 %}active{% endif %}" id="official-tab-{{forloop.index}}" data-bs-toggle="tab" href="#official-{{forloop.index}}" role="tab" aria-controls="official" aria-selected="true">{{ block.settings.tab_title }}</a>
@@ -57,7 +57,7 @@
         <div class="container">
             <div class="contact-notice">
                 <p class="fs-40">
-                     If we haven’t managed to address your questions, email us directly at <br>
+                     {{section.settings.heading }} <br>
                     <a href="mailto:CCT@theskinbiomeco.com">CCT@theskinbiomeco.com!</a>
                 </p>
             </div>

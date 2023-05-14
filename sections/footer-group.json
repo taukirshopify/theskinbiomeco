@@ -6,7 +6,14 @@
       "type": "footer",
       "settings": {
         "footer_logo": "shopify:\/\/shop_images\/logo-footer.png",
-        "footer_linklist": "main-menu"
+        "footer": "footer",
+        "footer-menu-two": "footer-menu-two",
+        "footer-menu-three": "footer-menu-three",
+        "footer-menu-four": "footer-menu-four",
+        "copyright_text": "2023 The SkinBiome Co. All Rights Reserved",
+        "youtube_text": "#",
+        "facebook_text": "#",
+        "twitter_text": "#"
       }
     }
   },

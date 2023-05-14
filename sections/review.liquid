@@ -30,3 +30,45 @@
         </div>
     </div>
 </section>
+
+{% schema %}
+    {
+        "name" : "Review",
+        "settings" : [
+        {
+          "type": "text",
+          "id": "marquee_text",
+          "label": "Marquee Text"
+        },
+          {
+          "type": "text",
+          "id": "marquee_text_two",
+          "label": "Marquee Text Two"
+        },
+          {
+          "type": "text",
+          "id": "marquee_text_three",
+          "label": "Marquee Text Three"
+        },
+          {
+          "type": "text",
+          "id": "marquee_text_four",
+          "label": "Marquee Text Four"
+        }
+        ],
+        "blocks": [
+        {
+          "type": "text_block",
+          "name": "Product Image",
+          "settings": [
+            {
+              "type": "image_picker",
+              "id": "product_img",
+              "label": "Image"
+            }
+          ]
+        }
+      ]
+    
+    }
+{% endschema %}

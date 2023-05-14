@@ -6,9 +6,30 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "0a3a4a3a-6b5c-47f7-bcbe-cb9add432042": {
+      "type": "review-content",
+      "blocks": {
+        "1456da7b-baa1-4933-bca2-d600412b5f1d": {
+          "type": "text_block",
+          "settings": {
+            "author_img": "shopify:\/\/shop_images\/testimonial_1.png",
+            "author_heading": "Derma Relief Cream has restored my skin health and my confidence!",
+            "author_description": "<p class=\"testi-card_text\">I have been using steroids to relieve the sore and red skin around my lips, but my skin always became much worse once I stopped steroids. As a result, I get very conscious of the way I look and will always wear a mask or apply (heavy) make up before I leave my home.<\/p>\n                            <p class=\"testi-card_text\">Thanks to The SkinBiome Co.’s Derma Relief Cream, I can now restore my skin health without worrying about the side effects from steroids! I am super happy to have found a cream that provides lasting effect, making me confident in my skin appearance again!<\/p>",
+            "author_name": "Jon Derma Relief Cream"
+          }
+        }
+      },
+      "block_order": [
+        "1456da7b-baa1-4933-bca2-d600412b5f1d"
+      ],
+      "settings": {
+        "heading": "Reviews"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "0a3a4a3a-6b5c-47f7-bcbe-cb9add432042"
   ]
 }

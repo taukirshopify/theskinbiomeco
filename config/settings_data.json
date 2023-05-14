@@ -237,6 +237,13 @@
         ],
         "settings": {
         }
+      },
+      "faq-under-content": {
+        "type": "faq-under-content",
+        "settings": {
+          "heading": "If we haven’t managed to address your questions, email us directly at",
+          "email_text": "CCT@theskinbiomeco.com"
+        }
       }
     },
     "content_for_index": [

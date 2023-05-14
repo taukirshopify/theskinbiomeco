@@ -169,11 +169,13 @@
                             <li><a href="{{link.url}}">{{ link.title}}</a></li>
                             <li class="menu-item-hot-children">
                                 <a href="#">More</a>
+                                {% if linklists[link.handle] != empty %}
                                 <ul class="sub-menu">
                                     <li><a href="shop.html">Hot Sale</a></li>
                                     <li><a href="shop.html">Discount</a></li>
                                     <li><a href="shop.html">50% Off</a></li>
                                 </ul>
+                              {% endif %}
                             </li>
                           {% endfor %}
                         </ul>

@@ -11,3 +11,45 @@
         </div>
     </div>
 </div>
+
+{% schema %}
+    {
+      "name": "Hero",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "hero_bg_img",
+          "label": "BG Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "hero_img",
+          "label": "Thumbnail"
+        },
+        {
+          "type": "image_picker",
+          "id": "hero_img_overlay",
+          "label": "BG Image Overlay"
+        },
+        
+        {
+          "type": "textarea",
+          "id": "heading",
+          "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "btn_link",
+          "label": "Link"
+        }
+        
+      ],
+      "presets": [
+      {
+        "name": "Home Hero",
+        "category":"Home"
+        
+      }
+    ]
+    }
+  {% endschema %}

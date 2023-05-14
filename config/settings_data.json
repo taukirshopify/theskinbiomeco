@@ -138,8 +138,49 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "tab-one-first-faq-content": {
+        "type": "tab-one-first-faq-content",
+        "blocks": {
+          "99bd9bce-850a-4c48-8249-b5135ff4583c": {
+            "type": "text_block",
+            "settings": {
+              "faq_heading": "What does my Derma Relief Cream contain?",
+              "faq_text": "The SkinBiome Co.’s Derma Relief Cream is carefully formulated in the science lab of Dr Davide Pennino. Each jar of Derma Relief Cream contains just 14 ingredients: Aqua, Disodium Ethylenediaminetetraacetic acid (EDTA), Acrylates\/C10-30 Alkyl Acrylate Crosspolymer, Glycerin, Dermafixium, Niacinamide phenoxyethanol, Shea butter, Sodium acrylate, Helianthus Annuus (Sunflower) Seed Oil, Ethyl Olivate\/Olea Europaea (Olive) Leaf Extract, Hydrolyzed Jojoba Esters, Phytosteryl\/Octyldodecyl Lauroyl Glutamate, Ethylhexylglycerin and Penoxyethanol. Also, the Derma Relief Cream is GMO-free!"
+            }
+          },
+          "4afd104c-b4cb-4182-b52f-70f4a3b6fb20": {
+            "type": "text_block",
+            "settings": {
+              "faq_heading": "Is my Derma Relief Cream product clean?",
+              "faq_text": "The SkinBiome Co.’s Derma Relief Cream is carefully formulated in the science lab of Dr Davide Pennino. Each jar of Derma Relief Cream contains just 14 ingredients: Aqua, Disodium Ethylenediaminetetraacetic acid (EDTA), Acrylates\/C10-30 Alkyl Acrylate Crosspolymer, Glycerin, Dermafixium, Niacinamide phenoxyethanol, Shea butter, Sodium acrylate, Helianthus Annuus (Sunflower) Seed Oil, Ethyl Olivate\/Olea Europaea (Olive) Leaf Extract, Hydrolyzed Jojoba Esters, Phytosteryl\/Octyldodecyl Lauroyl Glutamate, Ethylhexylglycerin and Penoxyethanol. Also, the Derma Relief Cream is GMO-free!"
+            }
+          },
+          "83e3ac70-3bf6-4517-87dc-1b70832c1e79": {
+            "type": "text_block",
+            "settings": {
+              "faq_heading": "Is my Derma Relief Cream fragrance free?",
+              "faq_text": "The SkinBiome Co.’s Derma Relief Cream is carefully formulated in the science lab of Dr Davide Pennino. Each jar of Derma Relief Cream contains just 14 ingredients: Aqua, Disodium Ethylenediaminetetraacetic acid (EDTA), Acrylates\/C10-30 Alkyl Acrylate Crosspolymer, Glycerin, Dermafixium, Niacinamide phenoxyethanol, Shea butter, Sodium acrylate, Helianthus Annuus (Sunflower) Seed Oil, Ethyl Olivate\/Olea Europaea (Olive) Leaf Extract, Hydrolyzed Jojoba Esters, Phytosteryl\/Octyldodecyl Lauroyl Glutamate, Ethylhexylglycerin and Penoxyethanol. Also, the Derma Relief Cream is GMO-free!"
+            }
+          }
+        },
+        "block_order": [
+          "99bd9bce-850a-4c48-8249-b5135ff4583c",
+          "4afd104c-b4cb-4182-b52f-70f4a3b6fb20",
+          "83e3ac70-3bf6-4517-87dc-1b70832c1e79"
+        ],
+        "settings": {
+        }
+      },
+      "tab-one-second-faq-content": {
+        "type": "tab-one-second-faq-content",
+        "settings": {
+        }
       }
-    }
+    },
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {

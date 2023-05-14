@@ -30,331 +30,83 @@
   }
 {%- endstyle -%}
 
-<footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
-  {%- liquid
-    assign has_social_icons = true
-    if settings.social_facebook_link == blank and settings.social_instagram_link == blank and settings.social_youtube_link == blank and settings.social_tiktok_link == blank and settings.social_twitter_link == blank and settings.social_pinterest_link == blank and settings.social_snapchat_link == blank and settings.social_tumblr_link == blank and settings.social_vimeo_link == blank
-      assign has_social_icons = false
-    endif
-
-    if settings.brand_image == blank and settings.brand_headline == blank and settings.brand_description == blank
-      assign brand_empty = true
-    endif
-
-    if section.blocks.size == 1 and section.blocks[0].type == 'brand_information' and brand_empty and has_social_icons == false and section.settings.newsletter_enable == false and section.settings.enable_follow_on_shop == false
-      assign only_empty_brand = true
-    endif
-  -%}
-  {%- if section.blocks.size > 0
-    or section.settings.newsletter_enable
-    or section.settings.show_social
-    or section.settings.enable_follow_on_shop
-  -%}
-    {%- unless only_empty_brand -%}
-      <div class="footer__content-top page-width">
-        {%- if section.blocks.size > 0 -%}
-          {%- liquid
-            if section.blocks.size == 9
-              assign footer_grid_class = 'grid--3-col-tablet'
-            elsif section.blocks.size > 6
-              assign footer_grid_class = 'grid--4-col-desktop'
-            elsif section.blocks.size > 4
-              assign footer_grid_class = 'grid--3-col-tablet'
-            endif
-          -%}
-          <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }}">
-            {%- for block in section.blocks -%}
-              <div
-                class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}"
-                {{ block.shopify_attributes }}
-              >
-                {%- if block.settings.heading != blank -%}
-                  <h2 class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</h2>
-                {%- endif -%}
-
-                {%- case block.type -%}
-                  {%- when '@app' -%}
-                    {% render block %}
-                  {%- when 'text' -%}
-                    <div class="footer-block__details-content rte">
-                      {{ block.settings.subtext }}
-                    </div>
-                  {%- when 'link_list' -%}
-                    {%- if block.settings.menu != blank -%}
-                      <ul class="footer-block__details-content list-unstyled">
-                        {%- for link in block.settings.menu.links -%}
-                          <li>
-                            <a
-                              href="{{ link.url }}"
-                              class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}"
-                            >
-                              {{ link.title }}
-                            </a>
-                          </li>
-                        {%- endfor -%}
-                      </ul>
-                    {%- endif -%}
-                  {%- when 'brand_information' -%}
-                    <div class="footer-block__brand-info">
-                      {%- if settings.brand_image != blank -%}
-                        {%- assign brand_image_height = settings.brand_image_width
-                          | divided_by: settings.brand_image.aspect_ratio
-                        -%}
-                        <div
-                          class="footer-block__image-wrapper global-media-settings"
-                          style="max-width: min(100%, {{ settings.brand_image_width }}px);"
-                        >
-                          {{
-                            settings.brand_image
-                            | image_url: width: 1100
-                            | image_tag:
-                              loading: 'lazy',
-                              widths: '50, 100, 150, 200, 300, 400, 550, 800, 1100',
-                              height: brand_image_height,
-                              width: settings.brand_image_width
-                          }}
+<footer class="footer-wrapper ">
+        <div class="widget-area">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-auto wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="widget footer-widget">
+                            <div class="footer-logo">
+                                <img src="assets/img/logo-footer.png" alt="The Skin Biomeco">
+                            </div>
                         </div>
-                      {%- endif -%}
-                      {%- if settings.brand_headline != blank -%}
-                        <h2 class="footer-block__heading rte">{{ settings.brand_headline }}</h2>
-                      {%- endif -%}
-                      {%- if settings.brand_description != blank -%}
-                        <div class="rte">{{ settings.brand_description }}</div>
-                      {%- endif -%}
-                      {%- if block.settings.show_social and has_social_icons -%}
-                        {%- render 'social-icons' -%}
-                      {%- endif -%}
                     </div>
-                  {%- when 'image' -%}
-                    <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
-                      {%- if block.settings.image != blank -%}
-                        {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
-                        <div
-                          class="footer-block__image-wrapper global-media-settings"
-                          style="max-width: min(100%, {{ block.settings.image_width }}px);"
-                        >
-                          <img
-                            srcset="{{ block.settings.image | image_url: width: block.settings.image_width }}, {{ block.settings.image | image_url: width: image_size_2x }} 2x"
-                            src="{{ block.settings.image | image_url: width: 760 }}"
-                            alt="{{ block.settings.image.alt | escape }}"
-                            loading="lazy"
-                            width="{{ block.settings.image.width }}"
-                            height="{{ block.settings.image.height }}"
-                          >
+                    <div class="col-md-auto col-sm-7 me-auto wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="widget footer-widget widget_nav_menu">
+                            <div class="all-menu">
+                                <ul class="menu">
+                                    <li><a href="about.html">Our Product</a></li>
+                                    <li><a href="about.html">Our Story</a></li>
+                                    <li><a href="quote.html">Our Science</a></li>
+                                </ul>
+                                <ul class="menu">
+                                    <li><a href="about.html">Contact Us</a></li>
+                                    <li><a href="about.html">FAQ</a></li>
+                                    <li class="d-list-item d-lg-none"><a href="about.html">Shipping</a></li>
+                                </ul>
+                                <ul class="menu d-none d-lg-block">
+                                    <li><a href="about.html">Shipping</a></li>
+                                </ul>
+                            </div>
                         </div>
-                      {%- else -%}
-                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
-                      {%- endif -%}
                     </div>
-                {%- endcase -%}
-              </div>
-            {%- endfor -%}
-          </div>
-        {%- endif -%}
-
-        <div class="footer-block--newsletter">
-          {%- if section.settings.newsletter_enable -%}
-            <div class="footer-block__newsletter">
-              {%- if section.settings.newsletter_heading != blank -%}
-                <h2 class="footer-block__heading inline-richtext">{{ section.settings.newsletter_heading }}</h2>
-              {%- endif -%}
-              {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
-                <input type="hidden" name="contact[tags]" value="newsletter">
-                <div class="newsletter-form__field-wrapper">
-                  <div class="field">
-                    <input
-                      id="NewsletterForm--{{ section.id }}"
-                      type="email"
-                      name="contact[email]"
-                      class="field__input"
-                      value="{{ form.email }}"
-                      aria-required="true"
-                      autocorrect="off"
-                      autocapitalize="off"
-                      autocomplete="email"
-                      {% if form.errors %}
-                        autofocus
-                        aria-invalid="true"
-                        aria-describedby="ContactFooter-error"
-                      {% elsif form.posted_successfully? %}
-                        aria-describedby="ContactFooter-success"
-                      {% endif %}
-                      placeholder="{{ 'newsletter.label' | t }}"
-                      required
-                    >
-                    <label class="field__label" for="NewsletterForm--{{ section.id }}">
-                      {{ 'newsletter.label' | t }}
-                    </label>
-                    <button
-                      type="submit"
-                      class="newsletter-form__button field__button"
-                      name="commit"
-                      id="Subscribe"
-                      aria-label="{{ 'newsletter.button_label' | t }}"
-                    >
-                      {% render 'icon-arrow' %}
-                    </button>
-                  </div>
-                  {%- if form.errors -%}
-                    <small class="newsletter-form__message form__message" id="ContactFooter-error">
-                      {%- render 'icon-error' -%}
-                      {{- form.errors.translated_fields.email | capitalize }}
-                      {{ form.errors.messages.email -}}
-                    </small>
-                  {%- endif -%}
+                    <div class="col-md-auto col-sm-5 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="widget footer-widget">
+                            <div class="social-links">
+                                <a href="#">
+                                    <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M19.5781 2.1856C19.4643 1.76279 19.2414 1.37729 18.9318 1.06768C18.6222 0.758072 18.2367 0.535212 17.8139 0.421406C16.2568 1.27717e-07 10 0 10 0C10 0 3.74319 1.27717e-07 2.18613 0.421406C1.76333 0.535212 1.37783 0.758072 1.06822 1.06768C0.758609 1.37729 0.535749 1.76279 0.421943 2.1856C0.131206 3.77356 -0.00988125 5.3853 0.000537425 6.99962C-0.00988125 8.61395 0.131206 10.2257 0.421943 11.8137C0.535749 12.2365 0.758609 12.622 1.06822 12.9316C1.37783 13.2412 1.76333 13.464 2.18613 13.5778C3.74319 13.9992 10 13.9992 10 13.9992C10 13.9992 16.2568 13.9992 17.8139 13.5778C18.2367 13.464 18.6222 13.2412 18.9318 12.9316C19.2414 12.622 19.4643 12.2365 19.5781 11.8137C19.8688 10.2257 20.0099 8.61395 19.9995 6.99962C20.0099 5.3853 19.8688 3.77356 19.5781 2.1856ZM8.00011 9.99946V3.99979L13.1927 6.99962L8.00011 9.99946Z" fill="#1D1C1D" />
+                                    </svg>
+                                    @TheSkinBiomeco.
+                                </a>
+                                <a href="#">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M20 9.99902C20 4.4767 15.5223 -0.000976562 10 -0.000976562C4.47768 -0.000976562 0 4.4767 0 9.99902C0 14.9901 3.65625 19.1271 8.4375 19.878V12.8905H5.89777V9.99902H8.4375V7.7959C8.4375 5.29009 9.9308 3.90483 12.2147 3.90483C13.3089 3.90483 14.4536 4.10036 14.4536 4.10036V6.56152H13.192C11.9504 6.56152 11.5621 7.33206 11.5621 8.12402V9.99902H14.3353L13.8924 12.8905H11.5625V19.8789C16.3438 19.1285 20 14.9914 20 9.99902Z" fill="#1D1C1D" />
+                                    </svg>
+                                    @TheSkinBiomeco.
+                                </a>
+                                <a href="#">
+                                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 2.80348C19.2512 3.13522 18.4568 3.35287 17.6435 3.44917C18.5002 2.93656 19.1413 2.12995 19.4473 1.17964C18.642 1.65769 17.7608 1.99432 16.8419 2.17493C16.458 1.76545 15.9941 1.43917 15.4789 1.21632C14.9638 0.993467 14.4083 0.878791 13.847 0.879397C11.5811 0.879397 9.74378 2.71621 9.74378 4.98261C9.74378 5.3039 9.78014 5.61739 9.85027 5.9179C6.44001 5.74674 3.41675 4.11304 1.39293 1.63028C1.02803 2.2565 0.836286 2.96853 0.83737 3.69331C0.836832 4.36887 1.00318 5.03411 1.32162 5.6299C1.64007 6.2257 2.10076 6.73361 2.66275 7.1085C2.01127 7.08781 1.37415 6.91186 0.804384 6.59528C0.803865 6.61242 0.803865 6.6293 0.803865 6.64696C0.803865 8.63442 2.2181 10.2928 4.09491 10.6702C3.49058 10.8338 2.85695 10.8578 2.24199 10.7403C2.76405 12.3701 4.27931 13.5568 6.07483 13.5901C4.62136 14.7307 2.82652 15.3494 0.978923 15.3466C0.647767 15.3466 0.321286 15.3274 0 15.2892C1.87612 16.4947 4.05962 17.1345 6.28963 17.1323C13.8369 17.1323 17.964 10.8803 17.964 5.4587C17.964 5.28104 17.9598 5.10365 17.952 4.92729C18.7558 4.34703 19.4493 3.62778 20 2.80348Z" fill="#1D1C1D" />
+                                    </svg>
+                                    @TheSkinBiomeco.
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                {%- if form.posted_successfully? -%}
-                  <h3
-                    class="newsletter-form__message newsletter-form__message--success form__message"
-                    id="ContactFooter-success"
-                    tabindex="-1"
-                    autofocus
-                  >
-                    {% render 'icon-success' -%}
-                    {{- 'newsletter.success' | t }}
-                  </h3>
-                {%- endif -%}
-              {%- endform -%}
             </div>
-          {%- endif -%}
-          
-          {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
-            <div class="footer__follow-on-shop">
-              {% comment %} TODO: enable theme-check once `login_button` is accepted as valid filter {% endcomment %}
-              {% # theme-check-disable %}
-              {{ shop | login_button: action: 'follow' }}
-              {% # theme-check-enable %}
-            </div>
-          {%- endif -%}
-
-          {%- if section.settings.show_social and has_social_icons -%}
-            {%- render 'social-icons' -%}
-          {%- endif -%}
         </div>
-      </div>
-    {%- endunless -%}
-  {%- endif -%}
+        <div class="container">
+            <div class="copyright-wrap">
+                <div class="row gy-2 align-items-center justify-content-between">
+                    <div class="col-md-auto wow fadeInUp" data-wow-delay="0.4s">
+                        <p class="copyright">© 2023 The SkinBiome Co. All Rights Reserved</p>
+                    </div>
+                    <div class="col-md-auto wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy policy</a></li>
+                                <li><a href="#">Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-  <div class="footer__content-bottom">
-    <div class="footer__content-bottom-wrapper page-width">
-      <div class="footer__column footer__localization isolate">
-        {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
-          <noscript>
-            {%- form 'localization', id: 'FooterCountryFormNoScript', class: 'localization-form' -%}
-              <div class="localization-form__select">
-                <h2 class="visually-hidden" id="FooterCountryLabelNoScript">{{ 'localization.country_label' | t }}</h2>
-                <select
-                  class="localization-selector link"
-                  name="country_code"
-                  aria-labelledby="FooterCountryLabelNoScript"
-                >
-                  {%- for country in localization.available_countries -%}
-                    <option
-                      value="{{ country.iso_code }}"
-                      {%- if country.iso_code == localization.country.iso_code %}
-                        selected
-                      {% endif %}
-                    >
-                      {{ country.name }} ({{ country.currency.iso_code }}
-                      {{ country.currency.symbol }})
-                    </option>
-                  {%- endfor -%}
-                </select>
-                {% render 'icon-caret' %}
-              </div>
-              <button class="button button--tertiary">{{ 'localization.update_country' | t }}</button>
-            {%- endform -%}
-          </noscript>
-          <localization-form>
-            {%- form 'localization', id: 'FooterCountryForm', class: 'localization-form' -%}
-              <div class="no-js-hidden">
-                <h2 class="caption-large text-body" id="FooterCountryLabel">{{ 'localization.country_label' | t }}</h2>
-                {%- render 'country-localization', localPosition: 'FooterCountry' -%}
-              </div>
-            {%- endform -%}
-          </localization-form>
-        {%- endif -%}
-
-        {%- if section.settings.enable_language_selector and localization.available_languages.size > 1 -%}
-          <noscript>
-            {%- form 'localization', id: 'FooterLanguageFormNoScript', class: 'localization-form' -%}
-              <div class="localization-form__select">
-                <h2 class="visually-hidden" id="FooterLanguageLabelNoScript">
-                  {{ 'localization.language_label' | t }}
-                </h2>
-                <select
-                  class="localization-selector link"
-                  name="locale_code"
-                  aria-labelledby="FooterLanguageLabelNoScript"
-                >
-                  {%- for language in localization.available_languages -%}
-                    <option
-                      value="{{ language.iso_code }}"
-                      lang="{{ language.iso_code }}"
-                      {%- if language.iso_code == localization.language.iso_code %}
-                        selected
-                      {% endif %}
-                    >
-                      {{ language.endonym_name | capitalize }}
-                    </option>
-                  {%- endfor -%}
-                </select>
-                {% render 'icon-caret' %}
-              </div>
-              <button class="button button--tertiary">{{ 'localization.update_language' | t }}</button>
-            {%- endform -%}
-          </noscript>
-
-          <localization-form>
-            {%- form 'localization', id: 'FooterLanguageForm', class: 'localization-form' -%}
-              <div class="no-js-hidden">
-                <h2 class="caption-large text-body" id="FooterLanguageLabel">
-                  {{ 'localization.language_label' | t }}
-                </h2>
-                {%- render 'language-localization', localPosition: 'FooterLanguage' -%}
-              </div>
-            {%- endform -%}
-          </localization-form>
-        {%- endif -%}
-      </div>
-      <div class="footer__column footer__column--info">
-        {%- if section.settings.payment_enable -%}
-          <div class="footer__payment">
-            <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
-            <ul class="list list-payment" role="list">
-              {%- for type in shop.enabled_payment_types -%}
-                <li class="list-payment__item">
-                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
-                </li>
-              {%- endfor -%}
-            </ul>
-          </div>
-        {%- endif -%}
-      </div>
-    </div>
-    <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
-      <div class="footer__copyright caption">
-        <small class="copyright__content"
-          >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
-        </small>
-        <small class="copyright__content">{{ powered_by_link }}</small>
-        {%- if section.settings.show_policy -%}
-          <ul class="policies list-unstyled">
-            {%- for policy in shop.policies -%}
-              {%- if policy != blank -%}
-                <li>
-                  <small class="copyright__content"
-                    ><a href="{{ policy.url }}">{{ policy.title }}</a></small
-                  >
-                </li>
-              {%- endif -%}
-            {%- endfor -%}
-          </ul>
-        {%- endif -%}
-      </div>
-    </div>
-  </div>
-</footer>
+        </div>
+    </footer>
 
 {%- if section.settings.enable_country_selector or section.settings.enable_language_selector -%}
   <script src="{{ 'localization-form.js' | asset_url }}" defer="defer"></script>

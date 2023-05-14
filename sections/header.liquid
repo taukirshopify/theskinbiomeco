@@ -229,9 +229,7 @@
     <!--==============================
     Header Area
 ==============================-->
-    <header class="ot-header {% if template == 'index' %}
-
-  {% endif %}border-bottom">
+    <header class="ot-header {% if template != 'index' %} border-bottom {% endif %}">
         <div class="header-top bg-theme py-2">
             <div class="container">
                 <div class="header-mail">

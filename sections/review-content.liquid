@@ -3,7 +3,7 @@
         <div class="bg-smoke space-extra">
             <div class="container">
                 <div class="testi-card-area">
-
+                    {% for block in section.blocks %}
                     <div class="testi-card">
                         <div class="testi-card_img">
                         <img src="{{ block.settings.author_img | img_url: '1920x' }}"
@@ -15,12 +15,12 @@
                             <h3 class="testi-card_name">{{ block.settings.author_name }}</h3>
                         </div>
                     </div>
-                    
+                {% endfor %}  
                 </div>
             </div>
         </div>
     </section>
-    
+
 
 {% schema %}
     {

@@ -55,7 +55,7 @@
                                   {% endfor %}
                                 </ul>
                                 <ul class="menu d-none d-lg-block">
-                                  {% for link in linklists[section.settings.footer_linklist_three].links %}
+                                  {% for link in linklists[section.settings.footer-menu-three].links %}
                                     <li><a href="{{link.url}}">{{ link.title}}</li>
                                   {% endfor %}
                                 </ul>
@@ -98,7 +98,7 @@
                     <div class="col-md-auto wow fadeInUp" data-wow-delay="0.5s">
                         <div class="footer-menu">
                             <ul>
-                              {% for link in linklists[section.settings.footer_linklist_four].links %}
+                              {% for link in linklists[section.settings.footer-menu-two].links %}
                                 <li><a href="{{link.url}}">{{ link.title}}</li>
                               {% endfor %}
                             </ul>

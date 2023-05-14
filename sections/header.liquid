@@ -165,9 +165,7 @@
                 <div class="ot-menu-inner">
                     <div class="ot-mobile-menu">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="shop.html">Our Product</a></li>
-                            <li><a href="about.html">Our Story</a></li>
+                          {% for link in linklists[section.settings.main_linklist].links %}
                             <li><a href="about.html">Our Science</a></li>
                             <li class="menu-item-hot-children">
                                 <a href="#">More</a>
@@ -177,6 +175,7 @@
                                     <li><a href="shop.html">50% Off</a></li>
                                 </ul>
                             </li>
+                          {% endfor %}
                         </ul>
                     </div>
                     <div class="ot-mobile-menu d-block d-md-none mt-30">

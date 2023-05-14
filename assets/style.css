@@ -51,7 +51,7 @@ Version: 1.0.0
 /*------------------- 1.3. Variable-------------------*/
 @font-face {
   font-family: 'Calluna Sans';
-  src: url("CallunaSans-Regular.woff2") format("woff2"), url("CallunaSans-Regular.woff") format("woff");
+  src: url("./CallunaSans-Regular.woff2") format("woff2"), url("./CallunaSans-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -59,7 +59,7 @@ Version: 1.0.0
 
 @font-face {
   font-family: 'Calluna Sans';
-  src: url("CallunaSans-Bold.woff2") format("woff2"), url("./CallunaSans-Bold.woff") format("woff");
+  src: url("./CallunaSans-Bold.woff2") format("woff2"), url("./CallunaSans-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;

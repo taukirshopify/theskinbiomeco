@@ -3,7 +3,7 @@
             <h2 class="sec-title text-center">Frequently asked questions</h2>
             <div class="nav faq-tab" id="faqTab" role="tablist">
                 {% for block in section.blocks %}
-                <a class="nav-link ot-btn {% if forloop.index == 1 %}active{% endif %}" id="official-tab-{{forloop.index}}" data-bs-toggle="tab" href="#official-{{forloop.index}}" role="tab" aria-controls="official" aria-selected="true">The SkinBiome Co.</a>
+                <a class="nav-link ot-btn {% if forloop.index == 1 %}active{% endif %}" id="official-tab-{{forloop.index}}" data-bs-toggle="tab" href="#official-{{forloop.index}}" role="tab" aria-controls="official" aria-selected="true">{{ block.settings.title }}</a>
                 {% endfor %}                
 
             </div>

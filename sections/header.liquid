@@ -315,6 +315,16 @@
                                         </li>
                                     </ul> {% endcomment %}
                                 </div>
+                                {%- if shop.customer_accounts_enabled -%}
+                                        <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"><img src="{{ 'user.svg' | asset_url }}" alt="user">
+                                      {%- liquid
+                                        if customer
+                                        echo 'customer.account_fallback' | t
+                                        else
+                                        
+                                        endif
+                                    -%}</a>
+                                    {%- endif -%} 
                                 <a href="#" class="ot-btn style2">Login/ Sign up</a>
                             </div>
                         </div>

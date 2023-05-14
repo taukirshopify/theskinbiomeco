@@ -67,7 +67,7 @@ Version: 1.0.0
 
 @font-face {
   font-family: 'Calluna Sans';
-  src: url("{{'CallunaSans-BoldItalic.woff2' | asset_url }}") format("woff2"), url("{{'CallunaSans-BoldItalic.woff2' | asset_url }}CallunaSans-BoldItalic.woff") format("woff");
+  src: url("{{'CallunaSans-BoldItalic.woff2' | asset_url }}") format("woff2"), url("{{'CallunaSans-BoldItalic.woff' | asset_url }}") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;

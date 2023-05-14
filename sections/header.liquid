@@ -185,9 +185,7 @@
                       </ul>
                         <ul>
                           {% for link in linklists[section.settings.main_linklist].links %}
-                            <li><a href="{{link.url}}">{{ link.title}}</a></li>
-                            <li class="menu-item-hot-children">
-                                <a href="#">More</a>
+                            <li><a href="{{link.url}}">{{ link.title}}</a>
                                 {% if linklists[link.handle] != empty %}
                                 <ul class="sub-menu">
                                   {% for child_l in linklists[link.handle].links %}

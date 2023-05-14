@@ -2,8 +2,9 @@
         <div class="container">
             <h2 class="sec-title text-center">Frequently asked questions</h2>
             <div class="nav faq-tab" id="faqTab" role="tablist">
-
+                {% for block in section.blocks %}
                 <a class="nav-link ot-btn active" id="official-tab" data-bs-toggle="tab" href="#official" role="tab" aria-controls="official" aria-selected="true">The SkinBiome Co.</a>
+                {% endfor %}
                 <a class="nav-link ot-btn" id="customer-tab" data-bs-toggle="tab" href="#customer" role="tab" aria-controls="customer" aria-selected="false">Customer Support FAQs</a>
 
             </div>

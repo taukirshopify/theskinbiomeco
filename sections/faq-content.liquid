@@ -10,7 +10,7 @@
             </div>
             <div class="tab-content" id="faqTabContent">
                 {% for block in section.blocks %}
-                <div class="tab-pane fade show active" id="official-{{forloop.index}}" role="tabpanel" aria-labelledby="official-tab-{{forloop.index}}">
+                <div class="tab-pane fade {% if forloop.index == 1 %}show active{% endif %}" id="official-{{forloop.index}}" role="tabpanel" aria-labelledby="official-tab-{{forloop.index}}">
                     <h5 class="border-title">Contents of my Derma Relief Cream</h5>
 
                     <div class="accordion-area accordion" id="faqAccordion">

@@ -21,3 +21,39 @@
     </div>
   </div>
 </section>
+
+{% schema %}
+  {
+    "name": "Hero",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "hero_bg_img",
+        "label": "BG Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo_img",
+        "label": "Hero Logo"
+      },        
+      {
+        "type": "url",
+        "id": "btn_link",
+        "label": "Get Started Button"
+      },
+      {
+        "type": "url",
+        "id": "btn_link_two",
+        "label": "Buy Now Button"
+      }
+      
+    ],
+    "presets": [
+    {
+      "name": "Home Product",
+      "category":"Home"
+      
+    }
+  ]
+  }
+{% endschema %}

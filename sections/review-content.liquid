@@ -3,7 +3,7 @@
         <div class="bg-smoke space-extra">
             <div class="container">
                 <div class="testi-card-area">
-                    
+
                     <div class="testi-card">
                         <div class="testi-card_img">
                             <img src="assets/img/normal/testimonial_1.png" alt="testimonial">
@@ -20,3 +20,60 @@
             </div>
         </div>
     </section>
+
+    {% schema %}
+        {
+          "name": "Review",
+          "settings": [
+            {
+              "type": "text",
+              "id": "heading",
+              "label": "Heading"
+            }
+          ],
+          "blocks": [
+            {
+              "type": "text_block",
+              "name": "Review Slider",
+              "settings": [
+                {
+                  "type": "image_picker",
+                  "id": "img_one",
+                  "label": "Image"
+                },
+                {
+                  "type": "text",
+                  "id": "heading_one",
+                  "label": "Heading"
+                },
+                {
+                  "type": "image_picker",
+                  "id": "img_two",
+                  "label": "Image Two"
+                },
+                {
+                  "type": "text",
+                  "id": "heading_two",
+                  "label": "Heading Two"
+                }, {
+                  "type": "textarea",
+                  "id": "author_description",
+                  "label": "Description"
+                }, {
+                  "type": "text",
+                  "id": "author_name",
+                  "label": "Name"
+                }
+              ]
+            }
+          ],
+          "presets": [
+            {
+              "name": "Review",
+              "category": "Home"
+      
+            }
+          ]
+      
+        }
+    {% endschema %}

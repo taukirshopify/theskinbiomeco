@@ -163,26 +163,7 @@
             </div>
             <div class="menu-scroll">
                 <div class="ot-menu-inner">
-                    <div class="ot-mobile-menu">
-                      <ul>
-                          {% for link in linklists[section.settings.main_linklist].links %}
-                          <li><a href="{{link.url}}">{{ link.title}}</a>
-                            <span></span>
-                          {% if linklists[link.handle] != empty %}
-                            <ul class="dropdown">
-                              {% for child_l in linklists[link.handle].links %}
-                              <!-- Menu level 2 -->
-                              <li>
-                                <a href="{{ child_l.url }}" {% if child_l.active %}class="current"{% endif %}>
-                                  {{ child_l.title }}
-                                </a>
-                              </li>
-                              {% endfor %}
-                            </ul>
-                            {% endif %}
-                          </li>
-                        {% endfor %}
-                      </ul>
+                    <div class="ot-mobile-menu">                                            
                         <ul>
                           {% for link in linklists[section.settings.main_linklist].links %}
                             <li><a href="{{link.url}}">{{ link.title}}</a>

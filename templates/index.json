@@ -71,6 +71,17 @@
         "img_three": "shopify:\/\/shop_images\/box_2_1.jpg",
         "day_four_text": "Day 4"
       }
+    },
+    "57593c6d-3af3-42f3-a658-e5ccce04e10a": {
+      "type": "home-solutions",
+      "settings": {
+        "heading": "Natural Skincare Solution",
+        "description": "<p class=\"fs-40 mt-n3 mb-n2\">\"A well-balanced <b>skin microbiome is vital to skin health.<\/b> When our skin microbiome is out of balance, and lacking certain good microbes, issues like Eczema can flare up. <b>The good news<\/b> is that feeding your skin microbiome with the right ingredients can help your skin <b>regain a healthy balance.<\/b> Our product contains <b>Dermafixium<\/b>, a naturally-derived active ingredient that will <b>reduce itches in minutes and irritation within a day!\"<\/b><\/p>",
+        "btn_link": "#",
+        "btn_link_two": "#",
+        "img_one": "shopify:\/\/shop_images\/rounded-cell.jpg",
+        "under_text": "The SkinBiomeCo. is here to help you get <br> <span class=\"text-theme\">Healthier skin today!<\/span>"
+      }
     }
   },
   "order": [
@@ -78,6 +89,7 @@
     "1b975708-65d4-441d-be96-ca7b3c4b610c",
     "1aeaf87d-6d14-48cc-a6ed-3d0302def53f",
     "289d24be-ef95-4961-be49-9febd2819890",
-    "f7b73eb2-8c6f-4e38-8506-aa9fc5a20eea"
+    "f7b73eb2-8c6f-4e38-8506-aa9fc5a20eea",
+    "57593c6d-3af3-42f3-a658-e5ccce04e10a"
   ]
 }

@@ -3,7 +3,7 @@
 <div class="accordion-area accordion" id="faqAccordion">
 
 {% for block in section.blocks %}
-    <div class="accordion-card active">
+    <div class="accordion-card {% if forloop.index == 1 %}active{% endif %}">
         <div class="accordion-header" id="collapse-item-1">
             <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1"
                 aria-expanded="true" aria-controls="collapse-1">{{ block.settings.faq_heading }}</button>

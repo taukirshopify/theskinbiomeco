@@ -1,7 +1,7 @@
 {% for block in section.blocks %}
 <div class="accordion-card {% if forloop.index == 1 %}active{% endif %}">
     <div class="accordion-header" id="collapse2-item-{{forloop.index}}">
-        <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse2-{{forloop.index}}"
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2-{{forloop.index}}"
             aria-expanded="true" aria-controls="collapse2-{{forloop.index}}">{{ block.settings.faq_heading }}</button>
     </div>
     <div id="collapse2-{{forloop.index}}" class="accordion-collapse collapse show" aria-labelledby="collapse2-item-{{forloop.index}}"

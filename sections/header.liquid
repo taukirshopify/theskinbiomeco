@@ -219,7 +219,16 @@
                                     </li>
                                 </ul> 
                             </div> {% endcomment %}
-                            <a href="#" class="ot-btn style2">Login/ Sign up</a>
+                            {%- if shop.customer_accounts_enabled -%}
+                                  <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="ot-btn style2">Login/ Sign up
+                                {%- liquid
+                                  if customer
+                                  echo 'customer.account_fallback' | t
+                                  else
+                                  
+                                  endif
+                              -%}</a>
+                            {%- endif -%} 
                         </div>
                     </div>
                 </div>

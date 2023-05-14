@@ -1,0 +1,57 @@
+<section class="py-5 bg-theme">
+    <div class="container text-center text-lg-start">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg text-center text-lg-start wow fadeInUp" data-wow-delay="0.2s">
+                <h2 class="sec-title text-white mb-0">{{section.settings.heading }}</h2>
+                <p class="fs-40 text-white mt-2 mt-lg-0">{{section.settings.sub_heading }}</p>
+                <div class="d-none d-lg-block mt-30">
+                    <a href="{{section.settings.btn_link }}" class="ot-btn style4">buy now</a>
+                </div>
+            </div>
+            <div class="col-lg-auto wow fadeInUp" data-wow-delay="0.3s">
+                <div class="text-center mt-2 mt-lg-0">
+                    <img src="{{section.settings.bg_img | img_url: '1920x' }}" alt="{{section.settings.bg_img.alt }}">
+                </div>
+                <div class="d-block d-lg-none mt-30">
+                    <a href="{{section.settings.btn_link }}" class="ot-btn style4 btn-full">buy now</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+{% schema %}
+    {
+      "name": "Call to Action",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "sub_heading",
+          "label": "Sub Heading"
+        },
+        {
+          "type": "url",
+          "id": "btn_link",
+          "label": "Buy Now"
+        },
+        {
+          "type": "image_picker",
+          "id": "bg_img",
+          "label": "Image"
+        }
+      ],
+      "presets": [
+      {
+        "name": "Call to Action",
+        "category":"Home"
+        
+      }
+    ]
+    }
+  {% endschema %}

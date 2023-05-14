@@ -259,18 +259,21 @@
                         <div class="col-auto d-none d-xl-block">
                             <nav class="main-menu">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="shop.html">Our Product</a></li>
-                                    <li><a href="about.html">Our Story</a></li>
-                                    <li><a href="about.html">Our Science</a></li>
-                                    <li class="menu-item-hot-children">
-                                        <a href="#">More</a>
+                                  {% for link in linklists[section.settings.main_linklist].links %}
+                                    <li><a href="{{link.url}}">{{ link.title}}</a>
+                                        {% if linklists[link.handle] != empty %}
                                         <ul class="sub-menu">
-                                            <li><a href="shop.html">Hot Sale</a></li>
-                                            <li><a href="shop.html">Discount</a></li>
-                                            <li><a href="shop.html">50% Off</a></li>
+                                          {% for child_l in linklists[link.handle].links %}
+                                            <li>
+                                              <a href="{{ child_l.url }}" {% if child_l.active %}class="current"{% endif %}>
+                                              {{ child_l.title }}
+                                            </a>
+                                            </li>
+                                          {% endfor %}
                                         </ul>
+                                      {% endif %}
                                     </li>
+                                  {% endfor %}
                                 </ul>
                             </nav>
                         </div>

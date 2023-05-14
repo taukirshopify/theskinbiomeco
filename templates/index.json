@@ -36,10 +36,20 @@
         "btn_link": "#",
         "btn_link_two": "#"
       }
+    },
+    "1aeaf87d-6d14-48cc-a6ed-3d0302def53f": {
+      "type": "home-product",
+      "settings": {
+        "heading": "Eliminate Your Eczema Now with Our Steroid-Free Cream!",
+        "img_one": "shopify:\/\/shop_images\/cream-small.png",
+        "img_two": "shopify:\/\/shop_images\/cream-big.png",
+        "btn_link": "#"
+      }
     }
   },
   "order": [
     "featured_collection",
-    "1b975708-65d4-441d-be96-ca7b3c4b610c"
+    "1b975708-65d4-441d-be96-ca7b3c4b610c",
+    "1aeaf87d-6d14-48cc-a6ed-3d0302def53f"
   ]
 }

@@ -5,7 +5,7 @@
 
                 <a class="nav-link ot-btn active" id="official-tab" data-bs-toggle="tab" href="#official" role="tab" aria-controls="official" aria-selected="true">The SkinBiome Co.</a>
                 <a class="nav-link ot-btn" id="customer-tab" data-bs-toggle="tab" href="#customer" role="tab" aria-controls="customer" aria-selected="false">Customer Support FAQs</a>
-                
+
             </div>
             <div class="tab-content" id="faqTabContent">
 
@@ -148,3 +148,39 @@
             </div>
         </div>
     </div>
+
+{% schema %}
+{
+    "name": "Blog Tab",
+    "settings": [
+    {
+        "type": "header",
+        "content": "Blog Tab"
+    }
+    ],
+    "blocks": [
+    {
+        "type": "blog",
+        "name": "blog",
+        "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "blog",
+            "id": "blog",
+            "label": "Select A Blog"
+        }
+        ]
+    }
+    ],
+    "presets": [
+    {
+        "name": "Blog Tab",
+        "category": "blog"
+    }
+    ]
+}
+{% endschema %}

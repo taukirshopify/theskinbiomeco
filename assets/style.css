@@ -51,7 +51,7 @@ Version: 1.0.0
 /*------------------- 1.3. Variable-------------------*/
 @font-face {
   font-family: 'Calluna Sans';
-  src: url("https://cdn.shopify.com/s/files/1/0756/6203/3212/files/CallunaSans-Regular.woff2?v=1684052665") format("woff2"), url("{{'CallunaSans-Regular.woff' | asset_url }}") format("woff");
+  src: url("https://cdn.shopify.com/s/files/1/0756/6203/3212/files/CallunaSans-Regular.woff2?v=1684052665") format("woff2"), url("https://cdn.shopify.com/s/files/1/0756/6203/3212/files/CallunaSans-Regular.woff?v=1684052665") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -59,7 +59,7 @@ Version: 1.0.0
 
 @font-face {
   font-family: 'Calluna Sans';
-  src: url("{{'CallunaSans-Bold.woff2' | asset_url }}") format("woff2"), url("{{'CallunaSans-Bold.woff' | asset_url }}") format("woff");
+  src: url("https://cdn.shopify.com/s/files/1/0756/6203/3212/files/CallunaSans-Bold.woff2?v=1684052665") format("woff2"), url("{{'CallunaSans-Bold.woff' | asset_url }}") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;

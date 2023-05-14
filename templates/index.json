@@ -96,10 +96,22 @@
             "author_description": "I love that my Derma Relief Cream is a sustainable steroid-free solution to calmer and healthier skin!",
             "author_name": "Jon <br>Derma Relief Cream"
           }
+        },
+        "2ffca3dc-9a68-47e0-ad53-4a28f9919fa2": {
+          "type": "text_block",
+          "settings": {
+            "img_one": "shopify:\/\/shop_images\/testi_1_1.jpg",
+            "heading_one": "Before",
+            "img_two": "shopify:\/\/shop_images\/testi_1_2.jpg",
+            "heading_two": "After [one week]",
+            "author_description": "I love that my Derma Relief Cream is a sustainable steroid-free solution to calmer and healthier skin!",
+            "author_name": "Jon <br>Derma Relief Cream"
+          }
         }
       },
       "block_order": [
-        "0813e461-d96e-45cf-b69c-87ba11d7a3cf"
+        "0813e461-d96e-45cf-b69c-87ba11d7a3cf",
+        "2ffca3dc-9a68-47e0-ad53-4a28f9919fa2"
       ],
       "settings": {
         "heading": "Reviews"

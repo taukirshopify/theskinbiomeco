@@ -82,6 +82,12 @@
         "img_one": "shopify:\/\/shop_images\/rounded-cell.jpg",
         "under_text": "The SkinBiomeCo. is here to help you get <br> <span class=\"text-theme\">Healthier skin today!<\/span>"
       }
+    },
+    "7cdb7c3f-bf09-43e5-9be2-3572291f8e02": {
+      "type": "review",
+      "settings": {
+        "heading": ""
+      }
     }
   },
   "order": [
@@ -90,6 +96,7 @@
     "1aeaf87d-6d14-48cc-a6ed-3d0302def53f",
     "289d24be-ef95-4961-be49-9febd2819890",
     "f7b73eb2-8c6f-4e38-8506-aa9fc5a20eea",
-    "57593c6d-3af3-42f3-a658-e5ccce04e10a"
+    "57593c6d-3af3-42f3-a658-e5ccce04e10a",
+    "7cdb7c3f-bf09-43e5-9be2-3572291f8e02"
   ]
 }

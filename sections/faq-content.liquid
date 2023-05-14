@@ -10,7 +10,24 @@
                 <div class="tab-pane fade show active" id="official" role="tabpanel" aria-labelledby="official-tab">
                     <h5 class="border-title">Contents of my Derma Relief Cream</h5>
 
-                    {% section 'tab-one-first-faq' %}
+                    <div class="accordion-area accordion" id="faqAccordion">
+
+                        {% for block in section.blocks %}
+                        <div class="accordion-card {% if forloop.index == 1 %}active{% endif %}">
+                            <div class="accordion-header" id="collapse-item-1">
+                                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1"
+                                    aria-expanded="true" aria-controls="collapse-1">{{ block.settings.faq_heading }}</button>
+                            </div>
+                            <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="collapse-item-1"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p class="faq-text">{{ block.settings.faq_text }}</p>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                        
+                    </div>
                     <h5 class="border-title">Contents of my Derma Relief Cream</h5>
 
                     <div class="accordion-area accordion" id="faqAccordion">

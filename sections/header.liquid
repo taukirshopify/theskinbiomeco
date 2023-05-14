@@ -167,7 +167,7 @@
                         <ul>
                           {% for link in linklists[section.settings.main_linklist].links %}
                             <li><a href="{{link.url}}">{{ link.title}}</a></li>
-                            <div class="menu-item-hot-children">
+                            <li class="menu-item-hot-children">
                                 <a href="#">More</a>
                                 {% if linklists[link.handle] != empty %}
                                 <ul class="sub-menu">
@@ -180,7 +180,7 @@
                                   {% endfor %}
                                 </ul>
                               {% endif %}
-                            </div>
+                            </li>
                           {% endfor %}
                         </ul>
                     </div>

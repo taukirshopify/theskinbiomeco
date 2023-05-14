@@ -25,6 +25,7 @@
     "header": {
       "type": "header",
       "settings": {
+        "email_link": "info@theskinbiomeCo.com",
         "main_logo": "shopify:\/\/shop_images\/logo.png",
         "main_linklist": "main-menu-1"
       }

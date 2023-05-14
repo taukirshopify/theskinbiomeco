@@ -3,14 +3,14 @@
             <h2 class="sec-title text-center">Frequently asked questions</h2>
             <div class="nav faq-tab" id="faqTab" role="tablist">
                 {% for block in section.blocks %}
-                <a class="nav-link ot-btn {% if forloop.index == 1 %}active{% endif %}" id="official-tab" data-bs-toggle="tab" href="#official" role="tab" aria-controls="official" aria-selected="true">The SkinBiome Co.</a>
+                <a class="nav-link ot-btn {% if forloop.index == 1 %}active{% endif %}" id="official-tab" data-bs-toggle="tab" href="#official-{{forloop.index}}" role="tab" aria-controls="official" aria-selected="true">The SkinBiome Co.</a>
                 {% endfor %}
                 <a class="nav-link ot-btn" id="customer-tab" data-bs-toggle="tab" href="#customer" role="tab" aria-controls="customer" aria-selected="false">Customer Support FAQs</a>
 
             </div>
             <div class="tab-content" id="faqTabContent">
 
-                <div class="tab-pane fade show active" id="official" role="tabpanel" aria-labelledby="official-tab">
+                <div class="tab-pane fade show active" id="official-{{forloop.index}}" role="tabpanel" aria-labelledby="official-tab">
                     <h5 class="border-title">Contents of my Derma Relief Cream</h5>
 
                     <div class="accordion-area accordion" id="faqAccordion">

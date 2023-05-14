@@ -116,6 +116,15 @@
       "settings": {
         "heading": "Reviews"
       }
+    },
+    "97cd0b24-9272-4ea2-898d-43c0af75f299": {
+      "type": "call-to-action",
+      "settings": {
+        "heading": "The SkinBiome Co.",
+        "sub_heading": "Eliminate Your Eczema Now With our Steroid-Free Cream!",
+        "btn_link": "#",
+        "bg_img": "shopify:\/\/shop_images\/cream_img_2.png"
+      }
     }
   },
   "order": [
@@ -125,6 +134,7 @@
     "289d24be-ef95-4961-be49-9febd2819890",
     "f7b73eb2-8c6f-4e38-8506-aa9fc5a20eea",
     "57593c6d-3af3-42f3-a658-e5ccce04e10a",
-    "7cdb7c3f-bf09-43e5-9be2-3572291f8e02"
+    "7cdb7c3f-bf09-43e5-9be2-3572291f8e02",
+    "97cd0b24-9272-4ea2-898d-43c0af75f299"
   ]
 }

@@ -22,3 +22,45 @@
 
     
 </div>
+
+{% schema %}
+    {
+      "name": "History Content",
+      "settings": [        
+        {
+          "type": "textarea",
+          "id": "heading",
+          "label": "Heading"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "text_block",
+          "name": "Slider",
+          "settings": [
+            {
+              "type": "image_picker",
+              "id": "slider_img",
+              "label": "Image"
+            }, 
+            {
+            "type": "text",
+            "id": "slider_year_text",
+            "label": "Year Text"
+            },
+            {
+            "type": "text",
+            "id": "slider_text",
+            "label": "Text"
+            },
+            {
+            "type": "richtext",
+            "id": "slider_sub_text",
+            "label": "Sub Text"
+            } 
+          ]
+        }
+      ]
+  
+    }
+  {% endschema %}

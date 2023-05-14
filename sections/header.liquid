@@ -172,7 +172,11 @@
                                 {% if linklists[link.handle] != empty %}
                                 <ul class="sub-menu">
                                   {% for child_l in linklists[link.handle].links %}
-                                    <li><a href="shop.html">Hot Sale</a></li>
+                                    <li>
+                                      <a href="{{ child_l.url }}" {% if child_l.active %}class="current"{% endif %}>
+                                      {{ child_l.title }}
+                                    </a>
+                                    </li>
                                   {% endfor %}
                                 </ul>
                               {% endif %}

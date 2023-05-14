@@ -166,7 +166,7 @@
                     <div class="ot-mobile-menu">
                         <ul>
                           {% for link in linklists[section.settings.main_linklist].links %}
-                            <li><a href="about.html">Our Science</a></li>
+                            <li><a href="{{link.url}}">{{ link.title}}</a></li>
                             <li class="menu-item-hot-children">
                                 <a href="#">More</a>
                                 <ul class="sub-menu">

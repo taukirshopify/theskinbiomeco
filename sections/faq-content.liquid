@@ -2,9 +2,8 @@
         <div class="container">
             <h2 class="sec-title text-center">{{section.settings.heading }}</h2>
             <div class="nav faq-tab" id="faqTab" role="tablist">
-                {% for block in section.blocks %}
-                <a class="nav-link ot-btn {% if forloop.index == 1 %}active{% endif %}" id="official-tab-{{forloop.index}}" data-bs-toggle="tab" href="#official-{{forloop.index}}" role="tab" aria-controls="official" aria-selected="true">{{ block.settings.tab_title }}</a>
-                {% endfor %}                
+                <a class="nav-link ot-btn active" id="official-tab" data-bs-toggle="tab" href="#official" role="tab" aria-controls="official" aria-selected="true">The SkinBiome Co.</a>
+                <a class="nav-link ot-btn" id="customer-tab" data-bs-toggle="tab" href="#customer" role="tab" aria-controls="customer" aria-selected="false">Customer Support FAQs</a>              
 
             </div>
             <div class="tab-content" id="faqTabContent">

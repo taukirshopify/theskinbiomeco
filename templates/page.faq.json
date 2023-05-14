@@ -3,22 +3,63 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "5ebd756b-d10a-4884-b01b-c11b53232f4e": {
       "type": "faq-content",
       "blocks": {
-        "79962209-929d-49e2-9fc1-2b6cfa2b97f5": {
-          "type": "faq",
+        "2b2897ca-2f24-42c8-b137-b1413cbb2a78": {
+          "type": "text_block",
           "settings": {
-            "tab_title": "",
             "faq_heading": "What does my Derma Relief Cream contain?",
-            "faq_description": "The SkinBiome Co.’s Derma Relief Cream is carefully formulated in the science lab of Dr Davide Pennino. Each jar of Derma Relief Cream contains just 14 ingredients: Aqua, Disodium Ethylenediaminetetraacetic acid (EDTA), Acrylates\/C10-30 Alkyl Acrylate Crosspolymer, Glycerin, Dermafixium, Niacinamide phenoxyethanol, Shea butter, Sodium acrylate, Helianthus Annuus (Sunflower) Seed Oil, Ethyl Olivate\/Olea Europaea (Olive) Leaf Extract, Hydrolyzed Jojoba Esters, Phytosteryl\/Octyldodecyl Lauroyl Glutamate, Ethylhexylglycerin and Penoxyethanol. Also, the Derma Relief Cream is GMO-free!"
+            "faq_text": "The SkinBiome Co.’s Derma Relief Cream is carefully formulated in the science lab of Dr Davide Pennino. Each jar of Derma Relief Cream contains just 14 ingredients: Aqua, Disodium Ethylenediaminetetraacetic acid (EDTA), Acrylates\/C10-30 Alkyl Acrylate Crosspolymer, Glycerin, Dermafixium, Niacinamide phenoxyethanol, Shea butter, Sodium acrylate, Helianthus Annuus (Sunflower) Seed Oil, Ethyl Olivate\/Olea Europaea (Olive) Leaf Extract, Hydrolyzed Jojoba Esters, Phytosteryl\/Octyldodecyl Lauroyl Glutamate, Ethylhexylglycerin and Penoxyethanol. Also, the Derma Relief Cream is GMO-free!"
+          }
+        },
+        "214efb3e-d2fa-4b54-b528-fa6d975fe8e7": {
+          "type": "text_block",
+          "settings": {
+            "faq_heading": "Is my Derma Relief Cream product clean?",
+            "faq_text": "The SkinBiome Co.’s Derma Relief Cream is carefully formulated in the science lab of Dr Davide Pennino. Each jar of Derma Relief Cream contains just 14 ingredients: Aqua, Disodium Ethylenediaminetetraacetic acid (EDTA), Acrylates\/C10-30 Alkyl Acrylate Crosspolymer, Glycerin, Dermafixium, Niacinamide phenoxyethanol, Shea butter, Sodium acrylate, Helianthus Annuus (Sunflower) Seed Oil, Ethyl Olivate\/Olea Europaea (Olive) Leaf Extract, Hydrolyzed Jojoba Esters, Phytosteryl\/Octyldodecyl Lauroyl Glutamate, Ethylhexylglycerin and Penoxyethanol. Also, the Derma Relief Cream is GMO-free!"
+          }
+        },
+        "9e72be0b-fe20-410d-ab1b-40994a321077": {
+          "type": "text_block",
+          "settings": {
+            "faq_heading": "Is my Derma Relief Cream fragrance free?",
+            "faq_text": "The SkinBiome Co.’s Derma Relief Cream is carefully formulated in the science lab of Dr Davide Pennino. Each jar of Derma Relief Cream contains just 14 ingredients: Aqua, Disodium Ethylenediaminetetraacetic acid (EDTA), Acrylates\/C10-30 Alkyl Acrylate Crosspolymer, Glycerin, Dermafixium, Niacinamide phenoxyethanol, Shea butter, Sodium acrylate, Helianthus Annuus (Sunflower) Seed Oil, Ethyl Olivate\/Olea Europaea (Olive) Leaf Extract, Hydrolyzed Jojoba Esters, Phytosteryl\/Octyldodecyl Lauroyl Glutamate, Ethylhexylglycerin and Penoxyethanol. Also, the Derma Relief Cream is GMO-free!"
+          }
+        },
+        "4bdce89d-588e-4b93-a5b2-2647391c5353": {
+          "type": "content",
+          "settings": {
+            "faq_heading": "What does my Derma Relief Cream contain?",
+            "faq_text": "The SkinBiome Co.’s Derma Relief Cream is carefully formulated in the science lab of Dr Davide Pennino. Each jar of Derma Relief Cream contains just 14 ingredients: Aqua, Disodium Ethylenediaminetetraacetic acid (EDTA), Acrylates\/C10-30 Alkyl Acrylate Crosspolymer, Glycerin, Dermafixium, Niacinamide phenoxyethanol, Shea butter, Sodium acrylate, Helianthus Annuus (Sunflower) Seed Oil, Ethyl Olivate\/Olea Europaea (Olive) Leaf Extract, Hydrolyzed Jojoba Esters, Phytosteryl\/Octyldodecyl Lauroyl Glutamate, Ethylhexylglycerin and Penoxyethanol. Also, the Derma Relief Cream is GMO-free!"
+          }
+        },
+        "0fd306bf-1ee9-4629-9b43-c46c32331b7b": {
+          "type": "content",
+          "settings": {
+            "faq_heading": "Is my Derma Relief Cream product clean?",
+            "faq_text": "The SkinBiome Co.’s Derma Relief Cream is carefully formulated in the science lab of Dr Davide Pennino. Each jar of Derma Relief Cream contains just 14 ingredients: Aqua, Disodium Ethylenediaminetetraacetic acid (EDTA), Acrylates\/C10-30 Alkyl Acrylate Crosspolymer, Glycerin, Dermafixium, Niacinamide phenoxyethanol, Shea butter, Sodium acrylate, Helianthus Annuus (Sunflower) Seed Oil, Ethyl Olivate\/Olea Europaea (Olive) Leaf Extract, Hydrolyzed Jojoba Esters, Phytosteryl\/Octyldodecyl Lauroyl Glutamate, Ethylhexylglycerin and Penoxyethanol. Also, the Derma Relief Cream is GMO-free!"
+          }
+        },
+        "a4f0bd29-9cc5-40fb-a31e-17930232c549": {
+          "type": "content",
+          "settings": {
+            "faq_heading": "Is my Derma Relief Cream fragrance free?",
+            "faq_text": "The SkinBiome Co.’s Derma Relief Cream is carefully formulated in the science lab of Dr Davide Pennino. Each jar of Derma Relief Cream contains just 14 ingredients: Aqua, Disodium Ethylenediaminetetraacetic acid (EDTA), Acrylates\/C10-30 Alkyl Acrylate Crosspolymer, Glycerin, Dermafixium, Niacinamide phenoxyethanol, Shea butter, Sodium acrylate, Helianthus Annuus (Sunflower) Seed Oil, Ethyl Olivate\/Olea Europaea (Olive) Leaf Extract, Hydrolyzed Jojoba Esters, Phytosteryl\/Octyldodecyl Lauroyl Glutamate, Ethylhexylglycerin and Penoxyethanol. Also, the Derma Relief Cream is GMO-free!"
           }
         }
       },
       "block_order": [
-        "79962209-929d-49e2-9fc1-2b6cfa2b97f5"
+        "2b2897ca-2f24-42c8-b137-b1413cbb2a78",
+        "214efb3e-d2fa-4b54-b528-fa6d975fe8e7",
+        "9e72be0b-fe20-410d-ab1b-40994a321077",
+        "4bdce89d-588e-4b93-a5b2-2647391c5353",
+        "0fd306bf-1ee9-4629-9b43-c46c32331b7b",
+        "a4f0bd29-9cc5-40fb-a31e-17930232c549"
       ],
       "settings": {
         "heading": "Frequently asked questions",

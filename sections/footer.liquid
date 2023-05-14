@@ -50,7 +50,7 @@
                                   {% endfor %}
                                 </ul>
                                 <ul class="menu">
-                                  {% for link in linklists[section.settings.footer_linklist_two].links %}
+                                  {% for link in linklists[section.settings.footer-menu-two].links %}
                                     <li><a href="{{link.url}}">{{ link.title}}</li>
                                   {% endfor %}
                                 </ul>
@@ -130,7 +130,7 @@
       },
       {
           "type" : "link_list",
-          "id" : "footer_linklist_two",
+          "id" : "footer-menu-two",
           "label" : "Menu Two"
       },
       {

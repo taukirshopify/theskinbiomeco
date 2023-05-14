@@ -482,3 +482,74 @@
 {%- endif -%}
 
 
+
+{% schema %}
+  {
+      "name" : "Header",
+      "settings" : [
+      {
+          "type" : "link_list",
+          "id" : "main_linklist",
+          "label" : "Menu",
+          "default" : "main-menu"
+      },
+      {
+          "type" : "link_list",
+          "id" : "right_linklist",
+          "label" : "Right Menu",
+          "default" : "main-menu"
+      },
+      {
+          "type": "checkbox",
+          "id": "display_minicart",
+          "label": "Display minicart"
+      },
+      {
+        "type": "text",
+        "id": "top_text",
+        "label": "Top Text"
+      },
+      {
+          "type": "image_picker",
+          "id": "main_logo",
+          "label": "Main Logo"
+      }
+      ],
+      "blocks": [
+      {
+        "type": "text_block",
+        "name": "Brand Logo",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "brand_img",
+            "label": "Image"
+          },                       
+          {
+            "type": "url",
+            "id": "brand_link",
+            "label": "Link"
+          },
+          {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+          },
+          {
+          "type": "url",
+          "id": "tab_link",
+          "label": "Menu Link"
+          },
+          {
+            "type": "collection",
+            "id": "collection",
+            "label": "Select A Collection"
+          }
+        ]
+      }
+    ]
+  
+  }
+  {% endschema %}
+
+

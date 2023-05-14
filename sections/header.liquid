@@ -171,9 +171,9 @@
                                 <a href="#">More</a>
                                 {% if linklists[link.handle] != empty %}
                                 <ul class="sub-menu">
+                                  {% for child_l in linklists[link.handle].links %}
                                     <li><a href="shop.html">Hot Sale</a></li>
-                                    <li><a href="shop.html">Discount</a></li>
-                                    <li><a href="shop.html">50% Off</a></li>
+                                  {% endfor %}
                                 </ul>
                               {% endif %}
                             </li>

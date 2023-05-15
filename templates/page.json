@@ -9,6 +9,20 @@
     },
     "5b771cb5-8c12-484b-87d8-8ea65c399753": {
       "type": "our-story-loop-content",
+      "blocks": {
+        "7971b3f2-0bf9-4a93-ad70-c264baaebb99": {
+          "type": "text_block",
+          "settings": {
+            "loop_description": "<p class=\"fs-40 mt-n2 mb-35 text-theme fw-bold\">Dr Pennino spent over a decade studying the mechanisms underpinning skin disorders and the role of the skin microbiome in contributing to skin health and integrity.<\/p>\n                        <p class=\"fs-40 mb-n2\">He decided to use his expertise to develop a good solution for skin disorders, and The SkinBiome Co.'s solution was discovered after years of intensive research.<\/p>",
+            "loop_img": "shopify:\/\/shop_images\/lab_1.jpg",
+            "loop_bg_color": "bg-smoke",
+            "loop_row_position": "align-items-center"
+          }
+        }
+      },
+      "block_order": [
+        "7971b3f2-0bf9-4a93-ad70-c264baaebb99"
+      ],
       "settings": {
         "heading": "Our Story",
         "under_content": "The SkinBiome Co.'s story began with our Founder, Dr Davide Pennino. Like many new fathers, Dr Pennino was worried about exposing his infant son to the negative effects of using topical steroids for skin disorders.",

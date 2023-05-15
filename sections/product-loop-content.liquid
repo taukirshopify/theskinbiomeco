@@ -5,7 +5,12 @@
     {% for block in section.blocks %}
     <div class="{% if forloop.index == 1 %}bg-smoke{% endif %} py-5 {% if forloop.index == 3 %}bg-smoke{% endif %}">
         <div class="container">
-            <div class="row flex-row-reverse">
+            <div class="row {% assign mod = forloop.index | modulo: 2 %}
+            {% if mod == 0 %}
+            flex-row-reverse
+            {% else %}
+                <!-- odd -->
+            {% endif %}">
                 <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
                     <div class="benefit-box">
                         <h2 class="title"><span class="number">{{forloop.index}}</span>{{block.settings.loop_heading }}</h2>

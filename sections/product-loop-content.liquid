@@ -5,10 +5,11 @@
     {% for block in section.blocks %}
     <div class="{{block.settings.loop_bg_color }} py-5">
         <div class="container">
-            <div class="row {% assign mod = forloop.index | modulo: 2 %}
+            <div class="{% assign mod = forloop.index | modulo: 2 %}
             {% if mod == 0 %}
             flex-row-reverse
             {% else %}
+            row 
             {% endif %}">
                 <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
                     <div class="benefit-box {% assign mod = forloop.index | modulo: 2 %}
@@ -143,7 +144,7 @@
                 },
                 {
                 "value": "flex-row-reverse",
-                "label": "Position Flex Row"
+                "label": "Position Flex Row Reverse"
                 }
             ],
             "default": "row",

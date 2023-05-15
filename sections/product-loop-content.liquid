@@ -5,7 +5,7 @@
     {% for block in section.blocks %}
     <div class="{{block.settings.loop_bg_color }} py-5">
         <div class="container">
-            <div class="{{block.settings.loop_bg_color }}">
+            <div class="{{block.settings.loop_row_position }}">
                 <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
                     <div class="benefit-box {% assign mod = forloop.index | modulo: 2 %}
                     {% if mod == 0 %}

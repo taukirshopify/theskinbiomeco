@@ -5,7 +5,6 @@
     {% for block in section.blocks %}
     <div class="{% assign mod = forloop.index | modulo: 2 %}
     {% if mod == 0 %}
-    flex-row-reverse
     {% else %}
     bg-smoke
     {% endif %} py-5">
@@ -32,7 +31,8 @@
                     {% if mod == 0 %}
                     img-left
                     {% else %}
-                    {% endif %}img-right ">
+                    img-right
+                    {% endif %} ">
                         <img
                       class="w-100"
                       src="{{ block.settings.loop_img | img_url: '1920x' }}"

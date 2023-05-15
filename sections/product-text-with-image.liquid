@@ -22,3 +22,59 @@
         </div>
     </div>
 </section>
+
+{% schema %}
+    {
+      "name": "Product Hero",
+      "settings": [
+        {
+          "type": "text",
+          "id": "main_heading",
+          "label": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "size_heading",
+          "label": "Size Text"
+        },
+        {
+          "type": "text",
+          "id": "desc_heading",
+          "label": "Description Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "product_desc",
+          "label": "Description"
+        },
+        {
+          "type": "text",
+          "id": "use_text",
+          "label": "How to Use Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "use_desc",
+          "label": "How to Use Content"
+        },
+        {
+          "type": "url",
+          "id": "btn_link",
+          "label": "Buy Now"
+        },
+        {
+          "type": "image_picker",
+          "id": "hero_bg_img",
+          "label": "Image"
+        }
+        
+      ],
+      "presets": [
+      {
+        "name": "Product Hero",
+        "category":"product"
+        
+      }
+    ]
+    }
+  {% endschema %}

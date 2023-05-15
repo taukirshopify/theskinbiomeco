@@ -7,6 +7,7 @@
     {% if mod == 0 %}
     flex-row-reverse
     {% else %}
+    bg-smoke
     {% endif %}{% if forloop.index == 1 %}bg-smoke{% endif %} py-5 {% if forloop.index == 3 %}bg-smoke{% endif %}">
         <div class="container">
             <div class="row {% assign mod = forloop.index | modulo: 2 %}

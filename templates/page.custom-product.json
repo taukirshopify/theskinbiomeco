@@ -29,6 +29,15 @@
         "hero_bg_img": "shopify:\/\/shop_images\/cell_1.jpg"
       }
     },
+    "5e320d2f-1684-482a-94ca-f75407bb4465": {
+      "type": "product-loop-content",
+      "settings": {
+        "heading": "Benefits of The SkinBiome Co.’s Derma Relief Cream",
+        "under_heading": "Interested To Find Out More About Our Product?",
+        "under_sub_heading": "",
+        "under_email": ""
+      }
+    },
     "835fd4f8-6aa4-4909-b1e5-ced97e247150": {
       "type": "review",
       "blocks": {
@@ -77,6 +86,7 @@
     "main",
     "06197b34-f8ff-4c54-b8d1-7313e3009f4c",
     "a9744461-c224-418a-a56a-3c4384e6d8cf",
+    "5e320d2f-1684-482a-94ca-f75407bb4465",
     "835fd4f8-6aa4-4909-b1e5-ced97e247150",
     "8cf4d299-8bc1-4547-897b-380358d66c20"
   ]

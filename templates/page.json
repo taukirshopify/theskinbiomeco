@@ -18,10 +18,40 @@
             "loop_bg_color": "bg-smoke",
             "loop_row_position": "align-items-center"
           }
+        },
+        "8941e02f-cb19-47f7-a6ca-c8952c55572d": {
+          "type": "text_block",
+          "settings": {
+            "loop_description": "<p class=\"fs-50 mb-0 text-center\">The SkinBiome Co. was founded with the vision <span class=\"text-theme fw-bold\">to develop safe and highly effective skincare products<\/span> backed by solid scientific evidence. <\/p>",
+            "loop_img": "shopify:\/\/shop_images\/doctor_1.jpg",
+            "loop_bg_color": "bg-smoke",
+            "loop_row_position": "align-items-center"
+          }
+        },
+        "ff8e6aa9-7fc5-4d6e-bdca-44e63424eb6c": {
+          "type": "text_block",
+          "settings": {
+            "loop_description": "<p class=\"fs-40 mb-0\">Nearly <span class=\"text-theme fw-bold\">1 in 4 children are affected by Eczema.<\/span> Despite the risk of notable side effects, topical steroids remain the most common treatments for children. Like many parents, Dr Pennino felt extremely frustrated with the <span class=\"text-theme fw-bold\">lack of effective steroid-free alternatives and poor scientific evidence supporting the safe use<\/span> of other skincare products for young children.<\/p>",
+            "loop_img": "shopify:\/\/shop_images\/baby_1.jpg",
+            "loop_bg_color": "bg-smoke",
+            "loop_row_position": "align-items-center"
+          }
+        },
+        "0a6d77fd-00ac-48d8-ac7c-8b1d4bcaf7e5": {
+          "type": "text_block",
+          "settings": {
+            "loop_description": "<p class=\"fs-40 mb-30 text-theme fw-bold\">Our mission at The SkinBiome Co. is simple.<\/p>\n                        <p class=\"fs-40 mb-0\">We aim to eradicate skin problems through the power of our skin microbiome – the natural way – starting with our first product for Eczema-prone-skin. <b>We believe that you deserve better natural, science-driven skincare!<\/b><\/p>",
+            "loop_img": "shopify:\/\/shop_images\/cream_in_hand.jpg",
+            "loop_bg_color": "bg-smoke",
+            "loop_row_position": "align-items-center"
+          }
         }
       },
       "block_order": [
-        "7971b3f2-0bf9-4a93-ad70-c264baaebb99"
+        "7971b3f2-0bf9-4a93-ad70-c264baaebb99",
+        "8941e02f-cb19-47f7-a6ca-c8952c55572d",
+        "ff8e6aa9-7fc5-4d6e-bdca-44e63424eb6c",
+        "0a6d77fd-00ac-48d8-ac7c-8b1d4bcaf7e5"
       ],
       "settings": {
         "heading": "Our Story",
@@ -30,10 +60,33 @@
         "loop_heading_position": "text-center",
         "loop_under_position": "text-center"
       }
+    },
+    "e0b511f6-8a8e-4820-ab7d-60020ebae83c": {
+      "type": "review",
+      "blocks": {
+        "30a62b85-9f5a-4259-9937-e31070e8441a": {
+          "type": "text_block",
+          "settings": {
+            "img_one": "shopify:\/\/shop_images\/testi_1_1.jpg",
+            "heading_one": "Before",
+            "img_two": "shopify:\/\/shop_images\/testi_1_2.jpg",
+            "heading_two": "After [one week]",
+            "author_description": "I love that my Derma Relief Cream is a sustainable steroid-free solution to calmer and healthier skin!",
+            "author_name": "Jon Derma Relief Cream"
+          }
+        }
+      },
+      "block_order": [
+        "30a62b85-9f5a-4259-9937-e31070e8441a"
+      ],
+      "settings": {
+        "heading": "Reviews"
+      }
     }
   },
   "order": [
     "main",
-    "5b771cb5-8c12-484b-87d8-8ea65c399753"
+    "5b771cb5-8c12-484b-87d8-8ea65c399753",
+    "e0b511f6-8a8e-4820-ab7d-60020ebae83c"
   ]
 }

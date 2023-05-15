@@ -33,7 +33,7 @@
       "settings": {
         "hero_bg_img": "shopify:\/\/shop_images\/hero_bg_1.jpg",
         "logo_img": "shopify:\/\/shop_images\/logo-big.png",
-        "btn_link": "#",
+        "btn_link": "shopify:\/\/products\/derma-relief-cream-1",
         "btn_link_two": "#"
       }
     },

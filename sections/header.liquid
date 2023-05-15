@@ -239,7 +239,7 @@
     Header Area
 ==============================-->
     <header class="ot-header {% if template != 'index' %} border-bottom {% endif %}">
-      {%- if section.settings.menu != blank -%}
+      
       <header-drawer data-breakpoint="{% if section.settings.menu_type_desktop == 'drawer' %}desktop{% else %}tablet{% endif %}">
         <details id="Details-menu-drawer-container" class="menu-drawer-container">
           <summary class="header__icon header__icon--menu header__icon--summary link focus-inset" aria-label="{{ 'sections.header.menu' | t }}">
@@ -432,7 +432,7 @@
           </div>
         </details>
       </header-drawer>
-    {%- endif -%}
+    
         <div class="header-top bg-theme py-2">
             <div class="container">
                 <div class="header-mail">

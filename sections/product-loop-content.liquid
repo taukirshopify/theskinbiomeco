@@ -3,7 +3,7 @@
         <h2 class="sec-title text-center">Benefits of The SkinBiome Co.’s Derma Relief Cream</h2>
     </div>
     {% for block in section.blocks %}
-    <div class="bg-smoke py-5">
+    <div class="{% if forloop.index == 1 %}bg-smoke{% endif %} py-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">

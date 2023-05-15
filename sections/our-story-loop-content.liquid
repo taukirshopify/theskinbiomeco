@@ -1,0 +1,157 @@
+<section class="space">
+    <div class="container">
+        <div class="title-area wow fadeInUp" data-wow-delay="0.2s">
+            <h2 class="sec-title mb-15">{{section.settings.heading }}</h2>
+            <p class="sec-text fs-40">{{section.settings.heading }}</p>
+        </div>
+        {% for block in section.blocks %}
+        <div class="row {{block.settings.loop_row_position }}">
+            <div class="col-xl-6 mb-40 mb-xl-0 wow fadeInRight" data-wow-delay="0.2s">
+                <div class="rounded-10">
+                    
+                <img class="w-100" src="{{ block.settings.loop_img | img_url: '1920x' }}"
+                      alt="{{block.settings.loop_img.alt }}">
+                </div>
+            </div>
+            <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="ps-xxl-2">
+                    {{block.settings.loop_description }}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+
+        <div class="mt-35 wow fadeInUp" data-wow-delay="0.2s">
+            <p class="fs-40 mb-4">{{section.settings.under_content }}</p>
+            <a href="{{section.settings.under_link }}" class="ot-btn btn-full">buy now</a>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+    {
+      "name": "Our Story Loop",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "under_content",
+          "label": "Under Content"
+        },
+        {
+          "type": "text",
+          "id": "under_link",
+          "label": "Buy Now"
+        },
+        {
+        "type": "select",
+        "id": "loop_heading_position",
+        "options": [
+            {
+            "value": "text-start",
+            "label": "Position Left"
+            },
+            {
+            "value": "text-center",
+            "label": "Position Center"
+            },
+            {
+            "value": "text-end",
+            "label": "Position Right"
+            }
+        ],
+        "default": "text-center",
+        "label": "Heading Position"
+        },
+        {
+        "type": "select",
+        "id": "loop_under_position",
+        "options": [
+            {
+            "value": "text-start",
+            "label": "Position Left"
+            },
+            {
+            "value": "text-center",
+            "label": "Position Center"
+            },
+            {
+            "value": "text-end",
+            "label": "Position Right"
+            }
+        ],
+        "default": "text-center",
+        "label": "Loop Under Content Position"
+        }
+        
+      ],
+      "blocks": [
+        {
+          "type": "text_block",
+          "name": "Loop Content",
+          "settings": [
+            
+            {
+              "type": "text",
+              "id": "loop_heading",
+              "label": "Heading"
+            },
+           {
+              "type": "textarea",
+              "id": "loop_description",
+              "label": "Description"
+            },
+            {
+              "type": "image_picker",
+              "id": "loop_img",
+              "label": "Image"
+            },
+            {
+            "type": "select",
+            "id": "loop_bg_color",
+            "options": [
+                {
+                "value": "bg-smoke",
+                "label": "Background Ghost White"
+                },
+                {
+                "value": "transparent",
+                "label": "Background White"
+                }
+            ],
+            "default": "bg-smoke",
+            "label": "Loop Background Color"
+            },
+            {
+            "type": "select",
+            "id": "loop_row_position",
+            "options": [
+                {
+                "value": "align-items-center",
+                "label": "Position Row"
+                },
+                {
+                "value": "flex-row-reverse",
+                "label": "Position Flex Row Reverse"
+                }
+            ],
+            "default": "align-items-center",
+            "label": "Loop Row Position"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Our Story Loop",
+          "category": "our story"
+  
+        }
+      ]
+  
+    }
+  {% endschema %}

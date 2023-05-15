@@ -1,6 +1,6 @@
 <div class="">
     <div class="container">
-        <h2 class="sec-title {{ section.settings.color_scheme }}">{{section.settings.heading }}</h2>
+        <h2 class="sec-title {{ section.settings.loop_heading_position }}">{{section.settings.heading }}</h2>
     </div>
     {% for block in section.blocks %}
     <div class="{% assign mod = forloop.index | modulo: 2 %}

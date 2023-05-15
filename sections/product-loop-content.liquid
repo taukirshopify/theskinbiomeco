@@ -28,7 +28,11 @@
                     </div>
                 </div>
                 <div class="col-lg-6 mt-4 mt-lg-0 wow fadeInRight" data-wow-delay="0.2s">
-                    <div class="benefit-img img-right img-left">
+                    <div class="benefit-img {% assign mod = forloop.index | modulo: 2 %}
+                    {% if mod == 0 %}
+                    img-left
+                    {% else %}
+                    {% endif %}img-right ">
                         <img
                       class="w-100"
                       src="{{ block.settings.loop_img | img_url: '1920x' }}"

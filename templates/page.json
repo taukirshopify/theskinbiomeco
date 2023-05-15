@@ -6,9 +6,20 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "5b771cb5-8c12-484b-87d8-8ea65c399753": {
+      "type": "our-story-loop-content",
+      "settings": {
+        "heading": "Our Story",
+        "under_content": "The SkinBiome Co.'s story began with our Founder, Dr Davide Pennino. Like many new fathers, Dr Pennino was worried about exposing his infant son to the negative effects of using topical steroids for skin disorders.",
+        "under_link": "",
+        "loop_heading_position": "text-center",
+        "loop_under_position": "text-center"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "5b771cb5-8c12-484b-87d8-8ea65c399753"
   ]
 }

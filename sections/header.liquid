@@ -151,7 +151,95 @@
   endfor
 -%}
 
-{%- if section.settings.menu != blank -%}
+<div class="ot-menu-wrapper">
+        <div class="ot-menu-area">
+            <button class="ot-menu-toggle">
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 1L1 11M1 1L11 11" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+            <div class="mobile-logo">
+                <a href="{{ routes.root_url }}"><img src="{{ section.settings.main_logo | img_url: '1920x'}}" alt="{{ shop.name }}"></a>
+            </div>
+            <div class="menu-scroll">
+                <div class="ot-menu-inner">
+                    <div class="ot-mobile-menu">                                            
+                        <ul>
+                          {% for link in linklists[section.settings.main_linklist].links %}
+                            <li><a href="{{link.url}}">{{ link.title}}</a>
+                                {% if linklists[link.handle] != empty %}
+                                <ul class="sub-menu">
+                                  {% for child_l in linklists[link.handle].links %}
+                                    <li>
+                                      <a href="{{ child_l.url }}" {% if child_l.active %}class="current"{% endif %}>
+                                      {{ child_l.title }}
+                                    </a>
+                                    </li>
+                                  {% endfor %}
+                                </ul>
+                              {% endif %}
+                            </li>
+                          {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="ot-mobile-menu d-block d-md-none mt-30">
+                        <div class="header-menu-button">
+                            <div class="dropdown-link">
+                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink4" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <svg class="dark" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10.7823 20C16.3053 20 20.7823 15.523 20.7823 10C20.7823 9.537 20.0883 9.46 19.8493 9.857C19.3396 10.7013 18.6444 11.4186 17.8164 11.9545C16.9883 12.4903 16.0492 12.8307 15.0702 12.9499C14.0911 13.0691 13.0978 12.9639 12.1654 12.6423C11.233 12.3207 10.386 11.7911 9.68863 11.0937C8.99122 10.3963 8.46167 9.54933 8.14007 8.61695C7.81848 7.68457 7.71328 6.69123 7.83245 5.71217C7.95161 4.73311 8.29202 3.794 8.82788 2.96599C9.36374 2.13797 10.081 1.44275 10.9253 0.933C11.3223 0.693 11.2453 0 10.7823 0C5.25935 0 0.782349 4.477 0.782349 10C0.782349 15.523 5.25935 20 10.7823 20Z" fill="black" />
+                                    </svg>
+
+
+                                    <svg class="light" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11 16C9.61667 16 8.43734 15.5123 7.462 14.537C6.48667 13.5617 5.99934 12.3827 6 11C6 9.61667 6.48767 8.43734 7.463 7.462C8.43834 6.48667 9.61734 5.99934 11 6C12.3833 6 13.5627 6.48767 14.538 7.463C15.5133 8.43834 16.0007 9.61734 16 11C16 12.3833 15.5123 13.5627 14.537 14.538C13.5617 15.5133 12.3827 16.0007 11 16ZM1 12C0.71667 12 0.479003 11.904 0.287003 11.712C0.0950034 11.52 -0.000663206 11.2827 3.46021e-06 11C3.46021e-06 10.7167 0.0960034 10.479 0.288003 10.287C0.480003 10.095 0.717337 9.99934 1 10H3C3.28334 10 3.521 10.096 3.713 10.288C3.905 10.48 4.00067 10.7173 4 11C4 11.2833 3.904 11.521 3.712 11.713C3.52 11.905 3.28267 12.0007 3 12H1ZM19 12C18.7167 12 18.479 11.904 18.287 11.712C18.095 11.52 17.9993 11.2827 18 11C18 10.7167 18.096 10.479 18.288 10.287C18.48 10.095 18.7173 9.99934 19 10H21C21.2833 10 21.521 10.096 21.713 10.288C21.905 10.48 22.0007 10.7173 22 11C22 11.2833 21.904 11.521 21.712 11.713C21.52 11.905 21.2827 12.0007 21 12H19ZM11 4C10.7167 4 10.479 3.904 10.287 3.712C10.095 3.52 9.99934 3.28267 10 3V1C10 0.71667 10.096 0.479003 10.288 0.287003C10.48 0.0950034 10.7173 -0.000663206 11 3.46021e-06C11.2833 3.46021e-06 11.521 0.0960034 11.713 0.288003C11.905 0.480003 12.0007 0.717337 12 1V3C12 3.28334 11.904 3.521 11.712 3.713C11.52 3.905 11.2827 4.00067 11 4ZM11 22C10.7167 22 10.479 21.904 10.287 21.712C10.095 21.52 9.99934 21.2827 10 21V19C10 18.7167 10.096 18.479 10.288 18.287C10.48 18.095 10.7173 17.9993 11 18C11.2833 18 11.521 18.096 11.713 18.288C11.905 18.48 12.0007 18.7173 12 19V21C12 21.2833 11.904 21.521 11.712 21.713C11.52 21.905 11.2827 22.0007 11 22ZM4.65 6.05L3.575 5C3.375 4.81667 3.279 4.58334 3.287 4.3C3.295 4.01667 3.391 3.775 3.575 3.575C3.775 3.375 4.01667 3.275 4.3 3.275C4.58334 3.275 4.81667 3.375 5 3.575L6.05 4.65C6.23334 4.85 6.325 5.08334 6.325 5.35C6.325 5.61667 6.23334 5.85 6.05 6.05C5.86667 6.25 5.63767 6.346 5.363 6.338C5.08834 6.33 4.85067 6.234 4.65 6.05ZM17 18.425L15.95 17.35C15.7667 17.15 15.675 16.9123 15.675 16.637C15.675 16.3617 15.7667 16.1327 15.95 15.95C16.1333 15.75 16.3627 15.6543 16.638 15.663C16.9133 15.6717 17.1507 15.7673 17.35 15.95L18.425 17C18.625 17.1833 18.721 17.4167 18.713 17.7C18.705 17.9833 18.609 18.225 18.425 18.425C18.225 18.625 17.9833 18.725 17.7 18.725C17.4167 18.725 17.1833 18.625 17 18.425ZM15.95 6.05C15.75 5.86667 15.654 5.63767 15.662 5.363C15.67 5.08834 15.766 4.85067 15.95 4.65L17 3.575C17.1833 3.375 17.4167 3.279 17.7 3.287C17.9833 3.295 18.225 3.391 18.425 3.575C18.625 3.775 18.725 4.01667 18.725 4.3C18.725 4.58334 18.625 4.81667 18.425 5L17.35 6.05C17.15 6.23334 16.9167 6.325 16.65 6.325C16.3833 6.325 16.15 6.23334 15.95 6.05ZM3.575 18.425C3.375 18.225 3.275 17.9833 3.275 17.7C3.275 17.4167 3.375 17.1833 3.575 17L4.65 15.95C4.85 15.7667 5.08734 15.675 5.362 15.675C5.63667 15.675 5.866 15.7667 6.05 15.95C6.25 16.1333 6.346 16.3627 6.338 16.638C6.33 16.9133 6.234 17.1507 6.05 17.35L5 18.425C4.81667 18.625 4.58334 18.721 4.3 18.713C4.01667 18.705 3.775 18.609 3.575 18.425Z" fill="black" />
+                                    </svg>
+                                    <span class="light">Light</span>
+                                    <span class="dark">Dark</span>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink4">
+                                    <li>
+                                        <a class="light-select" href="#">Light</a>
+                                        <a class="dark-select" href="#">Dark</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            {% comment %} <div class="dropdown-link language-toggle">
+                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink3" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1695 0H0V14.1695H8.20339V22H22.3729V7.83051H14.1695V0ZM6.16676 3.35593L3.82637 10.0352H5.40678L5.7874 8.94915H8.20339V12.678H1.49153V1.49153H12.678V7.83051H9.57056L8.00297 3.35593H6.16676ZM7.8595 7.45763H6.30999L7.08475 5.24653L7.8595 7.45763ZM20.8814 9.32203V20.5085H9.69491V9.32203H20.8814Z" fill="black" />
+                                        <path d="M14.0499 16.0563C14.1925 16.2854 14.3496 16.5052 14.5201 16.7144C13.9795 17.006 13.3654 17.152 12.6781 17.1525V18.6441C13.8033 18.6441 14.8086 18.3454 15.6611 17.7667C16.5136 18.3454 17.5189 18.6441 18.6442 18.6441V17.1525C17.9582 17.1525 17.3442 17.0064 16.8021 16.7141C16.9726 16.505 17.1297 16.2853 17.2723 16.0563C17.7022 15.3574 18.0183 14.5947 18.2089 13.7966H19.017V12.3051H16.4069V11.1864H14.9153V12.3051H12.3052V13.7966H13.1133C13.3039 14.5947 13.62 15.3574 14.0499 16.0563ZM16.6646 13.7966C16.5103 14.3128 16.2894 14.8067 16.0074 15.2658C15.9021 15.435 15.7864 15.5977 15.6611 15.7527C15.5449 15.6091 15.4371 15.4589 15.3381 15.3029C15.0447 14.8336 14.8157 14.327 14.6574 13.7966H16.6646Z" fill="black" />
+                                    </svg>
+                                    English
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink3">
+                                    <li>
+                                        <a href="#">English</a>
+                                        <a href="#">Italian</a>
+                                    </li>
+                                </ul> 
+                            </div> {% endcomment %}
+                            {%- if shop.customer_accounts_enabled -%}
+                                  <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="ot-btn style2">Login/ Sign up
+                                {%- liquid
+                                  if customer
+                                  echo 'customer.account_fallback' | t
+                                  else
+                                  
+                                  endif
+                              -%}</a>
+                            {%- endif -%} 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--==============================
+    Header Area
+==============================-->
+    <header class="ot-header {% if template != 'index' %} border-bottom {% endif %}">
+      
       <header-drawer data-breakpoint="{% if section.settings.menu_type_desktop == 'drawer' %}desktop{% else %}tablet{% endif %}">
         <details id="Details-menu-drawer-container" class="menu-drawer-container">
           <summary class="header__icon header__icon--menu header__icon--summary link focus-inset" aria-label="{{ 'sections.header.menu' | t }}">
@@ -344,254 +432,6 @@
           </div>
         </details>
       </header-drawer>
-    {%- endif -%}
-
-<{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
-  <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}">
-    
-
-    {%- if section.settings.logo_position == 'top-center' or section.settings.menu == blank -%}
-      <details-modal class="header__search">
-        <details>
-          <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
-            <span>
-              <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false">
-                <use href="#icon-search">
-              </svg>
-              <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false">
-                <use href="#icon-close">
-              </svg>
-            </span>
-          </summary>
-          <div class="search-modal modal__content gradient" role="dialog" aria-modal="true" aria-label="{{ 'general.search.search' | t }}">
-            <div class="modal-overlay"></div>
-            <div class="search-modal__content{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} search-modal__content-top{% else %} search-modal__content-bottom{% endif %}" tabindex="-1">
-              {%- if settings.predictive_search_enabled -%}
-                <predictive-search class="search-modal__form" data-loading-text="{{ 'accessibility.loading' | t }}">
-              {%- else -%}
-                <search-form class="search-modal__form">
-              {%- endif -%}
-                  <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
-                    <div class="field">
-                      <input class="search__input field__input"
-                        id="Search-In-Modal-1"
-                        type="search"
-                        name="q"
-                        value="{{ search.terms | escape }}"
-                        placeholder="{{ 'general.search.search' | t }}"
-                        {%- if settings.predictive_search_enabled -%}
-                          role="combobox"
-                          aria-expanded="false"
-                          aria-owns="predictive-search-results"
-                          aria-controls="predictive-search-results"
-                          aria-haspopup="listbox"
-                          aria-autocomplete="list"
-                          autocorrect="off"
-                          autocomplete="off"
-                          autocapitalize="off"
-                          spellcheck="false"
-                        {%- endif -%}
-                      >
-                      <label class="field__label" for="Search-In-Modal-1">{{ 'general.search.search' | t }}</label>
-                      <input type="hidden" name="options[prefix]" value="last">
-                      <button type="reset" class="reset__button field__button{% if search.terms == blank %} hidden{% endif %}" aria-label="{{ 'general.search.reset' | t }}">
-                        <svg class="icon icon-close" aria-hidden="true" focusable="false">
-                          <use xlink:href="#icon-reset">
-                        </svg>
-                      </button>
-                      <button class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
-                        <svg class="icon icon-search" aria-hidden="true" focusable="false">
-                          <use href="#icon-search">
-                        </svg>
-                      </button>
-                    </div>
-
-                    {%- if settings.predictive_search_enabled -%}
-                      <div class="predictive-search predictive-search--header" tabindex="-1" data-predictive-search>
-                        <div class="predictive-search__loading-state">
-                          <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-                            <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
-                          </svg>
-                        </div>
-                      </div>
-
-                      <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
-                    {%- endif -%}
-                  </form>
-              {%- if settings.predictive_search_enabled -%}
-                </predictive-search>
-              {%- else -%}
-                </search-form>
-              {%- endif -%}
-              <button type="button" class="modal__close-button link link--text focus-inset" aria-label="{{ 'accessibility.close' | t }}">
-                <svg class="icon icon-close" aria-hidden="true" focusable="false">
-                  <use href="#icon-close">
-                </svg>
-              </button>
-            </div>
-          </div>
-        </details>
-      </details-modal>
-    {%- endif -%}
-
-    {%- if section.settings.logo_position != 'middle-center' -%}
-      {%- if request.page_type == 'index' -%}
-        <h1 class="header__heading">
-      {%- endif -%}
-          <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
-            {%- if settings.logo != blank -%}
-              <div class="header__heading-logo-wrapper">
-                {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
-                {%- assign logo_height = settings.logo_width | divided_by: settings.logo.aspect_ratio -%}
-                {% capture sizes %}(max-width: {{ settings.logo_width | times: 2 }}px) 50vw, {{ settings.logo_width }}px{% endcapture %}
-                {% capture widths %}{{ settings.logo_width }}, {{ settings.logo_width | times: 1.5 | round }}, {{ settings.logo_width | times: 2 }}{% endcapture %}
-                {{ settings.logo | image_url: width: 600 | image_tag:
-                  class: 'header__heading-logo motion-reduce',
-                  widths: widths,
-                  height: logo_height,
-                  width: settings.logo_width,
-                  alt: logo_alt,
-                  sizes: sizes,
-                  preload: true
-                }}
-              </div>
-            {%- else -%}
-              <span class="h2">{{ shop.name }}</span>
-            {%- endif -%}
-          </a>
-      {%- if request.page_type == 'index' -%}
-        </h1>
-      {%- endif -%}
-    {%- endif -%}
-
-    {%- if section.settings.menu != blank -%}
-      {%- if section.settings.menu_type_desktop == 'dropdown' -%}
-        <nav class="header__inline-menu">
-          <ul class="list-menu list-menu--inline" role="list">
-            {%- for link in section.settings.menu.links -%}
-              <li>
-                {%- if link.links != blank -%}
-                  <header-menu>
-                    <details id="Details-HeaderMenu-{{ forloop.index }}">
-                      <summary class="header__menu-item list-menu__item link focus-inset">
-                        <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
-                        {% render 'icon-caret' %}
-                      </summary>
-                      <ul id="HeaderMenu-MenuList-{{ forloop.index }}" class="header__submenu list-menu list-menu--disclosure gradient caption-large motion-reduce global-settings-popup" role="list" tabindex="-1">
-                        {%- for childlink in link.links -%}
-                          <li>
-                            {%- if childlink.links == blank -%}
-                              <a href="{{ childlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                                {{ childlink.title | escape }}
-                              </a>
-                            {%- else -%}
-                              <details id="Details-HeaderSubMenu-{{ forloop.index }}">
-                                <summary class="header__menu-item link link--text list-menu__item focus-inset caption-large">
-                                  <span>{{ childlink.title | escape }}</span>
-                                  {% render 'icon-caret' %}
-                                </summary>
-                                <ul id="HeaderMenu-SubMenuList-{{ forloop.index }}" class="header__submenu list-menu motion-reduce">
-                                  {%- for grandchildlink in childlink.links -%}
-                                    <li>
-                                      <a href="{{ grandchildlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if grandchildlink.current %} list-menu__item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
-                                        {{ grandchildlink.title | escape }}
-                                      </a>
-                                    </li>
-                                  {%- endfor -%}
-                                </ul>
-                              </details>
-                            {%- endif -%}
-                          </li>
-                        {%- endfor -%}
-                      </ul>
-                    </details>
-                  </header-menu>
-                {%- else -%}
-                  <a href="{{ link.url }}" class="header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
-                    <span {%- if link.current %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
-                  </a>
-                {%- endif -%}
-              </li>
-            {%- endfor -%}
-          </ul>
-        </nav>
-      {%- elsif section.settings.menu_type_desktop != 'drawer' -%}
-        <nav class="header__inline-menu">
-          <ul class="list-menu list-menu--inline" role="list">
-            {%- for link in section.settings.menu.links -%}
-              <li>
-                {%- if link.links != blank -%}
-                  <header-menu>
-                    <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
-                      <summary class="header__menu-item list-menu__item link focus-inset">
-                        <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
-                        {% render 'icon-caret' %}
-                      </summary>
-                      <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content gradient motion-reduce global-settings-popup" tabindex="-1">
-                        <ul class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list">
-                          {%- for childlink in link.links -%}
-                            <li>
-                              <a href="{{ childlink.url }}" class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                                {{ childlink.title | escape }}
-                              </a>
-                              {%- if childlink.links != blank -%}
-                                <ul class="list-unstyled" role="list">
-                                  {%- for grandchildlink in childlink.links -%}
-                                    <li>
-                                      <a href="{{ grandchildlink.url }}" class="mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
-                                        {{ grandchildlink.title | escape }}
-                                      </a>
-                                    </li>
-                                  {%- endfor -%}
-                                </ul>
-                              {%- endif -%}
-                            </li>
-                          {%- endfor -%}
-                        </ul>
-                      </div>
-                    </details>
-                  </header-menu>
-                {%- else -%}
-                  <a href="{{ link.url }}" class="header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
-                    <span {%- if link.current %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
-                  </a>
-                {%- endif -%}
-              </li>
-            {%- endfor -%}
-          </ul>
-        </nav>
-      {%- endif -%}
-    {%- endif -%}
-
-    {%- if section.settings.logo_position == 'middle-center' -%}
-      {%- if request.page_type == 'index' -%}
-        <h1 class="header__heading">
-      {%- endif -%}
-          <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
-            {%- if settings.logo != blank -%}
-              <div class="header__heading-logo-wrapper">
-                {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
-                {%- assign logo_height = settings.logo_width | divided_by: settings.logo.aspect_ratio -%}
-                {% capture sizes %}(min-width: 750px) {{ settings.logo_width }}px, 50vw{% endcapture %}
-                {% capture widths %}{{ settings.logo_width }}, {{ settings.logo_width | times: 1.5 | round }}, {{ settings.logo_width | times: 2 }}{% endcapture %}
-                {{ settings.logo | image_url: width: 600 | image_tag:
-                  class: 'header__heading-logo',
-                  widths: widths,
-                  height: logo_height,
-                  width: settings.logo_width,
-                  alt: logo_alt,
-                  sizes: sizes,
-                  preload: true
-                }}
-              </div>
-            {%- else -%}
-              <span class="h2">{{ shop.name }}</span>
-            {%- endif -%}
-          </a>
-      {%- if request.page_type == 'index' -%}
-        </h1>
-      {%- endif -%}
-    {%- endif -%}
 
     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header__localization{% endif %}">
       <div class="desktop-localization-wrapper">
@@ -740,8 +580,111 @@
         {%- endif -%}
       </a>
     </div>
-  </header>
-</{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
+    
+        <div class="header-top bg-theme py-2">
+            <div class="container">
+                <div class="header-mail">
+                    Email:
+                    <a href="mailto:{{ section.settings.email_link}}">{{ section.settings.email_link}}</a>
+                </div>
+            </div>
+        </div>
+        <!--header-top-wrapper end-->
+        <div class="sticky-wrapper">
+            <!-- Main Menu Area -->
+            <div class="menu-area">
+                <div class="container">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-auto d-flex align-items-center">
+                            <div class="d-inline-block d-xl-none mr-15">
+                                <button type="button" class="simple-icon ot-menu-toggle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 16 16">
+                                        <path fill="currentColor" fill-rule="evenodd" d="M14 5H2V3h12v2zm0 4H2V7h12v2zM2 13h12v-2H2v2z" clip-rule="evenodd" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="header-logo">
+                              <a href="{{ routes.root_url }}"><img src="{{ section.settings.main_logo | img_url: '1920x'}}" alt="{{ shop.name }}"></a>
+                            </div>
+                        </div>
+                        <div class="col-auto d-none d-xl-block">
+                            <nav class="main-menu">
+                                <ul>
+                                  {% for link in linklists[section.settings.main_linklist].links %}
+                                    <li><a href="{{link.url}}">{{ link.title}}</a>
+                                        {% if linklists[link.handle] != empty %}
+                                        <ul class="sub-menu">
+                                          {% for child_l in linklists[link.handle].links %}
+                                            <li>
+                                              <a href="{{ child_l.url }}" {% if child_l.active %}class="current"{% endif %}>
+                                              {{ child_l.title }}
+                                            </a>
+                                            </li>
+                                          {% endfor %}
+                                        </ul>
+                                      {% endif %}
+                                    </li>
+                                  {% endfor %}
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div class="col-auto">
+                            <div class="header-button">
+                                <div class="dropdown-link">
+                                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <svg class="dark" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.7823 20C16.3053 20 20.7823 15.523 20.7823 10C20.7823 9.537 20.0883 9.46 19.8493 9.857C19.3396 10.7013 18.6444 11.4186 17.8164 11.9545C16.9883 12.4903 16.0492 12.8307 15.0702 12.9499C14.0911 13.0691 13.0978 12.9639 12.1654 12.6423C11.233 12.3207 10.386 11.7911 9.68863 11.0937C8.99122 10.3963 8.46167 9.54933 8.14007 8.61695C7.81848 7.68457 7.71328 6.69123 7.83245 5.71217C7.95161 4.73311 8.29202 3.794 8.82788 2.96599C9.36374 2.13797 10.081 1.44275 10.9253 0.933C11.3223 0.693 11.2453 0 10.7823 0C5.25935 0 0.782349 4.477 0.782349 10C0.782349 15.523 5.25935 20 10.7823 20Z" fill="black" />
+                                        </svg>
+
+
+                                        <svg class="light" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11 16C9.61667 16 8.43734 15.5123 7.462 14.537C6.48667 13.5617 5.99934 12.3827 6 11C6 9.61667 6.48767 8.43734 7.463 7.462C8.43834 6.48667 9.61734 5.99934 11 6C12.3833 6 13.5627 6.48767 14.538 7.463C15.5133 8.43834 16.0007 9.61734 16 11C16 12.3833 15.5123 13.5627 14.537 14.538C13.5617 15.5133 12.3827 16.0007 11 16ZM1 12C0.71667 12 0.479003 11.904 0.287003 11.712C0.0950034 11.52 -0.000663206 11.2827 3.46021e-06 11C3.46021e-06 10.7167 0.0960034 10.479 0.288003 10.287C0.480003 10.095 0.717337 9.99934 1 10H3C3.28334 10 3.521 10.096 3.713 10.288C3.905 10.48 4.00067 10.7173 4 11C4 11.2833 3.904 11.521 3.712 11.713C3.52 11.905 3.28267 12.0007 3 12H1ZM19 12C18.7167 12 18.479 11.904 18.287 11.712C18.095 11.52 17.9993 11.2827 18 11C18 10.7167 18.096 10.479 18.288 10.287C18.48 10.095 18.7173 9.99934 19 10H21C21.2833 10 21.521 10.096 21.713 10.288C21.905 10.48 22.0007 10.7173 22 11C22 11.2833 21.904 11.521 21.712 11.713C21.52 11.905 21.2827 12.0007 21 12H19ZM11 4C10.7167 4 10.479 3.904 10.287 3.712C10.095 3.52 9.99934 3.28267 10 3V1C10 0.71667 10.096 0.479003 10.288 0.287003C10.48 0.0950034 10.7173 -0.000663206 11 3.46021e-06C11.2833 3.46021e-06 11.521 0.0960034 11.713 0.288003C11.905 0.480003 12.0007 0.717337 12 1V3C12 3.28334 11.904 3.521 11.712 3.713C11.52 3.905 11.2827 4.00067 11 4ZM11 22C10.7167 22 10.479 21.904 10.287 21.712C10.095 21.52 9.99934 21.2827 10 21V19C10 18.7167 10.096 18.479 10.288 18.287C10.48 18.095 10.7173 17.9993 11 18C11.2833 18 11.521 18.096 11.713 18.288C11.905 18.48 12.0007 18.7173 12 19V21C12 21.2833 11.904 21.521 11.712 21.713C11.52 21.905 11.2827 22.0007 11 22ZM4.65 6.05L3.575 5C3.375 4.81667 3.279 4.58334 3.287 4.3C3.295 4.01667 3.391 3.775 3.575 3.575C3.775 3.375 4.01667 3.275 4.3 3.275C4.58334 3.275 4.81667 3.375 5 3.575L6.05 4.65C6.23334 4.85 6.325 5.08334 6.325 5.35C6.325 5.61667 6.23334 5.85 6.05 6.05C5.86667 6.25 5.63767 6.346 5.363 6.338C5.08834 6.33 4.85067 6.234 4.65 6.05ZM17 18.425L15.95 17.35C15.7667 17.15 15.675 16.9123 15.675 16.637C15.675 16.3617 15.7667 16.1327 15.95 15.95C16.1333 15.75 16.3627 15.6543 16.638 15.663C16.9133 15.6717 17.1507 15.7673 17.35 15.95L18.425 17C18.625 17.1833 18.721 17.4167 18.713 17.7C18.705 17.9833 18.609 18.225 18.425 18.425C18.225 18.625 17.9833 18.725 17.7 18.725C17.4167 18.725 17.1833 18.625 17 18.425ZM15.95 6.05C15.75 5.86667 15.654 5.63767 15.662 5.363C15.67 5.08834 15.766 4.85067 15.95 4.65L17 3.575C17.1833 3.375 17.4167 3.279 17.7 3.287C17.9833 3.295 18.225 3.391 18.425 3.575C18.625 3.775 18.725 4.01667 18.725 4.3C18.725 4.58334 18.625 4.81667 18.425 5L17.35 6.05C17.15 6.23334 16.9167 6.325 16.65 6.325C16.3833 6.325 16.15 6.23334 15.95 6.05ZM3.575 18.425C3.375 18.225 3.275 17.9833 3.275 17.7C3.275 17.4167 3.375 17.1833 3.575 17L4.65 15.95C4.85 15.7667 5.08734 15.675 5.362 15.675C5.63667 15.675 5.866 15.7667 6.05 15.95C6.25 16.1333 6.346 16.3627 6.338 16.638C6.33 16.9133 6.234 17.1507 6.05 17.35L5 18.425C4.81667 18.625 4.58334 18.721 4.3 18.713C4.01667 18.705 3.775 18.609 3.575 18.425Z" fill="black" />
+                                        </svg>
+                                        <span class="light">Light</span>
+                                        <span class="dark">Dark</span>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+                                        <li>
+                                            <a class="light-select" href="#">Light</a>
+                                            <a class="dark-select" href="#">Dark</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                {% comment %} <div class="dropdown-link language-toggle">
+                                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.1695 0H0V14.1695H8.20339V22H22.3729V7.83051H14.1695V0ZM6.16676 3.35593L3.82637 10.0352H5.40678L5.7874 8.94915H8.20339V12.678H1.49153V1.49153H12.678V7.83051H9.57056L8.00297 3.35593H6.16676ZM7.8595 7.45763H6.30999L7.08475 5.24653L7.8595 7.45763ZM20.8814 9.32203V20.5085H9.69491V9.32203H20.8814Z" fill="black" />
+                                            <path d="M14.0499 16.0563C14.1925 16.2854 14.3496 16.5052 14.5201 16.7144C13.9795 17.006 13.3654 17.152 12.6781 17.1525V18.6441C13.8033 18.6441 14.8086 18.3454 15.6611 17.7667C16.5136 18.3454 17.5189 18.6441 18.6442 18.6441V17.1525C17.9582 17.1525 17.3442 17.0064 16.8021 16.7141C16.9726 16.505 17.1297 16.2853 17.2723 16.0563C17.7022 15.3574 18.0183 14.5947 18.2089 13.7966H19.017V12.3051H16.4069V11.1864H14.9153V12.3051H12.3052V13.7966H13.1133C13.3039 14.5947 13.62 15.3574 14.0499 16.0563ZM16.6646 13.7966C16.5103 14.3128 16.2894 14.8067 16.0074 15.2658C15.9021 15.435 15.7864 15.5977 15.6611 15.7527C15.5449 15.6091 15.4371 15.4589 15.3381 15.3029C15.0447 14.8336 14.8157 14.327 14.6574 13.7966H16.6646Z" fill="black" />
+                                        </svg>
+                                        English
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
+                                        <li>
+                                            <a href="#">English</a>
+                                            <a href="#">Italian</a>
+                                        </li>
+                                    </ul>
+                                </div> {% endcomment %}
+                                {%- if shop.customer_accounts_enabled -%}
+                                        <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="ot-btn style2">Login/ Sign up
+                                      {%- liquid
+                                        if customer
+                                        echo 'customer.account_fallback' | t
+                                        else
+                                        
+                                        endif
+                                    -%}</a>
+                                    {%- endif -%} 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
 
 {%- if settings.cart_type == "notification" -%}
   {%- render 'cart-notification', color_scheme: section.settings.color_scheme, desktop_menu_type: section.settings.menu_type_desktop -%}
@@ -899,38 +842,29 @@
   </script>
 {%- endif -%}
 
+
+
 {% schema %}
-{
-  "name": "t:sections.header.name",
-  "class": "section-header",
-  "max_blocks": 3,
-  "settings": [
-    {
-      "type": "select",
-      "id": "logo_position",
-      "options": [
-        {
-          "value": "top-left",
-          "label": "t:sections.header.settings.logo_position.options__2.label"
-        },
-        {
-          "value": "top-center",
-          "label": "t:sections.header.settings.logo_position.options__3.label"
-        },
-        {
-          "value": "middle-left",
-          "label": "t:sections.header.settings.logo_position.options__1.label"
-        },
-        {
-          "value": "middle-center",
-          "label": "t:sections.header.settings.logo_position.options__4.label"
-        }
-      ],
-      "default": "middle-left",
-      "label": "t:sections.header.settings.logo_position.label",
-      "info": "t:sections.header.settings.logo_help.content"
-    },
-    {
+  {
+      "name" : "Header",
+      "settings" : [
+      {
+          "type" : "text",
+          "id" : "email_link",
+          "label" : "Email"
+      }, 
+      {
+          "type": "image_picker",
+          "id": "main_logo",
+          "label": "Main Logo"
+      },
+      {
+          "type" : "link_list",
+          "id" : "main_linklist",
+          "label" : "Menu",
+          "default" : "main-menu"
+      },
+      {
       "type": "link_list",
       "id": "menu",
       "default": "main-menu",
@@ -956,150 +890,11 @@
       "default": "dropdown",
       "label": "t:sections.header.settings.menu_type_desktop.label",
       "info": "t:sections.header.settings.menu_type_desktop.info"
-    },
-    {
-      "type": "select",
-      "id": "sticky_header_type",
-      "options": [
-        {
-          "value": "none",
-          "label": "t:sections.header.settings.sticky_header_type.options__1.label"
-        },
-        {
-          "value": "on-scroll-up",
-          "label": "t:sections.header.settings.sticky_header_type.options__2.label"
-        },
-        {
-          "value": "always",
-          "label": "t:sections.header.settings.sticky_header_type.options__3.label"
-        },
-        {
-          "value": "reduce-logo-size",
-          "label": "t:sections.header.settings.sticky_header_type.options__4.label"
-        }
-      ],
-      "default": "on-scroll-up",
-      "label": "t:sections.header.settings.sticky_header_type.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_line_separator",
-      "default": true,
-      "label": "t:sections.header.settings.show_line_separator.label"
-    },
-    {
-      "type": "select",
-      "id": "color_scheme",
-      "options": [
-        {
-          "value": "accent-1",
-          "label": "t:sections.all.colors.accent_1.label"
-        },
-        {
-          "value": "accent-2",
-          "label": "t:sections.all.colors.accent_2.label"
-        },
-        {
-          "value": "background-1",
-          "label": "t:sections.all.colors.background_1.label"
-        },
-        {
-          "value": "background-2",
-          "label": "t:sections.all.colors.background_2.label"
-        },
-        {
-          "value": "inverse",
-          "label": "t:sections.all.colors.inverse.label"
-        }
-      ],
-      "default": "background-1",
-      "label": "t:sections.all.colors.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.header.settings.header__3.content",
-      "info": "t:sections.header.settings.header__4.info"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_country_selector",
-      "default": false,
-      "label": "t:sections.header.settings.enable_country_selector.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.header.settings.header__5.content",
-      "info": "t:sections.header.settings.header__6.info"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_language_selector",
-      "default": false,
-      "label": "t:sections.header.settings.enable_language_selector.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.header.settings.mobile_layout.content"
-    },
-    {
-      "type": "select",
-      "id": "mobile_logo_position",
-      "options": [
-        {
-          "value": "center",
-          "label": "t:sections.header.settings.mobile_logo_position.options__1.label"
-        },
-        {
-          "value": "left",
-          "label": "t:sections.header.settings.mobile_logo_position.options__2.label"
-        }
-      ],
-      "default": "center",
-      "label": "t:sections.header.settings.mobile_logo_position.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.all.spacing"
-    },
-    {
-      "type": "range",
-      "id": "margin_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.header.settings.margin_bottom.label",
-      "default": 0
-    },
-    {
-      "type": "header",
-      "content": "t:sections.all.padding.section_padding_heading"
-    },
-    {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 36,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
-      "default": 20
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 36,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
-      "default": 20
     }
-  ],
-  "blocks": [
-    {
-      "type": "@app"
-    }
-  ]
-}
-{% endschema %}
+      
+      ]
+  
+  }
+  {% endschema %}
+
+

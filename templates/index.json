@@ -78,7 +78,7 @@
         "heading": "Natural Skincare Solution",
         "description": "<p class=\"fs-40 mt-n3 mb-n2\">\"A well-balanced <b>skin microbiome is vital to skin health.<\/b> When our skin microbiome is out of balance, and lacking certain good microbes, issues like Eczema can flare up. <b>The good news<\/b> is that feeding your skin microbiome with the right ingredients can help your skin <b>regain a healthy balance.<\/b> Our product contains <b>Dermafixium<\/b>, a naturally-derived active ingredient that will <b>reduce itches in minutes and irritation within a day!\"<\/b><\/p>",
         "btn_link": "#",
-        "btn_link_two": "#",
+        "btn_link_two": "shopify:\/\/products\/derma-relief-cream-1",
         "img_one": "shopify:\/\/shop_images\/rounded-cell.jpg",
         "under_text": "The SkinBiomeCo. is here to help you get <br> <span class=\"text-theme\">Healthier skin today!<\/span>"
       }
@@ -122,7 +122,7 @@
       "settings": {
         "heading": "The SkinBiome Co.",
         "sub_heading": "Eliminate Your Eczema Now With our Steroid-Free Cream!",
-        "btn_link": "#",
+        "btn_link": "shopify:\/\/products\/derma-relief-cream-1",
         "bg_img": "shopify:\/\/shop_images\/cream_img_2.png"
       }
     }

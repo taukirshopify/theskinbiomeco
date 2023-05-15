@@ -2,6 +2,7 @@
     <div class="container">
         <h2 class="sec-title text-center">Benefits of The SkinBiome Co.’s Derma Relief Cream</h2>
     </div>
+    {% for block in section.blocks %}
     <div class="bg-smoke py-5">
         <div class="container">
             <div class="row">
@@ -24,50 +25,7 @@
             </div>
         </div>
     </div>
-    <div class="py-5">
-        <div class="container">
-            <div class="row flex-row-reverse">
-                <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
-                    <div class="benefit-box bg-smoke">
-                        <h2 class="title"><span class="number">2</span>less itchy</h2>
-                        <div class="content">
-                            <p class="fs-30 mb-30">The SkinBiome Co.’s Derma Relief Cream contains a naturally derived
-                                active ingredient that is <span class="text-theme fw-bold">steroid-free</span> and <span
-                                    class="text-theme fw-bold">safe for multiple skin types.</span></p>
-                            <p class="fs-40 mb-n2">Never worry about burning sensations and stinging again!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mt-4 mt-lg-0 wow fadeInRight" data-wow-delay="0.2s">
-                    <div class="benefit-img img-left">
-                        <img class="w-100" src="assets/img/normal/benefit_2.jpg" alt="img">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="bg-smoke py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
-                    <div class="benefit-box">
-                        <h2 class="title"><span class="number">1</span>Long Term Solution</h2>
-                        <div class="content">
-                            <p class="fs-30 mb-30">The SkinBiome Co.’s Derma Relief Cream contains a naturally derived
-                                active ingredient that is <span class="text-theme fw-bold">steroid-free</span> and <span
-                                    class="text-theme fw-bold">safe for multiple skin types.</span></p>
-                            <p class="fs-40 mb-n2">Never worry about burning sensations and stinging again!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mt-4 mt-lg-0 wow fadeInRight" data-wow-delay="0.2s">
-                    <div class="benefit-img img-right">
-                        <img class="w-100" src="assets/img/normal/benefit_3.jpg" alt="img">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+{% endfor %}
 </div>
 
 <div class="bg-smoke2 pt-45 pb-45">

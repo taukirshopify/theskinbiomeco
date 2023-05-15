@@ -16,7 +16,11 @@
             {% else %}
             {% endif %}">
                 <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
-                    <div class="benefit-box">
+                    <div class="benefit-box {% assign mod = forloop.index | modulo: 2 %}
+                    {% if mod == 0 %}
+                    flex-row-reverse
+                    {% else %}
+                    {% endif %}bg-smoke">
                         <h2 class="title"><span class="number">{{forloop.index}}</span>{{block.settings.loop_heading }}</h2>
                         <div class="content">
                             {{block.settings.loop_description }}

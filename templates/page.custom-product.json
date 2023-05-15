@@ -37,7 +37,10 @@
           "settings": {
             "loop_heading": "Natural",
             "loop_description": "<p class=\"fs-30 mb-30\">The SkinBiome Co.’s Derma Relief Cream contains a naturally derived active ingredient that is <span class=\"text-theme fw-bold\">steroid-free<\/span> and <span class=\"text-theme fw-bold\">safe for multiple skin types.<\/span><\/p>\n                                <p class=\"fs-40 mb-n2\">Never worry about burning sensations and stinging again!<\/p>",
-            "loop_img": "shopify:\/\/shop_images\/benefit_1.jpg"
+            "loop_img": "shopify:\/\/shop_images\/benefit_1.jpg",
+            "loop_bg_color": "bg-smoke",
+            "loop_row_position": "flex-row-reverse",
+            "loop_image_position": "img-right"
           }
         },
         "52536b1e-6686-4871-bbcb-c7c6096d9ed5": {
@@ -45,7 +48,10 @@
           "settings": {
             "loop_heading": "less itchy",
             "loop_description": "<p class=\"fs-30 mb-30\">The SkinBiome Co.’s Derma Relief Cream contains a naturally derived active ingredient that is <span class=\"text-theme fw-bold\">steroid-free<\/span> and <span class=\"text-theme fw-bold\">safe for multiple skin types.<\/span><\/p>\n                                <p class=\"fs-40 mb-n2\">Never worry about burning sensations and stinging again!<\/p>",
-            "loop_img": "shopify:\/\/shop_images\/benefit_2.jpg"
+            "loop_img": "shopify:\/\/shop_images\/benefit_2.jpg",
+            "loop_bg_color": "transparent",
+            "loop_row_position": "flex-row-reverse",
+            "loop_image_position": "img-right"
           }
         },
         "5161bc4f-9d52-4316-bdef-0d878b9ddf0d": {
@@ -53,7 +59,10 @@
           "settings": {
             "loop_heading": "Long Term Solution",
             "loop_description": "<p class=\"fs-30 mb-30\">The SkinBiome Co.’s Derma Relief Cream contains a naturally derived active ingredient that is <span class=\"text-theme fw-bold\">steroid-free<\/span> and <span class=\"text-theme fw-bold\">safe for multiple skin types.<\/span><\/p>\n                                <p class=\"fs-40 mb-n2\">Never worry about burning sensations and stinging again!<\/p>",
-            "loop_img": "shopify:\/\/shop_images\/benefit_3.jpg"
+            "loop_img": "shopify:\/\/shop_images\/benefit_3.jpg",
+            "loop_bg_color": "bg-smoke",
+            "loop_row_position": "flex-row-reverse",
+            "loop_image_position": "img-right"
           }
         }
       },

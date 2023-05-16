@@ -1,9 +1,6 @@
-<section class="{{ section.settings.loop_item_spacing }}">
+<section class="space-bottom">
     <div class="container">
-        <div class="title-area wow fadeInUp" data-wow-delay="0.2s">
-            <h2 class="sec-title mb-15">{{section.settings.heading }}</h2>
-            <p class="sec-text fs-40">{{section.settings.under_content }}</p>
-        </div>
+        
         {% for block in section.blocks %}
         <div class="row {{block.settings.loop_row_position }}">
             <div class="col-xl-6 mb-40 mb-xl-0 wow fadeInRight" data-wow-delay="0.2s">

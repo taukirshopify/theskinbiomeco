@@ -3,13 +3,29 @@
         {% for block in section.blocks %}
         <div class="row {{block.settings.loop_row_position }}">
             <div class="col-xl-6 mb-30 mb-xl-0 wow fadeInRight" data-wow-delay="0.2s">
-                <div class="rounded-10">                    
-                <img class="w-100" src="{{ block.settings.loop_img | img_url: '1920x' }}"
-                      alt="{{block.settings.loop_img.alt }}">
+              {% assign mod = forloop.index | modulo: 2 %}
+                {% if mod == 0 %}
+                  <div class="rounded-10">                    
+                  <img class="w-100" src="{{ block.settings.loop_img | img_url: '1920x' }}"
+                        alt="{{block.settings.loop_img.alt }}">
+                  </div>
+                {% else %}
+                <div class="ms-xxl-4 ps-xl-2">
+                  <div class="rounded-10">                    
+                  <img class="w-100" src="{{ block.settings.loop_img | img_url: '1920x' }}"
+                        alt="{{block.settings.loop_img.alt }}">
+                  </div>
                 </div>
+              {% endif %}
+              
             </div>
             <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
-                <div class="ps-xxl-2">
+                <div class="{% assign mod = forloop.index | modulo: 2 %}
+                {% if mod == 0 %}
+                ps-xxl-2
+                {% else %}
+                content-box2
+                {% endif %}">
                     {{block.settings.loop_description }}
                 </div>
             </div>
@@ -49,14 +65,14 @@
             "options": [
                 {
                 "value": "align-items-center",
-                "label": "Position Row"
+                "label": "Position Align Items Center"
                 },
                 {
                 "value": "flex-row-reverse",
                 "label": "Position Flex Row Reverse"
                 }
             ],
-            "default": "align-items-center",
+            "default": "flex-row-reverse",
             "label": "Loop Row Position"
             }
           ]

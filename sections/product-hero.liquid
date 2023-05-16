@@ -46,6 +46,18 @@
                             </div>
                         </div>
                         <div class="wow fadeInUp" data-wow-delay="0.3s">
+                          <form method="post" action="/cart/add">
+                            <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+                         
+                            <span class="button" onclick="decreaseCount(event, this)">
+                                <img src="{{ 'minus.svg' | asset_url }}" alt="" />
+                            </span>
+                            <input min="1" type="number" id="quantity"  class="input-num" name="quantity" value="1"/>
+                            <span class="button up-btn" onclick="increaseCount(event, this)">
+                                <img src="{{ 'plus.svg' | asset_url }}" alt="" />
+                            </span>
+                            <input type="submit" value="Add to cart" class="ot-btn" />
+                            </form>
                             <h3 class="fs-30 text-theme">Description:</h3>
                             <h4 class="fs-40">{{section.settings.desc_heading }}</h4>
                             <p class="text">{{section.settings.product_desc }}</p>

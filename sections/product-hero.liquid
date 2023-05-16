@@ -44,7 +44,7 @@
                             <form method="post" action="/cart/add">
                             <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
                          
-                            <span class="button" onclick="decreaseCount(event, this)">
+                            <span onclick="decreaseCount(event, this)">
                                 <img src="{{ 'minus.svg' | asset_url }}" alt="" />
                             </span>
                             <input min="1" type="number" id="quantity"  class="input-num" name="quantity" value="1"/>

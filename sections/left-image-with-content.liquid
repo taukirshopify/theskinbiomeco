@@ -25,3 +25,49 @@
         </div>
     </div>
 </div>
+
+{% schema %}
+    {
+      "name": "Left Image with Text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "main_heading",
+          "label": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "sub_heading",
+          "label": "Sub Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "desc_heading",
+          "label": "Description"
+        },
+        {
+          "type": "textarea",
+          "id": "desc_heading_two",
+          "label": "Description Part Two"
+        },
+        {
+          "type": "url",
+          "id": "desc_btn",
+          "label": "Buy Now"
+        },
+        {
+          "type": "image_picker",
+          "id": "hero_bg_img",
+          "label": "Image"
+        }
+        
+      ],
+      "presets": [
+      {
+        "name": "Science Text with Image",
+        "category":"science"
+        
+      }
+    ]
+    }
+{% endschema %}

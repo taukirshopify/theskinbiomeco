@@ -570,6 +570,9 @@
                                         </li>
                                     </ul>
                                 </div> {% endcomment %}
+                                {% if customer.id == null %}
+Your stuff here
+{% endif %}
                                 {%- if shop.customer_accounts_enabled -%}
                                         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="ot-btn style2">Login/ Sign up
                                       {%- liquid

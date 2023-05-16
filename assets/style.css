@@ -747,7 +747,7 @@ h6 {
     03. Utilities
 ==================================*/
 /*------------------- 3.1. Buttons -------------------*/
-button,
+.shopify-challenge__button, .customer button,
 .ot-btn {
   border: none;
   vertical-align: middle;
@@ -770,19 +770,19 @@ button,
   /* Small devices */
 }
 
-button:hover, button.active,
+.shopify-challenge__button:hover, .shopify-challenge__button.active, .customer button:hover, .customer button.active,
 .ot-btn:hover,
 .ot-btn.active {
   color: var(--white-color);
   background-color: var(--title-color);
 }
 
-button.btn-fw,
+.shopify-challenge__button.btn-fw, .customer button.btn-fw,
 .ot-btn.btn-fw {
   width: 100%;
 }
 
-button.style2,
+.shopify-challenge__button.style2, .customer button.style2,
 .ot-btn.style2 {
   background-color: transparent;
   color: var(--theme-color);
@@ -790,28 +790,28 @@ button.style2,
   padding: 15px 22px;
 }
 
-button.style2:hover,
+.shopify-challenge__button.style2:hover, .customer button.style2:hover,
 .ot-btn.style2:hover {
   background-color: var(--theme-color);
   color: var(--white-color);
   border-color: var(--theme-color);
 }
 
-button.style3,
+.shopify-challenge__button.style3, .customer button.style3,
 .ot-btn.style3 {
   background-color: transparent;
   color: var(--body-color);
   border: 1px solid;
 }
 
-button.style3:hover,
+.shopify-challenge__button.style3:hover, .customer button.style3:hover,
 .ot-btn.style3:hover {
   background-color: var(--title-color);
   color: var(--white-color);
   border-color: var(--title-color);
 }
 
-button.style4,
+.shopify-challenge__button.style4, .customer button.style4,
 .ot-btn.style4 {
   background-color: transparent;
   color: var(--white-color);
@@ -819,27 +819,27 @@ button.style4,
   padding: 15px 22px;
 }
 
-button.style4:hover,
+.shopify-challenge__button.style4:hover, .customer button.style4:hover,
 .ot-btn.style4:hover {
   background-color: var(--title-color);
   color: var(--white-color);
   border-color: var(--title-color);
 }
 
-button.style5,
+.shopify-challenge__button.style5, .customer button.style5,
 .ot-btn.style5 {
   background-color: var(--white-color);
   color: var(--theme-color);
 }
 
-button.style5:hover,
+.shopify-challenge__button.style5:hover, .customer button.style5:hover,
 .ot-btn.style5:hover {
   background-color: var(--title-color);
   color: var(--white-color);
 }
 
 @media (max-width: 767px) {
-  button,
+  .shopify-challenge__button, .customer button,
   .ot-btn {
     font-size: 16px;
     min-width: 155px;

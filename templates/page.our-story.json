@@ -18,6 +18,28 @@
     },
     "abce67f4-83a9-4820-b6e7-8b735c446fb9": {
       "type": "our-story-loop-content",
+      "blocks": {
+        "7f8ea05a-034c-4913-be4b-5f05964d31e5": {
+          "type": "text_block",
+          "settings": {
+            "loop_description": "<p class=\"fs-50 mb-0 text-center\">The SkinBiome Co. was founded with the vision <span class=\"text-theme fw-bold\">to develop safe and highly effective skincare products<\/span> backed by solid scientific evidence. <\/p>",
+            "loop_img": "shopify:\/\/shop_images\/doctor_1.jpg",
+            "loop_row_position": "flex-row-reverse"
+          }
+        },
+        "04f086bf-9063-4fee-b3c4-904cddab8e24": {
+          "type": "text_block",
+          "settings": {
+            "loop_description": "<p class=\"fs-40 mb-0\">Nearly <span class=\"text-theme fw-bold\">1 in 4 children are affected by Eczema.<\/span> Despite the risk of notable side effects, topical steroids remain the most common treatments for children. Like many parents, Dr Pennino felt extremely frustrated with the <span class=\"text-theme fw-bold\">lack of effective steroid-free alternatives and poor scientific evidence supporting the safe use<\/span> of other skincare products for young children.<\/p>",
+            "loop_img": "shopify:\/\/shop_images\/baby_1.jpg",
+            "loop_row_position": "align-items-center"
+          }
+        }
+      },
+      "block_order": [
+        "7f8ea05a-034c-4913-be4b-5f05964d31e5",
+        "04f086bf-9063-4fee-b3c4-904cddab8e24"
+      ],
       "settings": {
         "heading": ""
       }

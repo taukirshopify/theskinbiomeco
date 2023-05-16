@@ -622,9 +622,9 @@
                                     </svg>
                                           <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
                                           {%- if cart != empty -%}
-                                            <div class="cart-count-bubble">
+                                            <div class="badge">
                                               {%- if cart.item_count < 100 -%}
-                                                <div aria-hidden="true" class="badge">{{ cart.item_count }}</div>
+                                                {{ cart.item_count }}
                                               {%- endif -%}
                                               <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
                                             </div>

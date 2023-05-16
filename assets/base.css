@@ -2881,8 +2881,8 @@ details-disclosure > details {
   background-attachment: fixed;
 } */
 .gradient {
-  background: rgb(var(--color-background));
-  background: var(--gradient-background);
+  background: inherit;
+  background: inherit;
   background-attachment: fixed;
 }
 

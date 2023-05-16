@@ -2885,7 +2885,9 @@ details-disclosure > details {
   background: inherit;
   background-attachment: fixed;
 }
-
+.footer-wrapper font {
+  display: inline-block;
+}
 @media screen and (forced-colors: active) {
   .icon {
     color: CanvasText;

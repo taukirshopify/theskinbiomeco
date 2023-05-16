@@ -35,11 +35,22 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "7fa81f33-2502-4369-9498-fd314e955300": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "banner",
     "0ea21eaa-93a2-4ac9-8b75-0ccc93dcc8be",
-    "product-grid"
+    "product-grid",
+    "7fa81f33-2502-4369-9498-fd314e955300"
   ]
 }

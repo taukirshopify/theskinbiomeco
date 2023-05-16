@@ -40,7 +40,7 @@
                 <div class="product-about">
                     <div class="d-none d-lg-block">
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
-                            <h2 class="sec-title mb-35">{{section.settings.main_heading }}</h2>
+                            <h2 class="sec-title mb-35">{{ product.title | escape }}</h2>
                             <form method="post" action="/cart/add">
                             <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
                          

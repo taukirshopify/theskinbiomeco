@@ -68,3 +68,45 @@
         </div>
     </div>
 </section>
+
+{% schema %}
+    {
+      "name": "Product Tab Slider",
+      "settings": [
+        {
+          "type": "header",
+          "content": "product tab slider"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Section Title",
+          "default": "Meet the lineup"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "collection",
+          "name": "collection",
+          "settings": [
+            {
+              "type": "text",
+              "id": "title",
+              "label": "Title"
+            },
+            {
+              "type": "collection",
+              "id": "collection",
+              "label": "Select A Collection"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Product",
+          "category": "home"
+        }
+      ]
+    }
+  {% endschema %}

@@ -2,7 +2,7 @@
 {{ 'component-totals.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
-
+<div class="container"></div>
 <div class="page-width{% if cart == empty %} is-empty{% endif %}" id="main-cart-footer" data-id="{{ section.id }}">
   <div>
     <div class="cart__footer">
@@ -92,7 +92,7 @@
     </div>
   </div>
 </div>
-
+</div>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     function isIE() {

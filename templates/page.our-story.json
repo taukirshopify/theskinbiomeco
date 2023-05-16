@@ -15,10 +15,27 @@
         "first_img": "shopify:\/\/shop_images\/lab_1.jpg",
         "img_content": "<p class=\"fs-40 mt-n2 mb-35 text-theme fw-bold\">Dr Pennino spent over a decade studying the mechanisms underpinning skin disorders and the role of the skin microbiome in contributing to skin health and integrity.<\/p>\n                        <p class=\"fs-40 mb-n2\">He decided to use his expertise to develop a good solution for skin disorders, and The SkinBiome Co.'s solution was discovered after years of intensive research.<\/p>"
       }
+    },
+    "abce67f4-83a9-4820-b6e7-8b735c446fb9": {
+      "type": "our-story-loop-content",
+      "settings": {
+        "heading": ""
+      }
+    },
+    "c81edab8-a334-40a8-aac8-4822dcf27d18": {
+      "type": "button-with-content",
+      "settings": {
+        "first_img": "shopify:\/\/shop_images\/cream_in_hand.jpg",
+        "img_content": "<p class=\"fs-40 mb-30 text-theme fw-bold\">Our mission at The SkinBiome Co. is simple.<\/p>\n                        <p class=\"fs-40 mb-0\">We aim to eradicate skin problems through the power of our skin microbiome – the natural way – starting with our first product for Eczema-prone-skin. <b>We believe that you deserve better natural, science-driven skincare!<\/b><\/p>",
+        "under_content": "Here at The SkinBiome Co., we only use all-natural active ingredients to tackle mild Eczema. Eliminate Your Eczema Now with Our Steroid-Free Cream!",
+        "under_link": "shopify:\/\/products\/derma-relief-cream-1"
+      }
     }
   },
   "order": [
     "main",
-    "25343a23-fe6c-4973-a4b1-e1149b9d8cbd"
+    "25343a23-fe6c-4973-a4b1-e1149b9d8cbd",
+    "abce67f4-83a9-4820-b6e7-8b735c446fb9",
+    "c81edab8-a334-40a8-aac8-4822dcf27d18"
   ]
 }

@@ -16,10 +16,55 @@
         "email_text": "Should you ever feel unsatisfied with our product for any reason, feel free to reach out to our friendly Customer Care Team at",
         "desc_email": "CCT@skinbiomeco.com"
       }
+    },
+    "1935c168-2ec8-47e5-ac96-c06ed99b40b2": {
+      "type": "review",
+      "blocks": {
+        "779f4603-d2b8-4d98-a874-164f0e2945cf": {
+          "type": "text_block",
+          "settings": {
+            "img_one": "shopify:\/\/shop_images\/testi_1_1.jpg",
+            "heading_one": "Before",
+            "img_two": "shopify:\/\/shop_images\/testi_1_2.jpg",
+            "heading_two": "After [one week]",
+            "author_description": "I love that my Derma Relief Cream is a sustainable steroid-free solution to calmer and healthier skin!",
+            "author_name": "Jon <br>Derma Relief Cream"
+          }
+        },
+        "a4b5f332-dbd4-49eb-8aa6-b409d0492cf6": {
+          "type": "text_block",
+          "settings": {
+            "img_one": "shopify:\/\/shop_images\/testi_1_1.jpg",
+            "heading_one": "Before",
+            "img_two": "shopify:\/\/shop_images\/testi_1_2.jpg",
+            "heading_two": "After [one week]",
+            "author_description": "I love that my Derma Relief Cream is a sustainable steroid-free solution to calmer and healthier skin!",
+            "author_name": "Jon <br>Derma Relief Cream"
+          }
+        }
+      },
+      "block_order": [
+        "779f4603-d2b8-4d98-a874-164f0e2945cf",
+        "a4b5f332-dbd4-49eb-8aa6-b409d0492cf6"
+      ],
+      "settings": {
+        "heading": "Reviews"
+      }
+    },
+    "54e4bdd5-658b-4d20-82db-19f4d02d467e": {
+      "type": "call-to-action",
+      "settings": {
+        "heading": "The SkinBiome Co.",
+        "sub_heading": "Eliminate Your Eczema Now With our Steroid-Free Cream!",
+        "btn_link": "shopify:\/\/products\/derma-relief-cream-1",
+        "bg_img": "shopify:\/\/shop_images\/cream_img_2.png"
+      }
     }
   },
   "order": [
     "main",
-    "f9912a53-fec0-48bf-ab31-90be43ee4471"
+    "f9912a53-fec0-48bf-ab31-90be43ee4471",
+    "1935c168-2ec8-47e5-ac96-c06ed99b40b2",
+    "54e4bdd5-658b-4d20-82db-19f4d02d467e"
   ]
 }

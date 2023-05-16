@@ -34,6 +34,19 @@
         "hero_bg_img": "shopify:\/\/shop_images\/cell_before_after.png"
       }
     },
+    "96392a43-9e32-4ecb-afee-c5232ee3a20f": {
+      "type": "under-image-under-content",
+      "settings": {
+        "main_heading": "What is Dermafixium, and how does it help?",
+        "desc_heading": "Through his research, Dr Pennino discovered Dermafixium, which is a beneficial extract from one of the good microbes on the healthy skin of children and adults and is deficient in individuals affected by skin disorders like Eczema. Importantly, this microbial strain of Lactobacillus behind Dermafixium lives specifically on human skin, unlike the other members in the same family that are normally found in the gut.",
+        "sub_heading": "Dermafixium prevents redness and skin damage provoked by irritant",
+        "left_heading": "Irritant",
+        "right_heading": "Dermafixium + Irritant",
+        "hero_bg_img": "shopify:\/\/shop_images\/cell_4.jpg",
+        "image_under_heading": "Representative result of SLS induced erythema in 24 hours patch test",
+        "image_under_desc": "Dermafixium is a natural source of essential molecules and nutrients for the skin, consisting of short-chain fatty acids and microbial metabolites, that promote healthier skin when re-introduced onto the skin. Dr Pennino and The SkinBiome Co. team spent close to 10 years developing a highly effective formula for people affected by skin disorders. Our scientific data here strongly supports that our formulation can lead to visible skin improvement within one day of application."
+      }
+    },
     "ae15c987-9569-4034-ac65-ef711813bc77": {
       "type": "review",
       "blocks": {
@@ -83,6 +96,7 @@
     "521eb754-ed0b-4e2a-8863-d9cd0a17c43a",
     "3e9e28b2-c561-4b3e-bfea-988f707b05fa",
     "052eef9a-0a4a-4a62-9625-fb85a75d70de",
+    "96392a43-9e32-4ecb-afee-c5232ee3a20f",
     "ae15c987-9569-4034-ac65-ef711813bc77",
     "66a665a1-834f-4607-af9e-aef1a354e7db"
   ]

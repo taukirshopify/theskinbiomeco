@@ -14,6 +14,22 @@
                             <div class="form-group">
                                 <input type="email" name="email" id="email" placeholder="Your Email"
                                     class="form-control">
+                                    <input
+                                        autocomplete="email"
+                                        type="email"
+                                        id="ContactForm-email"
+                                        class="field__input"
+                                        name="contact[email]"
+                                        spellcheck="false"
+                                        autocapitalize="off"
+                                        value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                                        aria-required="true"
+                                        {% if form.errors contains 'email' %}
+                                        aria-invalid="true"
+                                        aria-describedby="ContactForm-email-error"
+                                        {% endif %}
+                                        placeholder="{{ 'templates.contact.form.email' | t }}"
+                                    >
                             </div>
                             {%- if form.errors contains 'email' -%}
                                 <small class="contact__field-error" id="ContactForm-email-error">

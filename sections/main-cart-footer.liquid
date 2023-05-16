@@ -60,7 +60,7 @@
             {%- else -%}
               <div class="cart__ctas" {{ block.shopify_attributes }}>
                 <noscript>
-                  <button type="submit" class="cart__update-button button button--secondary" form="cart">
+                  <button type="submit" class="ot-btn cart__update-button button button--secondary" form="cart">
                     {{ 'sections.cart.update' | t }}
                   </button>
                 </noscript>
@@ -68,7 +68,7 @@
                 <button
                   type="submit"
                   id="checkout"
-                  class="cart__checkout-button button"
+                  class="ot-btn cart__checkout-button button"
                   name="checkout"
                   {% if cart == empty %}
                     disabled

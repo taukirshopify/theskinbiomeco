@@ -777,6 +777,12 @@
                                             </div>
                                           </details>
                                         </details-modal>
+                                        {%- for block in section.blocks -%}
+                                          {%- case block.type -%}
+                                            {%- when '@app' -%}
+                                              {% render block %}
+                                          {%- endcase -%}
+                                        {%- endfor -%}
                                         
                                         <a href="{{ routes.cart_url }}" class="simple-icon" id="cart-icon-bubble">
                                           <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">

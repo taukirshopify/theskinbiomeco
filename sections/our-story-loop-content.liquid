@@ -2,9 +2,8 @@
     <div class="container">
         {% for block in section.blocks %}
         <div class="row {{block.settings.loop_row_position }}">
-            <div class="col-xl-6 mb-40 mb-xl-0 wow fadeInRight" data-wow-delay="0.2s">
-                <div class="rounded-10">
-                    
+            <div class="col-xl-6 mb-30 mb-xl-0 wow fadeInRight" data-wow-delay="0.2s">
+                <div class="rounded-10">                    
                 <img class="w-100" src="{{ block.settings.loop_img | img_url: '1920x' }}"
                       alt="{{block.settings.loop_img.alt }}">
                 </div>

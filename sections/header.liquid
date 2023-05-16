@@ -614,10 +614,10 @@
                                           <details>
                                             <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
                                               <span>
-                                                <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false">
+                                                {% comment %} <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false">
                                                   <use href="#icon-search">
-                                                </svg>
-                                                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                </svg> {% endcomment %}
+                                                <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M31.3556 34L19.4556 22.1C18.5111 22.8556 17.425 23.4537 16.1972 23.8944C14.9694 24.3352 13.663 24.5556 12.2778 24.5556C8.8463 24.5556 5.94244 23.3668 3.56622 20.9893C1.19 18.6119 0.00125926 15.708 0 12.2778C0 8.8463 1.18874 5.94244 3.56622 3.56622C5.9437 1.19 8.84756 0.00125926 12.2778 0C15.7093 0 18.6131 1.18874 20.9893 3.56622C23.3656 5.9437 24.5543 8.84756 24.5556 12.2778C24.5556 13.663 24.3352 14.9694 23.8944 16.1972C23.4537 17.425 22.8556 18.5111 22.1 19.4556L34 31.3556L31.3556 34ZM12.2778 20.7778C14.6389 20.7778 16.6461 19.9511 18.2996 18.2977C19.953 16.6443 20.779 14.6376 20.7778 12.2778C20.7778 9.91667 19.9511 7.90941 18.2977 6.256C16.6443 4.60259 14.6376 3.77652 12.2778 3.77778C9.91667 3.77778 7.90941 4.60448 6.256 6.25789C4.60259 7.9113 3.77652 9.91793 3.77778 12.2778C3.77778 14.6389 4.60448 16.6461 6.25789 18.2996C7.9113 19.953 9.91793 20.779 12.2778 20.7778Z" fill="black" />
                                             </svg>
                                                 <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false">

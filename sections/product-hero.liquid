@@ -41,12 +41,7 @@
                     <div class="d-none d-lg-block">
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
                             <h2 class="sec-title mb-35">{{section.settings.main_heading }}</h2>
-                            <div class="product-meta">
-                                <p class="fs-30 info"><span class="text-theme">Jar/Tube size: </span>{{section.settings.size_heading }}</p>
-                            </div>
-                        </div>
-                        <div class="wow fadeInUp" data-wow-delay="0.3s">
-                          <form method="post" action="/cart/add">
+                            <form method="post" action="/cart/add">
                             <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
                          
                             <span class="button" onclick="decreaseCount(event, this)">
@@ -58,6 +53,11 @@
                             </span>
                             <input type="submit" value="Add to cart" class="ot-btn" />
                             </form>
+                            <div class="product-meta">
+                                <p class="fs-30 info"><span class="text-theme">Jar/Tube size: </span>{{section.settings.size_heading }}</p>
+                            </div>
+                        </div>
+                        <div class="wow fadeInUp" data-wow-delay="0.3s">
                             <h3 class="fs-30 text-theme">Description:</h3>
                             <h4 class="fs-40">{{section.settings.desc_heading }}</h4>
                             <p class="text">{{section.settings.product_desc }}</p>

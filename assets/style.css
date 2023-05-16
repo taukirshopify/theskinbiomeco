@@ -792,11 +792,36 @@ h6 {
 }
 
 .ot-btn.style3 {
+  background-color: transparent;
+  color: var(--body-color);
+  border: 1px solid;
+}
+
+.ot-btn.style3:hover {
+  background-color: var(--title-color);
+  color: var(--white-color);
+  border-color: var(--title-color);
+}
+
+.ot-btn.style4 {
+  background-color: transparent;
+  color: var(--white-color);
+  border: 2px solid;
+  padding: 15px 22px;
+}
+
+.ot-btn.style4:hover {
+  background-color: var(--title-color);
+  color: var(--white-color);
+  border-color: var(--title-color);
+}
+
+.ot-btn.style5 {
   background-color: var(--white-color);
   color: var(--theme-color);
 }
 
-.ot-btn.style3:hover {
+.ot-btn.style5:hover {
   background-color: var(--title-color);
   color: var(--white-color);
 }

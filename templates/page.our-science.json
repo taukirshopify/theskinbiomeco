@@ -47,6 +47,15 @@
         "image_under_desc": "Dermafixium is a natural source of essential molecules and nutrients for the skin, consisting of short-chain fatty acids and microbial metabolites, that promote healthier skin when re-introduced onto the skin. Dr Pennino and The SkinBiome Co. team spent close to 10 years developing a highly effective formula for people affected by skin disorders. Our scientific data here strongly supports that our formulation can lead to visible skin improvement within one day of application."
       }
     },
+    "6257cad7-5acb-4da6-a167-4fe2703fd8a9": {
+      "type": "right-image-with-text",
+      "settings": {
+        "main_heading": "What is Dermafixium, and how does it help?",
+        "desc_heading": "<p class=\"fs-30 mb-30\">Dr Pennino has over 15 years of experience researching the role of the skin microbiome in inflammatory conditions like Eczema. While at St John's Institute of Dermatology at King's College London, one of the world's leading centers for skin disease research and healthcare, he participated in analyzing one of the largest skin microbiome datasets in the world for skin disorders.<\/p>\n                                    <p class=\"fs-30 mb-0\">The SkinBiome Co. team analyzed millions of human datapoints using artificial intelligence (A.I) and other scientific experimentation. From this, the team first identified several families of microbes which were missing in the skin of affected patients which enables Eczema.<\/p>",
+        "hero_bg_img": "shopify:\/\/shop_images\/map_1.jpg",
+        "under_desc": "<p class=\"fs-30 mb-15\">The team continued to build several analytical models- which led to the prediction and assessment of many beneficial effects of these good microbes using thorough data analyses and rigorous laboratory testing in their laboratory in Cambridge, UK.<\/p>\n                            <p class=\"fs-30 mb-15\">After years of research and validation, Dr Pennino discovered the proprietary all-natural active ingredient: Dermafixium, which contributes to skin collagen formation and promotes reparatory and anti-inflammatory mechanisms.<\/p>\n                            <p class=\"fs-30 mb-0\">At The SkinBiome Co., Dr Pennino and his team are keen to continue using A.I to supercharge the discovery of skin specific good microbes and develop new transformative products to tackle multiple skin disorders.<\/p>"
+      }
+    },
     "ae15c987-9569-4034-ac65-ef711813bc77": {
       "type": "review",
       "blocks": {
@@ -97,6 +106,7 @@
     "3e9e28b2-c561-4b3e-bfea-988f707b05fa",
     "052eef9a-0a4a-4a62-9625-fb85a75d70de",
     "96392a43-9e32-4ecb-afee-c5232ee3a20f",
+    "6257cad7-5acb-4da6-a167-4fe2703fd8a9",
     "ae15c987-9569-4034-ac65-ef711813bc77",
     "66a665a1-834f-4607-af9e-aef1a354e7db"
   ]

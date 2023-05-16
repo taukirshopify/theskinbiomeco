@@ -18,6 +18,14 @@
         "hero_bg_img": "shopify:\/\/shop_images\/cell_2.jpg"
       }
     },
+    "3e9e28b2-c561-4b3e-bfea-988f707b05fa": {
+      "type": "left-image-with-content",
+      "settings": {
+        "main_heading": "What is the skin microbiome?",
+        "hero_bg_img": "shopify:\/\/shop_images\/cell_3.jpg",
+        "desc_heading": "<p class=\"fs-30 mb-30\">Our skin is our largest organ, and it's teeming with trillions of microorganisms, like bacteria, fungi, and viruses. These invisible lives form an ecosystem known as the skin microbiome, which, like your gut microbiome, is a critical component of our health.<\/p>\n                                    <p class=\"fs-30 mb-0\">Our skin microbiome is an important part of the physical layer that protects you from damages from the outside world, and it works with other parts of your skin to fight infections, heal wounds, and control inflammation.<\/p>"
+      }
+    },
     "ae15c987-9569-4034-ac65-ef711813bc77": {
       "type": "review",
       "blocks": {
@@ -65,6 +73,7 @@
   "order": [
     "main",
     "521eb754-ed0b-4e2a-8863-d9cd0a17c43a",
+    "3e9e28b2-c561-4b3e-bfea-988f707b05fa",
     "ae15c987-9569-4034-ac65-ef711813bc77",
     "66a665a1-834f-4607-af9e-aef1a354e7db"
   ]

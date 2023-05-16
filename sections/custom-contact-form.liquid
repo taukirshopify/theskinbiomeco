@@ -20,6 +20,15 @@
                             <div class="form-group">
                                 <textarea name="message" id="message" placeholder="Your Message"
                                     class="form-control style2"></textarea>
+                                <textarea
+                                rows="10"
+                                id="ContactForm-body"
+                                class="text-area field__input"
+                                name="contact[{{ 'templates.contact.form.comment' | t }}]"
+                                placeholder="{{ 'templates.contact.form.comment' | t }}"
+                                >
+                                {{- form.body -}}
+                                </textarea>
                             </div>
                         </div>
                     </div>

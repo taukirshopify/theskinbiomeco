@@ -1,13 +1,49 @@
 <div class="accordion-card style2">
-                    <div class="accordion-header" id="collapse-item-2">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">Why is it important?</button>
-                    </div>
-                    <div id="collapse-2" class="accordion-collapse collapse show" aria-labelledby="collapse-item-2" data-bs-parent="#scienceAccordian">
-                        <div class="accordion-body">
-                            <p class="fs-30 mb-30">Through his research, Dr Pennino discovered Dermafixium, which is a beneficial extract from one of the good microbes on the healthy skin of children and adults and is deficient in individuals affected by skin disorders like Eczema. Importantly, this microbial strain of Lactobacillus behind Dermafixium lives specifically on human skin, unlike the other members in the same family that are normally found in the gut.</p>
-                            <div class="text-center">
-                                <img class="w-100 logo-color" src="assets/img/normal/cell_before_after.png" alt="img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="accordion-header" id="collapse-item-2">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2"
+            aria-expanded="true" aria-controls="collapse-2">Why is it important?</button>
+    </div>
+    <div id="collapse-2" class="accordion-collapse collapse show" aria-labelledby="collapse-item-2"
+        data-bs-parent="#scienceAccordian">
+        <div class="accordion-body">
+            <p class="fs-30 mb-30">Through his research, Dr Pennino discovered Dermafixium, which is a beneficial
+                extract from one of the good microbes on the healthy skin of children and adults and is deficient in
+                individuals affected by skin disorders like Eczema. Importantly, this microbial strain of Lactobacillus
+                behind Dermafixium lives specifically on human skin, unlike the other members in the same family that
+                are normally found in the gut.</p>
+            <div class="text-center">
+                <img class="w-100 logo-color" src="assets/img/normal/cell_before_after.png" alt="img">
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+    {
+      "name": "Under Image with Text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "main_heading",
+          "label": "Heading"
+        },
+        {
+          "type": "image_picker",
+          "id": "hero_bg_img",
+          "label": "Image"
+        },
+        {
+          "type": "textarea",
+          "id": "desc_heading",
+          "label": "Description"
+        }
+      ],
+      "presets": [
+      {
+        "name": "Under Image with Text",
+        "category":"science"
+        
+      }
+    ]
+    }
+{% endschema %}

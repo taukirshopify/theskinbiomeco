@@ -1,39 +1,31 @@
 <div class="accordion-card style2">
     <div class="accordion-header" id="collapse-item-3">
         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3"
-            aria-expanded="true" aria-controls="collapse-3">What is Dermafixium, and how does it help?</button>
+            aria-expanded="true" aria-controls="collapse-3">{{section.settings.main_heading }}</button>
     </div>
     <div id="collapse-3" class="accordion-collapse collapse show" aria-labelledby="collapse-item-3"
         data-bs-parent="#scienceAccordian">
         <div class="accordion-body">
-            <p class="fs-30 mb-30">Through his research, Dr Pennino discovered Dermafixium, which is a beneficial
-                extract from one of the good microbes on the healthy skin of children and adults and is deficient in
-                individuals affected by skin disorders like Eczema. Importantly, this microbial strain of Lactobacillus
-                behind Dermafixium lives specifically on human skin, unlike the other members in the same family that
-                are normally found in the gut.</p>
+            <p class="fs-30 mb-30">{{section.settings.desc_heading }}</p>
             <div class="faq-img1">
-                <h5 class="fs-30">Dermafixium prevents redness and skin damage provoked by irritant</h5>
+                <h5 class="fs-30">{{section.settings.sub_heading }}</h5>
                 <div class="info-wrap">
-                    <span class="fs-30">Irritant </span>
-                    <span class="fs-30">Dermafixium + Irritant </span>
+                    <span class="fs-30">{{section.settings.left_heading }}</span>
+                    <span class="fs-30">{{section.settings.right_heading }}</span>
                 </div>
                 <div class="img">
-                    <img src="assets/img/normal/cell_4.jpg" alt="img">
+                    <img src="{{section.settings.hero_bg_img | img_url: '1920x' }}" alt="{{section.settings.hero_bg_img.alt }}">
                 </div>
-                <h5 class="mt-10 fs-30 mb-0">Representative result of SLS induced erythema in 24 hours patch test</h5>
+                <h5 class="mt-10 fs-30 mb-0">{{section.settings.image_under_heading }}</h5>
             </div>
-            <p class="mt-20 fs-30 mb-0">Dermafixium is a natural source of essential molecules and nutrients for the
-                skin, consisting of short-chain fatty acids and microbial metabolites, that promote healthier skin when
-                re-introduced onto the skin. Dr Pennino and The SkinBiome Co. team spent close to 10 years developing a
-                highly effective formula for people affected by skin disorders. Our scientific data here strongly
-                supports that our formulation can lead to visible skin improvement within one day of application.</p>
+            <p class="mt-20 fs-30 mb-0">{{section.settings.image_under_desc }}</p>
         </div>
     </div>
 </div>
 
 {% schema %}
     {
-      "name": "Under Image with Text",
+      "name": "Under text with image",
       "settings": [
         {
           "type": "text",
@@ -46,14 +38,39 @@
           "label": "Description"
         },
         {
+          "type": "text",
+          "id": "sub_heading",
+          "label": "Sub Heading"
+        },
+        {
+          "type": "text",
+          "id": "left_heading",
+          "label": "Image Top Left Heading"
+        },
+        {
+          "type": "text",
+          "id": "right_heading",
+          "label": "Image Top Right Heading"
+        },
+        {
           "type": "image_picker",
           "id": "hero_bg_img",
           "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "image_under_heading",
+          "label": "Image Under Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "image_under_desc",
+          "label": "Image Under Content"
         }
       ],
       "presets": [
       {
-        "name": "Under Image Under text with Content",
+        "name": "Under text with image",
         "category":"science"
         
       }

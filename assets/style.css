@@ -3069,11 +3069,14 @@ a.text-body:hover {
   border-right: 1px solid var(--border-color);
   border-radius: 0;
   border-bottom: none;
-  height: 46px;
 }
 
 .drawer__cart-items-wrapper .quantity input {
   height: 46px;
+}
+
+.drawer__cart-items-wrapper .cart-item__name {
+  font-size: 24px;
 }
 
 .quantity-wrap {
@@ -3365,12 +3368,12 @@ a.text-body:hover {
   height: 100%;
 }
 
-.benefit-box .title {
+.benefit-box .box-title {
   color: var(--theme-color);
   margin-bottom: 30px;
 }
 
-.benefit-box .title .number {
+.benefit-box .box-title .number {
   display: inline-block;
   font-size: 44px;
   color: var(--title-color);
@@ -3434,10 +3437,10 @@ a.text-body:hover {
 
 /* Medium devices */
 @media (max-width: 991px) {
-  .benefit-box .title {
+  .benefit-box .box-title {
     margin-bottom: 20px;
   }
-  .benefit-box .title .number {
+  .benefit-box .box-title .number {
     font-size: 30px;
     height: 60px;
     width: 60px;
@@ -4015,6 +4018,7 @@ a.text-body:hover {
   --smoke-color: #1F2C33;
   --smoke-color2: #1F2C33;
   --border-color: #343d42;
+  --color-base-background-1: #1F2C33;
   background-color: #101D24;
 }
 

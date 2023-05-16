@@ -30,3 +30,33 @@
         </div>
     </div>
 </div>
+
+{% schema %}
+    {
+      "name": "Under Image with Text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "main_heading",
+          "label": "Heading"
+        },        
+        {
+          "type": "textarea",
+          "id": "desc_heading",
+          "label": "Description"
+        },
+        {
+          "type": "image_picker",
+          "id": "hero_bg_img",
+          "label": "Image"
+        }
+      ],
+      "presets": [
+      {
+        "name": "Under Image Underwith Text",
+        "category":"science"
+        
+      }
+    ]
+    }
+{% endschema %}

@@ -1,6 +1,6 @@
 <section class="space">
     <div class="container">
-        <h3 class="sec-title">Featured products</h3>
+        <h3 class="sec-title">{{ section.settings.title }}</h3>
 
         <div class="row gy-30">
             {% for product in block.settings.collection.products limit: 9 %}
@@ -13,7 +13,7 @@
                     </div>
                     <div class="product-content">
                         <h3 class="product-title"><a href="{{ product.url }}">{{ product.title }}</a></h3>
-                        <p class="price">£10.00 GBP <del>£15.00 GBP</del></p>
+                        <p class="price">{%- render 'price' -%}</p>
                     </div>
 
                 </div>

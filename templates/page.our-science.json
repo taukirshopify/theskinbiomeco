@@ -17,10 +17,55 @@
         "desc_btn": "shopify:\/\/products\/derma-relief-cream-1",
         "hero_bg_img": "shopify:\/\/shop_images\/cell_2.jpg"
       }
+    },
+    "ae15c987-9569-4034-ac65-ef711813bc77": {
+      "type": "review",
+      "blocks": {
+        "b801acbb-fa57-4f4f-8b17-bbe45ee72ded": {
+          "type": "text_block",
+          "settings": {
+            "img_one": "shopify:\/\/shop_images\/testi_1_1.jpg",
+            "heading_one": "Before",
+            "img_two": "shopify:\/\/shop_images\/testi_1_2.jpg",
+            "heading_two": "After [one week]",
+            "author_description": "I love that my Derma Relief Cream is a sustainable steroid-free solution to calmer and healthier skin!",
+            "author_name": "Jon <br>Derma Relief Cream"
+          }
+        },
+        "2b16fa91-3d8d-4518-a83a-ed8e3d07efef": {
+          "type": "text_block",
+          "settings": {
+            "img_one": "shopify:\/\/shop_images\/testi_1_1.jpg",
+            "heading_one": "Before",
+            "img_two": "shopify:\/\/shop_images\/testi_1_2.jpg",
+            "heading_two": "After [one week]",
+            "author_description": "I love that my Derma Relief Cream is a sustainable steroid-free solution to calmer and healthier skin!",
+            "author_name": "Jon <br>Derma Relief Cream"
+          }
+        }
+      },
+      "block_order": [
+        "b801acbb-fa57-4f4f-8b17-bbe45ee72ded",
+        "2b16fa91-3d8d-4518-a83a-ed8e3d07efef"
+      ],
+      "settings": {
+        "heading": "Reviews"
+      }
+    },
+    "66a665a1-834f-4607-af9e-aef1a354e7db": {
+      "type": "call-to-action",
+      "settings": {
+        "heading": "The SkinBiome Co.",
+        "sub_heading": "Eliminate Your Eczema Now With our Steroid-Free Cream!",
+        "btn_link": "shopify:\/\/products\/derma-relief-cream-1",
+        "bg_img": "shopify:\/\/shop_images\/cream_img_2.png"
+      }
     }
   },
   "order": [
     "main",
-    "521eb754-ed0b-4e2a-8863-d9cd0a17c43a"
+    "521eb754-ed0b-4e2a-8863-d9cd0a17c43a",
+    "ae15c987-9569-4034-ac65-ef711813bc77",
+    "66a665a1-834f-4607-af9e-aef1a354e7db"
   ]
 }

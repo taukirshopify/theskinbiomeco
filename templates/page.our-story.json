@@ -52,12 +52,47 @@
         "under_content": "Here at The SkinBiome Co., we only use all-natural active ingredients to tackle mild Eczema. Eliminate Your Eczema Now with Our Steroid-Free Cream!",
         "under_link": "shopify:\/\/products\/derma-relief-cream-1"
       }
+    },
+    "e66cfa6f-5595-4ea5-b1bb-7d58b29da011": {
+      "type": "review",
+      "blocks": {
+        "8be03bda-c6ad-47ef-a3bf-ef867285cdbb": {
+          "type": "text_block",
+          "settings": {
+            "img_one": "shopify:\/\/shop_images\/testi_1_1.jpg",
+            "heading_one": "Before",
+            "img_two": "shopify:\/\/shop_images\/testi_1_2.jpg",
+            "heading_two": "After [one week]",
+            "author_description": "I love that my Derma Relief Cream is a sustainable steroid-free solution to calmer and healthier skin!",
+            "author_name": "Jon <br>Derma Relief Cream"
+          }
+        },
+        "9e159d40-56d9-4e0f-b4bd-378d3afcdcd2": {
+          "type": "text_block",
+          "settings": {
+            "img_one": "shopify:\/\/shop_images\/testi_1_1.jpg",
+            "heading_one": "Before",
+            "img_two": "shopify:\/\/shop_images\/testi_1_2.jpg",
+            "heading_two": "After [one week]",
+            "author_description": "I love that my Derma Relief Cream is a sustainable steroid-free solution to calmer and healthier skin!",
+            "author_name": "Jon <br>Derma Relief Cream"
+          }
+        }
+      },
+      "block_order": [
+        "8be03bda-c6ad-47ef-a3bf-ef867285cdbb",
+        "9e159d40-56d9-4e0f-b4bd-378d3afcdcd2"
+      ],
+      "settings": {
+        "heading": "Reviews"
+      }
     }
   },
   "order": [
     "main",
     "25343a23-fe6c-4973-a4b1-e1149b9d8cbd",
     "abce67f4-83a9-4820-b6e7-8b735c446fb9",
-    "c81edab8-a334-40a8-aac8-4822dcf27d18"
+    "c81edab8-a334-40a8-aac8-4822dcf27d18",
+    "e66cfa6f-5595-4ea5-b1bb-7d58b29da011"
   ]
 }

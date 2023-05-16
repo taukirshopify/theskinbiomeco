@@ -1,7 +1,7 @@
 <div class="accordion-card style2">
     <div class="accordion-header" id="collapse-item-1">
         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1"
-            aria-expanded="true" aria-controls="collapse-1">What is the skin microbiome?</button>
+            aria-expanded="true" aria-controls="collapse-1">{{section.settings.main_heading }}</button>
     </div>
     <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="collapse-item-1"
         data-bs-parent="#scienceAccordian">
@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-xxl-5 col-lg-6 mb-4 mb-lg-0">
                     <div class="rounded-10">
-                        <img class="w-100" src="assets/img/normal/cell_3.jpg" alt="img">
+                        <img class="w-100" src="{{section.settings.hero_bg_img | img_url: '1920x' }}" alt="{{section.settings.hero_bg_img.alt }}">
                     </div>
                 </div>
                 <div class="col-xxl-7 col-lg-6">

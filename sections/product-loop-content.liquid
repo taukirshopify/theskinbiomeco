@@ -12,7 +12,7 @@
                     bg-smoke
                     {% else %}
                     {% endif %}">
-                        <h2 class="title"><span class="number">{{forloop.index}}</span>{{block.settings.loop_heading }}</h2>
+                        <h2 class="box-title"><span class="number">{{forloop.index}}</span>{{block.settings.loop_heading }}</h2>
                         <div class="content">
                             {{block.settings.loop_description }}
                         </div>
@@ -38,7 +38,7 @@
 </div>
 
 <div class="bg-smoke2 pt-45 pb-45">
-    <div class="container text-center">
+    <div class="container {{ section.settings.loop_heading_position }}">
         <div class="wow fadeInUp" data-wow-delay="0.2s">
             <h3 class="fs-40 mb-10 text-capitalize">{{section.settings.under_heading }}</h3>
             <p class="fs-30 mb-0">{{section.settings.under_sub_heading }} <a class="text-theme fw-bold" href="mailto:{{section.settings.under_email }}">{{section.settings.under_email }}</a></p>

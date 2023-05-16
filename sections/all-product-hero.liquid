@@ -20,3 +20,44 @@
         </div>
     </div>
 </section>
+
+{% schema %}
+    {
+      "name": "Customer Service Text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "main_heading",
+          "label": "Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "sub_heading",
+          "label": "Description"
+        },
+        {
+          "type": "textarea",
+          "id": "desc_heading",
+          "label": "Delivery Text"
+        },
+        {
+          "type": "textarea",
+          "id": "email_text",
+          "label": "Email Text"
+        },
+        {
+          "type": "text",
+          "id": "desc_email",
+          "label": "Email"
+        }
+        
+      ],
+      "presets": [
+      {
+        "name": "Customer Service Text",
+        "category":"customer"
+        
+      }
+    ]
+    }
+{% endschema %}

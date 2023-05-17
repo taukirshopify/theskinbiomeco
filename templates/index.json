@@ -58,32 +58,6 @@
         "img_three": "shopify:\/\/shop_images\/box_1_3.jpg"
       }
     },
-    "f7b73eb2-8c6f-4e38-8506-aa9fc5a20eea": {
-      "type": "home-image-with-text",
-      "disabled": true,
-      "settings": {
-        "heading": "More restful sleep at night!",
-        "description": "<p class=\"fs-30 mt-n2\">I've had eczema around my eye and it has been uncomfortable for many years. The skin would get red, dry, cracked, and sensitive. Just taking a shower or washing my face would cause painful stinging, and sometimes I would wake up at night with pain, which is very disruptive to my sleep. I hadn't found a good product until The SkinBiome Co.'s Derma Relief Cream. <\/p>\n<p class=\"fs-30\">This product quickly soothes and relieves the discomfort around my eye within a day of application, and it's easy to consistently apply.<\/p>",
-        "author_name": "Jeff <br>Derma Relief Cream",
-        "img_one": "shopify:\/\/shop_images\/box_2_2.jpg",
-        "before_text": "Before",
-        "img_two": "shopify:\/\/shop_images\/box_2_3.jpg",
-        "day_one_text": "Day 1",
-        "img_three": "shopify:\/\/shop_images\/box_2_1.jpg",
-        "day_four_text": "Day 4"
-      }
-    },
-    "57593c6d-3af3-42f3-a658-e5ccce04e10a": {
-      "type": "home-solutions",
-      "settings": {
-        "heading": "Natural Skincare Solution",
-        "description": "<p class=\"fs-40 mt-n3 mb-n2\">\"A well-balanced <b>skin microbiome is vital to skin health.<\/b> When our skin microbiome is out of balance, and lacking certain good microbes, issues like Eczema can flare up. <b>The good news<\/b> is that feeding your skin microbiome with the right ingredients can help your skin <b>regain a healthy balance.<\/b> Our product contains <b>Dermafixium<\/b>, a naturally-derived active ingredient that will <b>reduce itches in minutes and irritation within a day!\"<\/b><\/p>",
-        "btn_link": "#",
-        "btn_link_two": "shopify:\/\/products\/derma-relief-cream-1",
-        "img_one": "shopify:\/\/shop_images\/rounded-cell.jpg",
-        "under_text": "The SkinBiomeCo. is here to help you get <br> <span class=\"text-theme\">Healthier skin today!<\/span>"
-      }
-    },
     "3f0daae4-b61f-4342-978c-2e77d50999d8": {
       "type": "testimonial-slider",
       "blocks": {
@@ -112,6 +86,32 @@
       ],
       "settings": {
         "heading": ""
+      }
+    },
+    "f7b73eb2-8c6f-4e38-8506-aa9fc5a20eea": {
+      "type": "home-image-with-text",
+      "disabled": true,
+      "settings": {
+        "heading": "More restful sleep at night!",
+        "description": "<p class=\"fs-30 mt-n2\">I've had eczema around my eye and it has been uncomfortable for many years. The skin would get red, dry, cracked, and sensitive. Just taking a shower or washing my face would cause painful stinging, and sometimes I would wake up at night with pain, which is very disruptive to my sleep. I hadn't found a good product until The SkinBiome Co.'s Derma Relief Cream. <\/p>\n<p class=\"fs-30\">This product quickly soothes and relieves the discomfort around my eye within a day of application, and it's easy to consistently apply.<\/p>",
+        "author_name": "Jeff <br>Derma Relief Cream",
+        "img_one": "shopify:\/\/shop_images\/box_2_2.jpg",
+        "before_text": "Before",
+        "img_two": "shopify:\/\/shop_images\/box_2_3.jpg",
+        "day_one_text": "Day 1",
+        "img_three": "shopify:\/\/shop_images\/box_2_1.jpg",
+        "day_four_text": "Day 4"
+      }
+    },
+    "57593c6d-3af3-42f3-a658-e5ccce04e10a": {
+      "type": "home-solutions",
+      "settings": {
+        "heading": "Natural Skincare Solution",
+        "description": "<p class=\"fs-40 mt-n3 mb-n2\">\"A well-balanced <b>skin microbiome is vital to skin health.<\/b> When our skin microbiome is out of balance, and lacking certain good microbes, issues like Eczema can flare up. <b>The good news<\/b> is that feeding your skin microbiome with the right ingredients can help your skin <b>regain a healthy balance.<\/b> Our product contains <b>Dermafixium<\/b>, a naturally-derived active ingredient that will <b>reduce itches in minutes and irritation within a day!\"<\/b><\/p>",
+        "btn_link": "#",
+        "btn_link_two": "shopify:\/\/products\/derma-relief-cream-1",
+        "img_one": "shopify:\/\/shop_images\/rounded-cell.jpg",
+        "under_text": "The SkinBiomeCo. is here to help you get <br> <span class=\"text-theme\">Healthier skin today!<\/span>"
       }
     },
     "7cdb7c3f-bf09-43e5-9be2-3572291f8e02": {
@@ -163,9 +163,9 @@
     "1b975708-65d4-441d-be96-ca7b3c4b610c",
     "1aeaf87d-6d14-48cc-a6ed-3d0302def53f",
     "289d24be-ef95-4961-be49-9febd2819890",
+    "3f0daae4-b61f-4342-978c-2e77d50999d8",
     "f7b73eb2-8c6f-4e38-8506-aa9fc5a20eea",
     "57593c6d-3af3-42f3-a658-e5ccce04e10a",
-    "3f0daae4-b61f-4342-978c-2e77d50999d8",
     "7cdb7c3f-bf09-43e5-9be2-3572291f8e02",
     "97cd0b24-9272-4ea2-898d-43c0af75f299"
   ]

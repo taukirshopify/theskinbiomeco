@@ -86,12 +86,21 @@
             "author_description": "<p class=\"testi-card_text\">I have sourced and tried many different products to help with my Eczema but none have truly worked. Steroid-based creams only provide temporary relief and I experience worse flare-ups after stopping use.<\/p>\n                            <p class=\"testi-card_text\">I am extremely happy to have discovered The SkinBiome Co.’s Derma Relief Cream! It reduced itching within hours and relieved my Eczema completely within a week! Most importantly, it is a sustainable solution to getting calmer and healthier skin!<\/p>",
             "author_name": "Jon <br>Derma Relief Cream"
           }
+        },
+        "ac755854-362d-41f0-90dd-44e16c9be2f9": {
+          "type": "text_block",
+          "settings": {
+            "author_heading": "Moisturizing cream that truly works!",
+            "author_description": "<p class=\"testi-card_text\">The SkinBiome Co.’s Derma Relief Cream is a true game changer in the field! For years, I have struggled with persistent flare-ups that leave my skin dry, feeling itchy and uncomfortable.<\/p>\n                            <p class=\"testi-card_text\">Unlike other creams and lotions, Derma Relief Cream is non-greasy and absorbs quickly into the skin. What I really like about this cream is that it contains all-natural active ingredients and is free of synthetic chemicals!<\/p>",
+            "author_name": "Sherine <br>Derma Relief Cream"
+          }
         }
       },
       "block_order": [
         "69796ebc-3f04-476b-9a3a-8cbcb25ff1bb",
         "6f5f19b6-b4fd-45fa-8948-6cada4a35fd4",
-        "76067a89-5138-4cca-a93b-e74d8061f991"
+        "76067a89-5138-4cca-a93b-e74d8061f991",
+        "ac755854-362d-41f0-90dd-44e16c9be2f9"
       ],
       "settings": {
         "heading": ""

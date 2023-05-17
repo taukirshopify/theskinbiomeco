@@ -83,6 +83,26 @@
         "under_text": "The SkinBiomeCo. is here to help you get <br> <span class=\"text-theme\">Healthier skin today!<\/span>"
       }
     },
+    "3f0daae4-b61f-4342-978c-2e77d50999d8": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "69796ebc-3f04-476b-9a3a-8cbcb25ff1bb": {
+          "type": "text_block",
+          "settings": {
+            "testimonial_img": "shopify:\/\/shop_images\/testimonial_2.png",
+            "author_heading": "More restful sleep at night!",
+            "author_description": "I've had eczema around my eye and it has been uncomfortable for many years. The skin would get red, dry, cracked, and sensitive. Just taking a shower or washing my face would cause painful stinging, and sometimes I would wake up at night with pain, which is very disruptive to my sleep. I hadn't found a good product until The SkinBiome Co.'s Derma Relief Cream.\n\nThis product quickly soothes and relieves the discomfort around my eye within a day of application, and it's easy to consistently apply.",
+            "author_name": "Jeff\nDerma Relief Cream"
+          }
+        }
+      },
+      "block_order": [
+        "69796ebc-3f04-476b-9a3a-8cbcb25ff1bb"
+      ],
+      "settings": {
+        "heading": ""
+      }
+    },
     "7cdb7c3f-bf09-43e5-9be2-3572291f8e02": {
       "type": "review",
       "blocks": {
@@ -134,6 +154,7 @@
     "289d24be-ef95-4961-be49-9febd2819890",
     "f7b73eb2-8c6f-4e38-8506-aa9fc5a20eea",
     "57593c6d-3af3-42f3-a658-e5ccce04e10a",
+    "3f0daae4-b61f-4342-978c-2e77d50999d8",
     "7cdb7c3f-bf09-43e5-9be2-3572291f8e02",
     "97cd0b24-9272-4ea2-898d-43c0af75f299"
   ]

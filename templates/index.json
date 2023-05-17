@@ -150,6 +150,7 @@
         },
         "2ffca3dc-9a68-47e0-ad53-4a28f9919fa2": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "img_one": "shopify:\/\/shop_images\/testi_1_1.jpg",
             "heading_one": "Before",

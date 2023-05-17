@@ -82,6 +82,7 @@
         "76067a89-5138-4cca-a93b-e74d8061f991": {
           "type": "text_block",
           "settings": {
+            "testimonial_img": "shopify:\/\/shop_images\/testimonial_3.png",
             "author_heading": "Steroid-free solution to calmer and healthier skin!",
             "author_description": "<p class=\"testi-card_text\">I have sourced and tried many different products to help with my Eczema but none have truly worked. Steroid-based creams only provide temporary relief and I experience worse flare-ups after stopping use.<\/p>\n                            <p class=\"testi-card_text\">I am extremely happy to have discovered The SkinBiome Co.’s Derma Relief Cream! It reduced itching within hours and relieved my Eczema completely within a week! Most importantly, it is a sustainable solution to getting calmer and healthier skin!<\/p>",
             "author_name": "Jon <br>Derma Relief Cream"

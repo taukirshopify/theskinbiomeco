@@ -6,7 +6,7 @@
                 <div class="splide slider-shadow" id="review-slider2">
                     <div class="splide__track">
                         <div class="splide__list">
-                            
+                            {% for block in section.blocks %}
                             <div class="splide__slide">
                                 <div class="testi-card">
                                     <div class="testi-card_img">
@@ -27,7 +27,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+                            {% endfor %}
                         </div>
                     </div>
                 </div>

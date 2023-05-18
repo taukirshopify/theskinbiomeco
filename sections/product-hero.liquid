@@ -8,18 +8,7 @@
                     <div class="product-about">
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
                             <h2 class="sec-title mb-35">{{ product.title | escape }}</h2>
-                            {% comment %} <form method="post" action="/cart/add">
-                            <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
-                         
-                            <span onclick="decreaseCount(event, this)">
-                                <img src="{{ 'minus.svg' | asset_url }}" alt="" />
-                            </span>
-                            <input min="1" type="number" id="quantity"  class="input-num" name="quantity" value="1"/>
-                            <span onclick="increaseCount(event, this)">
-                                <img src="{{ 'plus.svg' | asset_url }}" alt="" />
-                            </span>
-                            <input type="submit" value="Add to cart" class="ot-btn" />
-                            </form> {% endcomment %}
+                            
                             <product-form class="product-form" data-hide-errors="{{ gift_card_recipient_feature_active }}">
       <div class="product-form__error-message-wrapper" role="alert" hidden>
         <svg

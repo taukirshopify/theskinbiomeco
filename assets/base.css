@@ -3164,6 +3164,6 @@ details-disclosure > details {
 
   @media screen and (max-width: 767px) {
     .product-hero-wrap .product-form__buttons{
-      margin-top: 30px;
+      margin-top: 20px;
     }
   }

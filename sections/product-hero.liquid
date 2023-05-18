@@ -111,8 +111,6 @@
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
                             <h2 class="sec-title mb-35">{{ product.title | escape }}</h2>
                             
-                            
-                            
                             <product-form class="product-form" data-hide-errors="{{ gift_card_recipient_feature_active }}">
                               <div class="product-form__error-message-wrapper" role="alert" hidden>
                                 <svg
@@ -143,7 +141,7 @@
                                   disabled
                                   class="product-variant-id"
                                 >
-                                <div class="quantity-wrap">
+                                <div class="product-quantity-wrap">
                                 <span onclick="decreaseCount(event, this)">
                                 <img src="{{ 'minus.svg' | asset_url }}" alt="" />
                                 </span>

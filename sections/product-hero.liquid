@@ -145,11 +145,11 @@
                                 >
                                 <div class=""
                                 <span onclick="decreaseCount(event, this)">
-                                  {% render 'icon-minus' %}
+                                <img src="{{ 'minus.svg' | asset_url }}" alt="" />
                                 </span>
                                 <input min="1" type="number" id="quantity"  class="input-num" name="quantity" value="1"/>
                                 <span onclick="increaseCount(event, this)">
-                                  {% render 'icon-plus' %}
+                                    <img src="{{ 'plus.svg' | asset_url }}" alt="" />
                                 </span>
 
                                 {%- if gift_card_recipient_feature_active -%}

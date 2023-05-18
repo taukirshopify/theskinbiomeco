@@ -3156,7 +3156,7 @@ details-disclosure > details {
     100% { transform: rotate(360deg) translateX(1em) rotate(-360deg) scale(1.2); }
   }
 }
-.product-hero-wrap{display: inline-block;}
+.product-hero-wrap .quantity-wrap{display: inline-block;}
 .product-hero-wrap .product-form__buttons{display: inline-block;
   width: 50%;
   top: -5px;

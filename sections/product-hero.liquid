@@ -121,7 +121,7 @@
                     <div class="d-none d-lg-block">
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
                             <h2 class="sec-title mb-35">{{ product.title | escape }}</h2>
-                             <form method="post" action="/cart/add">
+                             <form method="post" action="/cart/add" id="product-form-template--19091119046972__main" accept-charset="UTF-8" class="form" enctype="multipart/form-data" novalidate="novalidate" data-type="add-to-cart-form">
                             <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
                          
                             <span onclick="decreaseCount(event, this)">

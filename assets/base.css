@@ -3157,4 +3157,7 @@ details-disclosure > details {
   }
 }
 
-.product-hero-wrap{}
+.product-hero-wrap .product-form__buttons{display: inline-block;
+  width: 50%;
+  top: -5px;
+  position: relative;}

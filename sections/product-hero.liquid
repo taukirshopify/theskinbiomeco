@@ -143,7 +143,7 @@
                                   disabled
                                   class="product-variant-id"
                                 >
-                                <div class=""
+                                <div class="quantity-wrap">
                                 <span onclick="decreaseCount(event, this)">
                                 <img src="{{ 'minus.svg' | asset_url }}" alt="" />
                                 </span>
@@ -151,7 +151,7 @@
                                 <span onclick="increaseCount(event, this)">
                                     <img src="{{ 'plus.svg' | asset_url }}" alt="" />
                                 </span>
-
+                                </div>
                                 {%- if gift_card_recipient_feature_active -%}
                                   {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
                                 {%- endif -%}

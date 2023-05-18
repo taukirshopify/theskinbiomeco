@@ -25,11 +25,9 @@
     "header": {
       "type": "header",
       "settings": {
-        "email_link": "info@theskinbiomeCo.com",
+        "email_link": "info@theskinbiomeco.com",
         "main_logo": "shopify:\/\/shop_images\/logo.png",
-        "main_linklist": "main-menu-1",
-        "menu": "main-menu",
-        "menu_type_desktop": "dropdown"
+        "main_linklist": "main-menu-1"
       }
     }
   },

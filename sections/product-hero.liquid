@@ -144,7 +144,7 @@
                                   class="product-variant-id"
                                 >
                                 <span onclick="decreaseCount(event, this)">
-                                <img src="{{ 'minus.svg' | asset_url }}" alt="" />
+                                  {% render 'icon-minus' %}
                                 </span>
                                 <input min="1" type="number" id="quantity"  class="input-num" name="quantity" value="1"/>
                                 <span onclick="increaseCount(event, this)">

@@ -48,6 +48,25 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "d68bb714-7120-42eb-917b-962396b06ae0": {
+          "type": "icon-with-text",
+          "disabled": true,
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "heading_1": "Heading",
+            "icon_2": "return",
+            "heading_2": "Heading",
+            "icon_3": "truck",
+            "heading_3": "Heading"
+          }
+        },
+        "ef7866c5-87e1-40dd-81e3-3c9afec47a58": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h4 style=\"color:#600343;text-align:left;\">free shipping <\/h4>"
+          }
         }
       },
       "block_order": [
@@ -58,7 +77,9 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "d68bb714-7120-42eb-917b-962396b06ae0",
+        "ef7866c5-87e1-40dd-81e3-3c9afec47a58"
       ],
       "settings": {
         "enable_sticky_info": true,

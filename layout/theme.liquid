@@ -568,8 +568,8 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-   
-    {% comment %} <script src="{{ 'jquery-3.6.0.min.js' | asset_url }}"></script> {% endcomment %}
+    <script  src="{{ 'StoreLocator.js' | asset_url }}" ></script>
+    <script src="{{ 'jquery-3.6.0.min.js' | asset_url }}"></script>
     <script src="{{ 'splide.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'bootstrap.bundle.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'wow.min.js' | asset_url }}" defer="defer"></script>

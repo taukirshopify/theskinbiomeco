@@ -50,6 +50,7 @@
         "first_img": "shopify:\/\/shop_images\/cream_in_hand.jpg",
         "img_content": "<p class=\"fs-40 mb-30 text-theme fw-bold\">Our mission at The SkinBiome Co. is simple.<\/p>\n                        <p class=\"fs-40 mb-0\">We aim to eradicate skin problems through the power of our skin microbiome – the natural way – starting with our first product for Eczema-prone-skin. <b>We believe that you deserve better natural, science-driven skincare!<\/b><\/p>",
         "under_content": "Here at The SkinBiome Co., we only use all-natural active ingredients to tackle mild Eczema. Eliminate Your Eczema Now with Our Steroid-Free Cream!",
+        "btn_text": "buy now",
         "under_link": "shopify:\/\/products\/derma-relief-cream-1"
       }
     },
@@ -92,6 +93,7 @@
       "settings": {
         "heading": "The SkinBiome Co.",
         "sub_heading": "Eliminate Your Eczema Now With our Steroid-Free Cream!",
+        "btn_text": "",
         "btn_link": "shopify:\/\/products\/derma-relief-cream-1",
         "bg_img": "shopify:\/\/shop_images\/cream_img_2.png"
       }

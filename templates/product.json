@@ -67,6 +67,13 @@
             "icon_3": "truck",
             "heading_3": "Heading"
           }
+        },
+        "8b6769c9-14c3-4e5d-9d77-f7a92419e645": {
+          "type": "text",
+          "settings": {
+            "text": "free shipping",
+            "text_style": "subtitle"
+          }
         }
       },
       "block_order": [
@@ -79,7 +86,8 @@
         "buy_buttons",
         "description",
         "share",
-        "d68bb714-7120-42eb-917b-962396b06ae0"
+        "d68bb714-7120-42eb-917b-962396b06ae0",
+        "8b6769c9-14c3-4e5d-9d77-f7a92419e645"
       ],
       "settings": {
         "enable_sticky_info": true,

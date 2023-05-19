@@ -568,15 +568,11 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-    {% comment %} <script src="https://cdn.shopify.com/s/files/1/0756/6203/3212/files/jquery-3.6.0.min.js?v=1684052943"></script>    
-    <script src="https://cdn.shopify.com/s/files/1/0756/6203/3212/files/splide.min.js?v=1684052892" defer="defer"></script>
-    <script src="https://cdn.shopify.com/s/files/1/0756/6203/3212/files/bootstrap.bundle.min.js?v=1684052892" defer="defer"></script>
-    <script src="https://cdn.shopify.com/s/files/1/0756/6203/3212/files/wow.min.js?v=1684052892" defer="defer"></script> {% endcomment %}
+   
     <script src="{{ 'jquery-3.6.0.min.js' | asset_url }}"></script>
     <script src="{{ 'splide.min.js' | asset_url }}"></script>
     <script src="{{ 'bootstrap.bundle.min.js' | asset_url }}"></script>
     <script src="{{ 'wow.min.js' | asset_url }}"></script>
     <script src="{{ 'main.js' | asset_url }}"></script>
-    {% comment %} <script src="https://cdn.shopify.com/s/files/1/0756/6203/3212/files/main_78488134-3158-45d5-9f73-fcad418568cd.js?v=1684342389" defer="defer"></script> {% endcomment %}
   </body>
 </html>

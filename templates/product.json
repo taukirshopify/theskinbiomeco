@@ -15,10 +15,11 @@
           "settings": {
           }
         },
-        "ef7866c5-87e1-40dd-81e3-3c9afec47a58": {
-          "type": "custom_liquid",
+        "8b6769c9-14c3-4e5d-9d77-f7a92419e645": {
+          "type": "text",
           "settings": {
-            "custom_liquid": ""
+            "text": "free shipping",
+            "text_style": "subtitle"
           }
         },
         "price": {
@@ -67,27 +68,19 @@
             "icon_3": "truck",
             "heading_3": "Heading"
           }
-        },
-        "8b6769c9-14c3-4e5d-9d77-f7a92419e645": {
-          "type": "text",
-          "settings": {
-            "text": "free shipping",
-            "text_style": "subtitle"
-          }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "ef7866c5-87e1-40dd-81e3-3c9afec47a58",
+        "8b6769c9-14c3-4e5d-9d77-f7a92419e645",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
         "share",
-        "d68bb714-7120-42eb-917b-962396b06ae0",
-        "8b6769c9-14c3-4e5d-9d77-f7a92419e645"
+        "d68bb714-7120-42eb-917b-962396b06ae0"
       ],
       "settings": {
         "enable_sticky_info": true,

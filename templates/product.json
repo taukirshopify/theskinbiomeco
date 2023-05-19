@@ -18,7 +18,7 @@
         "ef7866c5-87e1-40dd-81e3-3c9afec47a58": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p style=\"color:#600343;text-align:left;\">free shipping <\/p>"
+            "custom_liquid": ""
           }
         },
         "price": {

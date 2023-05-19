@@ -39,8 +39,7 @@
             "loop_description": "<p class=\"fs-30 mb-30\">The SkinBiome Co.’s Derma Relief Cream contains a naturally derived active ingredient that is <span class=\"text-theme fw-bold\">steroid-free<\/span> and <span class=\"text-theme fw-bold\">safe for multiple skin types.<\/span><\/p>\n                                <p class=\"fs-40 mb-n2\">Never worry about burning sensations and stinging again!<\/p>",
             "loop_img": "shopify:\/\/shop_images\/benefit_1.jpg",
             "loop_bg_color": "bg-smoke",
-            "loop_row_position": "row",
-            "loop_image_position": "img-right"
+            "loop_row_position": "row"
           }
         },
         "52536b1e-6686-4871-bbcb-c7c6096d9ed5": {
@@ -50,8 +49,7 @@
             "loop_description": "<p class=\"fs-30 mb-30\">The SkinBiome Co.’s Derma Relief Cream contains a naturally derived active ingredient that is <span class=\"text-theme fw-bold\">steroid-free<\/span> and <span class=\"text-theme fw-bold\">safe for multiple skin types.<\/span><\/p>\n                                <p class=\"fs-40 mb-n2\">Never worry about burning sensations and stinging again!<\/p>",
             "loop_img": "shopify:\/\/shop_images\/benefit_2.jpg",
             "loop_bg_color": "transparent",
-            "loop_row_position": "flex-row-reverse",
-            "loop_image_position": "img-right"
+            "loop_row_position": "flex-row-reverse"
           }
         },
         "5161bc4f-9d52-4316-bdef-0d878b9ddf0d": {
@@ -61,8 +59,7 @@
             "loop_description": "<p class=\"fs-30 mb-30\">The SkinBiome Co.’s Derma Relief Cream contains a naturally derived active ingredient that is <span class=\"text-theme fw-bold\">steroid-free<\/span> and <span class=\"text-theme fw-bold\">safe for multiple skin types.<\/span><\/p>\n                                <p class=\"fs-40 mb-n2\">Never worry about burning sensations and stinging again!<\/p>",
             "loop_img": "shopify:\/\/shop_images\/benefit_3.jpg",
             "loop_bg_color": "bg-smoke",
-            "loop_row_position": "row",
-            "loop_image_position": "img-right"
+            "loop_row_position": "row"
           }
         }
       },
@@ -76,7 +73,8 @@
         "under_heading": "Interested To Find Out More About Our Product?",
         "under_sub_heading": "Email our friendly Customer Care Team at",
         "under_email": "CCT@theskinbiomeco.com",
-        "loop_heading_position": "text-center"
+        "loop_heading_position": "text-center",
+        "loop_under_position": "text-center"
       }
     },
     "835fd4f8-6aa4-4909-b1e5-ced97e247150": {
@@ -118,6 +116,7 @@
       "settings": {
         "heading": "The SkinBiome Co.",
         "sub_heading": "Eliminate Your Eczema Now With our Steroid-Free Cream!",
+        "btn_text": "buy now",
         "btn_link": "shopify:\/\/products\/derma-relief-cream-1",
         "bg_img": "shopify:\/\/shop_images\/cream_img_2.png"
       }

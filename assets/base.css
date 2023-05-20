@@ -3168,7 +3168,7 @@ details-disclosure > details {
     }
   }
 
-  @media screen and (min-width: 700px) {
+  @media screen and (max-width: 700px) {
 .splide__arrows.splide__arrows--ltr {
     position: absolute;
     bottom: -25px;

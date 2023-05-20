@@ -3167,3 +3167,13 @@ details-disclosure > details {
       margin-top: 20px;
     }
   }
+
+  @media screen and (min-width: 700px) {
+.splide__arrows.splide__arrows--ltr {
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+}
+  }
+
+

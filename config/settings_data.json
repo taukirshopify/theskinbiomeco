@@ -195,12 +195,20 @@
               "faq_heading": "Does my Derma Relief Cream have an expiry date?",
               "faq_text": "We do recommend you use The SkinBiome Co.’s Derma Relief Cream within 6 months after opening or by the stamped expiration date that you can find on the jar."
             }
+          },
+          "b51b61a5-770d-42e8-9a73-c8afd8b90dde": {
+            "type": "text_block",
+            "settings": {
+              "faq_heading": "Does my Derma Relief Cream have an expiry date?",
+              "faq_text": "We do recommend you use The SkinBiome Co.’s Derma Relief Cream within 6 months after opening or by the stamped expiration date that you can find on the jar."
+            }
           }
         },
         "block_order": [
           "02e4149e-248c-4641-9d2f-14a624c45af0",
           "5ccfdf27-d1ec-4a1e-863c-c022506445ea",
-          "cf8f8002-0b10-43df-8165-5f0c145ab6ca"
+          "cf8f8002-0b10-43df-8165-5f0c145ab6ca",
+          "b51b61a5-770d-42e8-9a73-c8afd8b90dde"
         ],
         "settings": {
         }

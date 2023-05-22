@@ -12,7 +12,9 @@
       "settings": {
         "main_heading": "Frequently asked questions",
         "faq_tab_one": "The SkinBiome Co.",
-        "faq_tab_two": "Customer Support FAQs"
+        "faq_tab_one_url": "shopify:\/\/pages\/faq",
+        "faq_tab_two": "Customer Support FAQs",
+        "faq_tab_two_url": "shopify:\/\/pages\/customer-support-faq"
       }
     },
     "60aa5710-b6f0-482d-b16e-fb0f0375b3c2": {

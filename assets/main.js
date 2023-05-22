@@ -163,8 +163,8 @@
             perMove: 1,
             arrows: true,
             autoplay: true,
-            autoplayspeed: 10000,
-            interval: 15000,
+            autoplayspeed: 3000,
+            interval: 3000,
             pauseOnHover: false,
             autoHeight: true,
             arrowPath:
@@ -214,5 +214,7 @@
     });
 
     new WOW().init();
+
+    
 
 })(jQuery);

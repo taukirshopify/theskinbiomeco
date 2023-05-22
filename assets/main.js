@@ -216,7 +216,7 @@
     new WOW().init();
 
     if(window.location.href == 'https://theskinbiomeco.myshopify.com/pages/customer-support-faq'){
-        $(".nav.faq-tab")..addClass('demoClass');
+        $(".nav.faq-tab").eq(0).removeClass('active');
     }
 
 })(jQuery);

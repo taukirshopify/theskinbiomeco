@@ -215,8 +215,8 @@
 
     new WOW().init();
 
-    if(window.location.href == 'https://stacksnippets.net/js'){
-        $("#demo").addClass('demoClass');
+    if(window.location.href == 'https://theskinbiomeco.myshopify.com/pages/customer-support-faq'){
+        $("body").addClass('demoClass');
     }
 
 })(jQuery);

@@ -82,12 +82,20 @@
       "settings": {
         "main_heading": "Contents of my Derma Relief Cream"
       }
+    },
+    "75f69c34-030d-4945-b70e-d42e2489d0bd": {
+      "type": "faq-under-content",
+      "settings": {
+        "heading": "If we haven’t managed to address your questions, email us directly at",
+        "email_text": "CCT@theskinbiomeco.com"
+      }
     }
   },
   "order": [
     "main",
     "65d437be-7769-4c84-9eb8-02488eb6beb7",
     "c1714167-2224-4f32-b415-f4105a6cbc58",
-    "48674af0-8cd2-404b-8e10-82b46f148c4c"
+    "48674af0-8cd2-404b-8e10-82b46f148c4c",
+    "75f69c34-030d-4945-b70e-d42e2489d0bd"
   ]
 }

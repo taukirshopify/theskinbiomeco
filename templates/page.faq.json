@@ -14,10 +14,17 @@
         "faq_tab_one": "The SkinBiome Co.",
         "faq_tab_two": "Customer Support FAQs"
       }
+    },
+    "c1714167-2224-4f32-b415-f4105a6cbc58": {
+      "type": "faq-content-section",
+      "settings": {
+        "heading": ""
+      }
     }
   },
   "order": [
     "main",
-    "65d437be-7769-4c84-9eb8-02488eb6beb7"
+    "65d437be-7769-4c84-9eb8-02488eb6beb7",
+    "c1714167-2224-4f32-b415-f4105a6cbc58"
   ]
 }

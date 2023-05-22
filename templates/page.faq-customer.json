@@ -1,0 +1,63 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "0a3a4a3a-6b5c-47f7-bcbe-cb9add432042": {
+      "type": "review-content",
+      "blocks": {
+        "1456da7b-baa1-4933-bca2-d600412b5f1d": {
+          "type": "text_block",
+          "settings": {
+            "author_img": "shopify:\/\/shop_images\/testimonial_1.png",
+            "author_heading": "Derma Relief Cream has restored my skin health and my confidence!",
+            "author_description": "<p class=\"testi-card_text\">I have been using steroids to relieve the sore and red skin around my lips, but my skin always became much worse once I stopped steroids. As a result, I get very conscious of the way I look and will always wear a mask or apply (heavy) make up before I leave my home.<\/p>\n                            <p class=\"testi-card_text\">Thanks to The SkinBiome Co.’s Derma Relief Cream, I can now restore my skin health without worrying about the side effects from steroids! I am super happy to have found a cream that provides lasting effect, making me confident in my skin appearance again!<\/p>",
+            "author_name": "Jon Derma Relief Cream"
+          }
+        },
+        "6ab9c078-d897-495c-a319-a0d5e7cbd3cb": {
+          "type": "text_block",
+          "settings": {
+            "author_img": "shopify:\/\/shop_images\/testimonial_2.png",
+            "author_heading": "More restful sleep at night!",
+            "author_description": "<p class=\"testi-card_text\">I've had eczema around my eye and it has been uncomfortable for many years. The skin would get red, dry, cracked, and sensitive. Just taking a shower or washing my face would cause painful stinging, and sometimes I would wake up at night with pain, which is very disruptive to my sleep. I hadn't found a good product until The SkinBiome Co.'s Derma Relief Cream.<\/p>\n                            <p class=\"testi-card_text\">This product quickly soothes and relieves the discomfort around my eye within a day of application, and it's easy to consistently apply.<\/p>",
+            "author_name": "Jon Derma Relief Cream"
+          }
+        },
+        "77f1a2a1-e7ba-482b-83cb-7b86f5896a5d": {
+          "type": "text_block",
+          "settings": {
+            "author_img": "shopify:\/\/shop_images\/testimonial_3.png",
+            "author_heading": "Steroid-free solution to calmer and healthier skin!",
+            "author_description": "<p class=\"testi-card_text\">I have sourced and tried many different products to help with my Eczema but none have truly worked. Steroid-based creams only provide temporary relief and I experience worse flare-ups after stopping use.<\/p>\n                            <p class=\"testi-card_text\">I am extremely happy to have discovered The SkinBiome Co.’s Derma Relief Cream! It reduced itching within hours and relieved my Eczema completely within a week! Most importantly, it is a sustainable solution to getting calmer and healthier skin!<\/p>",
+            "author_name": "Jon Derma Relief Cream"
+          }
+        },
+        "38c91738-cd6b-49d9-ad32-7b4e32c53c7d": {
+          "type": "text_block",
+          "settings": {
+            "author_img": "shopify:\/\/shop_images\/testimonial_4.png",
+            "author_heading": "Moisturizing cream that truly works!",
+            "author_description": "<p class=\"testi-card_text\">The SkinBiome Co.’s Derma Relief Cream is a true game changer in the field! For years, I have struggled with persistent flare-ups that leave my skin dry, feeling itchy and uncomfortable.<\/p>\n                            <p class=\"testi-card_text\">Unlike other creams and lotions, Derma Relief Cream is non-greasy and absorbs quickly into the skin. What I really like about this cream is that it contains all-natural active ingredients and is free of synthetic chemicals!<\/p>",
+            "author_name": "Jon Derma Relief Cream"
+          }
+        }
+      },
+      "block_order": [
+        "1456da7b-baa1-4933-bca2-d600412b5f1d",
+        "6ab9c078-d897-495c-a319-a0d5e7cbd3cb",
+        "77f1a2a1-e7ba-482b-83cb-7b86f5896a5d",
+        "38c91738-cd6b-49d9-ad32-7b4e32c53c7d"
+      ],
+      "settings": {
+        "heading": "Reviews"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0a3a4a3a-6b5c-47f7-bcbe-cb9add432042"
+  ]
+}

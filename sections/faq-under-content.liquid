@@ -1,28 +1,28 @@
 <div class="mt-35">
-        <div class="container">
-<div class="contact-notice">
-    <p class="fs-40">
+  <div class="container">
+    <div class="contact-notice">
+      <p class="fs-40">
          {{section.settings.heading }} <br>
         <a href="mailto:{{section.settings.email_text }}">{{section.settings.email_text }}!</a>
-    </p>
-</div>
-</div>
+      </p>
     </div>
+  </div>
+</div>
 {% schema %}
-    {
-      "name": "FAQ Under Content",
-      "settings": [
-        {
-          "type": "text",
-          "id": "heading",
-          "label": "Heading"
-        },
-        {
-          "type": "text",
-          "id": "email_text",
-          "label": "Email"
-        } 
-  
-      ]
-    }
-  {% endschema %}
+{
+"name": "FAQ Under Content",
+"settings": [
+{
+"type": "text",
+"id": "heading",
+"label": "Heading"
+},
+{
+"type": "text",
+"id": "email_text",
+"label": "Email"
+}
+
+]
+}
+{% endschema %}

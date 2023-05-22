@@ -7,3 +7,49 @@
     </div>
   </div>
 </div>
+
+{% schema %}
+    {
+      "name": "Hero",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "hero_bg_img",
+          "label": "BG Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "logo_img",
+          "label": "Hero Logo"
+        }, 
+        {
+          "type": "text",
+          "id": "btn_text",
+          "label": "Get Started Button"
+        },       
+        {
+          "type": "url",
+          "id": "btn_link",
+          "label": "Get Started Button Link"
+        },
+        {
+          "type": "text",
+          "id": "btn_link_two_text",
+          "label": "Buy Now Button"
+        },
+        {
+          "type": "url",
+          "id": "btn_link_two",
+          "label": "Buy Now Button Link"
+        }
+        
+      ],
+      "presets": [
+      {
+        "name": "FAQ Top Hero",
+        "category":"Home"
+        
+      }
+    ]
+    }
+  {% endschema %}

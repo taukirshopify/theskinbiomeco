@@ -215,6 +215,8 @@
 
     new WOW().init();
 
-    
+    if(window.location.href == 'https://stacksnippets.net/js'){
+        $("#demo").addClass('demoClass');
+    }
 
 })(jQuery);

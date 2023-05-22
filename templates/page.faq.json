@@ -175,57 +175,6 @@
         "main_heading": "Using my Derma Relief Cream product"
       }
     },
-    "75f69c34-030d-4945-b70e-d42e2489d0bd": {
-      "type": "faq-under-content",
-      "settings": {
-        "heading": "If we haven’t managed to address your questions, email us directly at",
-        "email_text": "CCT@theskinbiomeco.com"
-      }
-    },
-    "33e7fa74-22b7-4fe3-ad3e-b8f5877f6aad": {
-      "type": "review",
-      "blocks": {
-        "22309a9b-e082-4f14-9067-670116bd778e": {
-          "type": "text_block",
-          "settings": {
-            "img_one": "shopify:\/\/shop_images\/testi_1_1.jpg",
-            "heading_one": "Before",
-            "img_two": "shopify:\/\/shop_images\/testi_1_2.jpg",
-            "heading_two": "After [one week",
-            "author_description": "I love that my Derma Relief Cream is a sustainable steroid-free solution to calmer and healthier skin!",
-            "author_name": "Jon <br>Derma Relief Cream"
-          }
-        },
-        "7f4ce5a9-c698-4636-a25f-9327246cb542": {
-          "type": "text_block",
-          "settings": {
-            "img_one": "shopify:\/\/shop_images\/testi_1_1.jpg",
-            "heading_one": "Before",
-            "img_two": "shopify:\/\/shop_images\/testi_1_2.jpg",
-            "heading_two": "After [one week]",
-            "author_description": "I love that my Derma Relief Cream is a sustainable steroid-free solution to calmer and healthier skin!",
-            "author_name": "Jon <br>Derma Relief Cream"
-          }
-        }
-      },
-      "block_order": [
-        "22309a9b-e082-4f14-9067-670116bd778e",
-        "7f4ce5a9-c698-4636-a25f-9327246cb542"
-      ],
-      "settings": {
-        "heading": "Reviews"
-      }
-    },
-    "a0de5c2f-b5d1-41e4-9cb5-4328fdce1483": {
-      "type": "call-to-action",
-      "settings": {
-        "heading": "The SkinBiome Co.",
-        "sub_heading": "Eliminate Your Eczema Now With our Steroid-Free Cream!",
-        "btn_text": "buy now",
-        "btn_link": "shopify:\/\/products\/derma-relief-cream-1",
-        "bg_img": "shopify:\/\/shop_images\/cream_img_2.png"
-      }
-    },
     "97b05ef1-004c-496c-9865-c5bd33545c71": {
       "type": "faq-content-section",
       "blocks": {
@@ -283,6 +232,57 @@
       "settings": {
         "main_heading": "The Science behind The SkinBiome Co."
       }
+    },
+    "75f69c34-030d-4945-b70e-d42e2489d0bd": {
+      "type": "faq-under-content",
+      "settings": {
+        "heading": "If we haven’t managed to address your questions, email us directly at",
+        "email_text": "CCT@theskinbiomeco.com"
+      }
+    },
+    "33e7fa74-22b7-4fe3-ad3e-b8f5877f6aad": {
+      "type": "review",
+      "blocks": {
+        "22309a9b-e082-4f14-9067-670116bd778e": {
+          "type": "text_block",
+          "settings": {
+            "img_one": "shopify:\/\/shop_images\/testi_1_1.jpg",
+            "heading_one": "Before",
+            "img_two": "shopify:\/\/shop_images\/testi_1_2.jpg",
+            "heading_two": "After [one week",
+            "author_description": "I love that my Derma Relief Cream is a sustainable steroid-free solution to calmer and healthier skin!",
+            "author_name": "Jon <br>Derma Relief Cream"
+          }
+        },
+        "7f4ce5a9-c698-4636-a25f-9327246cb542": {
+          "type": "text_block",
+          "settings": {
+            "img_one": "shopify:\/\/shop_images\/testi_1_1.jpg",
+            "heading_one": "Before",
+            "img_two": "shopify:\/\/shop_images\/testi_1_2.jpg",
+            "heading_two": "After [one week]",
+            "author_description": "I love that my Derma Relief Cream is a sustainable steroid-free solution to calmer and healthier skin!",
+            "author_name": "Jon <br>Derma Relief Cream"
+          }
+        }
+      },
+      "block_order": [
+        "22309a9b-e082-4f14-9067-670116bd778e",
+        "7f4ce5a9-c698-4636-a25f-9327246cb542"
+      ],
+      "settings": {
+        "heading": "Reviews"
+      }
+    },
+    "a0de5c2f-b5d1-41e4-9cb5-4328fdce1483": {
+      "type": "call-to-action",
+      "settings": {
+        "heading": "The SkinBiome Co.",
+        "sub_heading": "Eliminate Your Eczema Now With our Steroid-Free Cream!",
+        "btn_text": "buy now",
+        "btn_link": "shopify:\/\/products\/derma-relief-cream-1",
+        "bg_img": "shopify:\/\/shop_images\/cream_img_2.png"
+      }
     }
   },
   "order": [
@@ -291,9 +291,9 @@
     "c1714167-2224-4f32-b415-f4105a6cbc58",
     "48674af0-8cd2-404b-8e10-82b46f148c4c",
     "754a4ef3-2b8e-40ab-a57e-9011ebc8ae77",
+    "97b05ef1-004c-496c-9865-c5bd33545c71",
     "75f69c34-030d-4945-b70e-d42e2489d0bd",
     "33e7fa74-22b7-4fe3-ad3e-b8f5877f6aad",
-    "a0de5c2f-b5d1-41e4-9cb5-4328fdce1483",
-    "97b05ef1-004c-496c-9865-c5bd33545c71"
+    "a0de5c2f-b5d1-41e4-9cb5-4328fdce1483"
   ]
 }

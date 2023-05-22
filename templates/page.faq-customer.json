@@ -23,32 +23,56 @@
         "2e69d893-a217-41ac-b5c2-437acc84b2cc": {
           "type": "text_block",
           "settings": {
-            "faq_heading": "What does my Derma Relief Cream contain?",
-            "faq_text": "The SkinBiome Co.’s Derma Relief Cream is carefully formulated in the science lab of Dr Davide Pennino. Each jar of Derma Relief Cream contains just 14 ingredients: Aqua, Disodium Ethylenediaminetetraacetic acid (EDTA), Acrylates\/C10-30 Alkyl Acrylate Crosspolymer, Glycerin, Dermafixium, Niacinamide phenoxyethanol, Shea butter, Sodium acrylate, Helianthus Annuus (Sunflower) Seed Oil, Ethyl Olivate\/Olea Europaea (Olive) Leaf Extract, Hydrolyzed Jojoba Esters, Phytosteryl\/Octyldodecyl Lauroyl Glutamate, Ethylhexylglycerin and Penoxyethanol. Also, the Derma Relief Cream is GMO-free!"
+            "faq_heading": "Where can I buy The SkinBiome Co.’s products?",
+            "faq_text": "All of The SkinBiome Co.’s products are available through our authorized The SkinBiome Co. retail partners on Amazon (Italy), Shipper (Indonesia), and Y (Singapore). Although you may not find us in any physical stores now, we assure you that all orders placed with standard shipping rates will arrive in 2-3 business days."
           }
         },
         "99861078-91f8-425f-a5c6-f9b67baa9c70": {
           "type": "text_block",
           "settings": {
-            "faq_heading": "Is my Derma Relief Cream product clean?",
-            "faq_text": "The SkinBiome Co.’s Derma Relief Cream is carefully formulated in the science lab of Dr Davide Pennino. Each jar of Derma Relief Cream contains just 14 ingredients: Aqua, Disodium Ethylenediaminetetraacetic acid (EDTA), Acrylates\/C10-30 Alkyl Acrylate Crosspolymer, Glycerin, Dermafixium, Niacinamide phenoxyethanol, Shea butter, Sodium acrylate, Helianthus Annuus (Sunflower) Seed Oil, Ethyl Olivate\/Olea Europaea (Olive) Leaf Extract, Hydrolyzed Jojoba Esters, Phytosteryl\/Octyldodecyl Lauroyl Glutamate, Ethylhexylglycerin and Penoxyethanol. Also, the Derma Relief Cream is GMO-free!"
+            "faq_heading": "What payment methods can I use?",
+            "faq_text": "The Skinbiome Co. accepts all major credit cards, Apple Pay, Google Pay and PayPal."
           }
         },
         "03f58a00-84da-498d-a863-69947335028e": {
           "type": "text_block",
           "settings": {
-            "faq_heading": "Is my Derma Relief Cream fragrance free?",
-            "faq_text": "The SkinBiome Co.’s Derma Relief Cream is carefully formulated in the science lab of Dr Davide Pennino. Each jar of Derma Relief Cream contains just 14 ingredients: Aqua, Disodium Ethylenediaminetetraacetic acid (EDTA), Acrylates\/C10-30 Alkyl Acrylate Crosspolymer, Glycerin, Dermafixium, Niacinamide phenoxyethanol, Shea butter, Sodium acrylate, Helianthus Annuus (Sunflower) Seed Oil, Ethyl Olivate\/Olea Europaea (Olive) Leaf Extract, Hydrolyzed Jojoba Esters, Phytosteryl\/Octyldodecyl Lauroyl Glutamate, Ethylhexylglycerin and Penoxyethanol. Also, the Derma Relief Cream is GMO-free!"
+            "faq_heading": "How long does my order take to process and how long will my order take to complete?",
+            "faq_text": "For all orders that come in before 5pm on a business day, we will process them within 1 business day before shipping out the order. \n    <ul>\n        <li>We currently offer [standard] shipping rates for [$].<\/li>\n        <li>Estimated delivery timelines, actual delivery may vary.<\/li>\n        <li>Shipments to suburban towns may experience longer delivery times.<\/li>\n    <\/ul>"
+          }
+        },
+        "e3121d52-153d-418f-9596-c6e42cc4221b": {
+          "type": "text_block",
+          "settings": {
+            "faq_heading": "I am having issues with completing my order. Who can I contact?",
+            "faq_text": "We feel your frustration. Here are some things you may want to try first: \n     <ul>\n        <li>Refresh your browser or using a new window<\/li>\n        <li>Use a different browser (e.g., Google Chrome)<\/li>\n    <\/ul>\n    If the problem persists, please email us at CCT@theskinbiomeco.com Our friendly Customer Care team is available to help resolve your needs within 2 working days."
+          }
+        },
+        "593b759d-aeb7-441a-b3a3-eb6c9f4aec84": {
+          "type": "text_block",
+          "settings": {
+            "faq_heading": "I want to edit my shipping address or cancel my order. Who can I contact?",
+            "faq_text": "We apologize that all processed orders cannot be canceled or modified. Please email us at CCT@theskinbiomeco.com with your tracking number for any queries and we will try our best to accommodate your requests."
+          }
+        },
+        "16f38b0c-5279-4869-a9c4-80e0ae203c3d": {
+          "type": "text_block",
+          "settings": {
+            "faq_heading": "My tracking says my order was delivered but I have not received it. Who can I contact?",
+            "faq_text": "We apologize for the confusion in your order status. This may be due to the error in updates on the delivery’s side. \nFret not! A few of our other customers have experienced similar delays and received their items within the next couple of days."
           }
         }
       },
       "block_order": [
         "2e69d893-a217-41ac-b5c2-437acc84b2cc",
         "99861078-91f8-425f-a5c6-f9b67baa9c70",
-        "03f58a00-84da-498d-a863-69947335028e"
+        "03f58a00-84da-498d-a863-69947335028e",
+        "e3121d52-153d-418f-9596-c6e42cc4221b",
+        "593b759d-aeb7-441a-b3a3-eb6c9f4aec84",
+        "16f38b0c-5279-4869-a9c4-80e0ae203c3d"
       ],
       "settings": {
-        "main_heading": ""
+        "main_heading": "Orders and Shipping"
       }
     },
     "b8fecf90-858d-4e6b-b58c-ed352589260e": {

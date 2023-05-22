@@ -123,6 +123,16 @@
       "settings": {
         "heading": "Reviews"
       }
+    },
+    "a0de5c2f-b5d1-41e4-9cb5-4328fdce1483": {
+      "type": "call-to-action",
+      "settings": {
+        "heading": "The SkinBiome Co.",
+        "sub_heading": "Eliminate Your Eczema Now With our Steroid-Free Cream!",
+        "btn_text": "buy now",
+        "btn_link": "shopify:\/\/products\/derma-relief-cream-1",
+        "bg_img": "shopify:\/\/shop_images\/cream_img_2.png"
+      }
     }
   },
   "order": [
@@ -131,6 +141,7 @@
     "c1714167-2224-4f32-b415-f4105a6cbc58",
     "48674af0-8cd2-404b-8e10-82b46f148c4c",
     "75f69c34-030d-4945-b70e-d42e2489d0bd",
-    "33e7fa74-22b7-4fe3-ad3e-b8f5877f6aad"
+    "33e7fa74-22b7-4fe3-ad3e-b8f5877f6aad",
+    "a0de5c2f-b5d1-41e4-9cb5-4328fdce1483"
   ]
 }

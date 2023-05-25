@@ -158,13 +158,12 @@
         },
         "2ffca3dc-9a68-47e0-ad53-4a28f9919fa2": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "img_one": "shopify:\/\/shop_images\/image_2_2.jpg",
             "heading_one": "Before",
             "img_two": "shopify:\/\/shop_images\/Rectangle_38_1.jpg",
             "heading_two": "After [one week]",
-            "column": false,
+            "column": true,
             "author_description": "My Derma Relief Cream has restored my skin health and confidence in my skin appearance!",
             "author_name": "Jamie<br>Derma Relief Cream"
           }

@@ -179,12 +179,23 @@
             "author_description": "Derma Relief Cream acts fast to soothe and provides long-lasting relief, allowing me a good night sleep!",
             "author_name": "Jeff<br>\nDerma Relief Cream"
           }
+        },
+        "4fb04df0-5b7d-4f08-9585-7eae5a896f1f": {
+          "type": "text_block",
+          "settings": {
+            "heading_one": "",
+            "heading_two": "",
+            "column": false,
+            "author_description": "My Derma Relief Cream makes my skin feel really good- it is non-greasy and free of synthetic chemicals!",
+            "author_name": "Sherine\n<br>\nDerma Relief Cream"
+          }
         }
       },
       "block_order": [
         "0813e461-d96e-45cf-b69c-87ba11d7a3cf",
         "2ffca3dc-9a68-47e0-ad53-4a28f9919fa2",
-        "5f85b89c-3463-4455-970d-fd79e02cdc06"
+        "5f85b89c-3463-4455-970d-fd79e02cdc06",
+        "4fb04df0-5b7d-4f08-9585-7eae5a896f1f"
       ],
       "settings": {
         "heading": "Reviews"

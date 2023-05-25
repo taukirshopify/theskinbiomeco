@@ -10,7 +10,8 @@
           {% for block in section.blocks %}
             <div class="splide__slide">
               <div class="testi-box">
-                <div class="testi-box_img {% if block.settings.column %} flex-column {% endif %} " {% if block.settings.column %} style="flex: 32%;" {% endif %}>
+                {% comment %} {% if block.settings.column %} style="flex: 32%;" {% endif %} {% endcomment %}
+                <div class="testi-box_img {% if block.settings.column %} flex-column {% endif %} " >
                   <div class="img">
                     <img
                       class="w-100"

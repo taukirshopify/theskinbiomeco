@@ -10,7 +10,7 @@
           {% for block in section.blocks %}
             <div class="splide__slide">
               <div class="testi-box">
-                <div class="testi-box_img">
+                <div class="testi-box_img {% if block.settings.column %} flex-column {% endif %} ">
                   <div class="img">
                     <img
                       class="w-100"
@@ -73,7 +73,14 @@
             "type": "text",
             "id": "heading_two",
             "label": "Heading Two"
-          }, {
+          }, 
+           {
+            "type": "checkbox",
+            "id": "column",
+            "label": "Check if image is in Column",
+            "default": false
+           },
+          {
             "type": "textarea",
             "id": "author_description",
             "label": "Description"

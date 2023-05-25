@@ -167,11 +167,24 @@
             "author_description": "My Derma Relief Cream has restored my skin health and confidence in my skin appearance!",
             "author_name": "Jamie<br>Derma Relief Cream"
           }
+        },
+        "5f85b89c-3463-4455-970d-fd79e02cdc06": {
+          "type": "text_block",
+          "settings": {
+            "img_one": "shopify:\/\/shop_images\/image_5.png",
+            "heading_one": "Before",
+            "img_two": "shopify:\/\/shop_images\/image_7.png",
+            "heading_two": "After",
+            "column": false,
+            "author_description": "Derma Relief Cream acts fast to soothe and provides long-lasting relief, allowing me a good night sleep!",
+            "author_name": "Jeff<br>\nDerma Relief Cream"
+          }
         }
       },
       "block_order": [
         "0813e461-d96e-45cf-b69c-87ba11d7a3cf",
-        "2ffca3dc-9a68-47e0-ad53-4a28f9919fa2"
+        "2ffca3dc-9a68-47e0-ad53-4a28f9919fa2",
+        "5f85b89c-3463-4455-970d-fd79e02cdc06"
       ],
       "settings": {
         "heading": "Reviews"

@@ -20,9 +20,11 @@
         "cf19c0a0-49f3-43ef-98e8-0cee7b68f96e": {
           "type": "text_block",
           "settings": {
+            "img_one": "shopify:\/\/shop_images\/image_2_2.jpg",
             "heading_one": "Before",
+            "img_two": "shopify:\/\/shop_images\/Rectangle_38_1.jpg",
             "heading_two": "After [one week]",
-            "column": false,
+            "column": true,
             "author_description": "",
             "author_name": ""
           }
@@ -32,7 +34,7 @@
           "settings": {
             "heading_one": "Before",
             "heading_two": "After [one week]",
-            "column": false,
+            "column": true,
             "author_description": "",
             "author_name": ""
           }
@@ -42,7 +44,7 @@
           "settings": {
             "heading_one": "Before",
             "heading_two": "After [one week]",
-            "column": false,
+            "column": true,
             "author_description": "",
             "author_name": ""
           }

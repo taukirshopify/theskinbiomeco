@@ -159,6 +159,7 @@
         },
         "2ffca3dc-9a68-47e0-ad53-4a28f9919fa2": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "img_one": "shopify:\/\/shop_images\/image_2_2.jpg",
             "heading_one": "Before",
@@ -171,6 +172,7 @@
         },
         "5f85b89c-3463-4455-970d-fd79e02cdc06": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "img_one": "shopify:\/\/shop_images\/image_5.png",
             "heading_one": "Before",

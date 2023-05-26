@@ -16,10 +16,43 @@
             "author_description": "I love that my Derma Relief Cream is a sustainable steroid-free solution to calmer and healthier skin!",
             "author_name": "Jon <br>Derma Relief Cream"
           }
+        },
+        "cf19c0a0-49f3-43ef-98e8-0cee7b68f96e": {
+          "type": "text_block",
+          "settings": {
+            "heading_one": "Before",
+            "heading_two": "",
+            "column": false,
+            "author_description": "",
+            "author_name": ""
+          }
+        },
+        "6ccdc011-0c37-4010-8b3e-db9ff1daad34": {
+          "type": "text_block",
+          "settings": {
+            "heading_one": "Before",
+            "heading_two": "",
+            "column": false,
+            "author_description": "",
+            "author_name": ""
+          }
+        },
+        "07b33ebb-c8be-459b-8f70-dbd4fe7035db": {
+          "type": "text_block",
+          "settings": {
+            "heading_one": "Before",
+            "heading_two": "",
+            "column": false,
+            "author_description": "",
+            "author_name": ""
+          }
         }
       },
       "block_order": [
-        "8c804028-35c4-4948-adb6-c9ae446a73b4"
+        "8c804028-35c4-4948-adb6-c9ae446a73b4",
+        "cf19c0a0-49f3-43ef-98e8-0cee7b68f96e",
+        "6ccdc011-0c37-4010-8b3e-db9ff1daad34",
+        "07b33ebb-c8be-459b-8f70-dbd4fe7035db"
       ],
       "settings": {
         "heading": ""

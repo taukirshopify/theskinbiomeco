@@ -143,6 +143,7 @@
     },
     "7cdb7c3f-bf09-43e5-9be2-3572291f8e02": {
       "type": "review",
+      "disabled": true,
       "blocks": {
         "0813e461-d96e-45cf-b69c-87ba11d7a3cf": {
           "type": "text_block",

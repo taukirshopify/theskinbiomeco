@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -15,7 +24,6 @@
           "settings": {
             "loop_description": "<p class=\"fs-40 mt-n2 mb-35 text-theme fw-bold\">Dr Pennino spent over a decade studying the mechanisms underpinning skin disorders and the role of the skin microbiome in contributing to skin health and integrity.<\/p>\n                        <p class=\"fs-40 mb-n2\">He decided to use his expertise to develop a good solution for skin disorders, and The SkinBiome Co.'s solution was discovered after years of intensive research.<\/p>",
             "loop_img": "shopify:\/\/shop_images\/lab_1.jpg",
-            "loop_bg_color": "bg-smoke",
             "loop_row_position": "align-items-center"
           }
         },
@@ -24,7 +32,6 @@
           "settings": {
             "loop_description": "<p class=\"fs-50 mb-0 text-center\">The SkinBiome Co. was founded with the vision <span class=\"text-theme fw-bold\">to develop safe and highly effective skincare products<\/span> backed by solid scientific evidence. <\/p>",
             "loop_img": "shopify:\/\/shop_images\/doctor_1.jpg",
-            "loop_bg_color": "bg-smoke",
             "loop_row_position": "align-items-center"
           }
         },
@@ -33,7 +40,6 @@
           "settings": {
             "loop_description": "<p class=\"fs-40 mb-0\">Nearly <span class=\"text-theme fw-bold\">1 in 4 children are affected by Eczema.<\/span> Despite the risk of notable side effects, topical steroids remain the most common treatments for children. Like many parents, Dr Pennino felt extremely frustrated with the <span class=\"text-theme fw-bold\">lack of effective steroid-free alternatives and poor scientific evidence supporting the safe use<\/span> of other skincare products for young children.<\/p>",
             "loop_img": "shopify:\/\/shop_images\/baby_1.jpg",
-            "loop_bg_color": "bg-smoke",
             "loop_row_position": "align-items-center"
           }
         },
@@ -42,7 +48,6 @@
           "settings": {
             "loop_description": "<p class=\"fs-40 mb-30 text-theme fw-bold\">Our mission at The SkinBiome Co. is simple.<\/p>\n                        <p class=\"fs-40 mb-0\">We aim to eradicate skin problems through the power of our skin microbiome – the natural way – starting with our first product for Eczema-prone-skin. <b>We believe that you deserve better natural, science-driven skincare!<\/b><\/p>",
             "loop_img": "shopify:\/\/shop_images\/cream_in_hand.jpg",
-            "loop_bg_color": "bg-smoke",
             "loop_row_position": "align-items-center"
           }
         }
@@ -54,10 +59,7 @@
         "0a6d77fd-00ac-48d8-ac7c-8b1d4bcaf7e5"
       ],
       "settings": {
-        "heading": "Our Story",
-        "under_content": "The SkinBiome Co.'s story began with our Founder, Dr Davide Pennino. Like many new fathers, Dr Pennino was worried about exposing his infant son to the negative effects of using topical steroids for skin disorders.",
-        "under_link": "shopify:\/\/products\/derma-relief-cream-1",
-        "loop_under_position": "text-center"
+        "heading": "Our Story"
       }
     },
     "e0b511f6-8a8e-4820-ab7d-60020ebae83c": {
@@ -98,7 +100,7 @@
       "type": "call-to-action",
       "settings": {
         "heading": "The SkinBiome Co.",
-        "sub_heading": "Eliminate Your Eczema Now With our Steroid-Free Cream!",
+        "sub_heading": "Soothe and Repair Your Skin with Our Steroid-Free Cream!",
         "btn_link": "shopify:\/\/products\/derma-relief-cream-1",
         "bg_img": "shopify:\/\/shop_images\/cream_img_2.png"
       }

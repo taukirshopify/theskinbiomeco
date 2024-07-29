@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -13,7 +22,7 @@
         "main_heading": "Our Science",
         "sub_heading": "The Biotechnology Of Our Natural Skincare",
         "desc_heading": "Good microbes are our skin's best friends. We have trillions of microbes on our skin, many of which are beneficial. A well-balanced skin microbiome is vital to skin health. When our skin microbiome is out of balance and lacking certain good microbes, issues like Eczema can flare up.",
-        "desc_heading_two": "The good news is that feeding your skin microbiome with the right ingredients can help your skin regain a healthy balance. The SkinBiome Co.'s products contain our proprietary active ingredient: Dermafixium, which does exactly that!",
+        "desc_heading_two": "The good news is that nourishing your skin microbiome with the right ingredients can help maintain a healthy balance. The SkinBiome Co.'s products contain our proprietary active ingredient: Dermafixium, which does exactly that!",
         "desc_btn_text": "Buy Now",
         "desc_btn": "shopify:\/\/products\/derma-relief-cream-1",
         "hero_bg_img": "shopify:\/\/shop_images\/cell_2.jpg"
@@ -59,7 +68,6 @@
     },
     "ae15c987-9569-4034-ac65-ef711813bc77": {
       "type": "review",
-      "disabled": true,
       "blocks": {
         "b801acbb-fa57-4f4f-8b17-bbe45ee72ded": {
           "type": "text_block",
@@ -90,6 +98,7 @@
         "b801acbb-fa57-4f4f-8b17-bbe45ee72ded",
         "2b16fa91-3d8d-4518-a83a-ed8e3d07efef"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Reviews"
       }
@@ -98,7 +107,7 @@
       "type": "call-to-action",
       "settings": {
         "heading": "The SkinBiome Co.",
-        "sub_heading": "Eliminate Your Eczema Now With our Steroid-Free Cream!",
+        "sub_heading": "Soothe and Repair Your Skin with Our Steroid-Free Cream!",
         "btn_text": "Buy Now",
         "btn_link": "shopify:\/\/products\/derma-relief-cream-1",
         "bg_img": "shopify:\/\/shop_images\/cream_img_2.png"

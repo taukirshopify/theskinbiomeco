@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -49,14 +58,13 @@
       "settings": {
         "first_img": "shopify:\/\/shop_images\/cream_in_hand.jpg",
         "img_content": "<p class=\"fs-40 mb-30 text-theme fw-bold\">Our mission at The SkinBiome Co. is simple.<\/p>\n                        <p class=\"fs-40 mb-0\">We aim to eradicate skin problems through the power of our skin microbiome – the natural way – starting with our first product for Eczema-prone-skin. <b>We believe that you deserve better natural, science-driven skincare!<\/b><\/p>",
-        "under_content": "Here at The SkinBiome Co., we only use all-natural active ingredients to tackle mild Eczema. Eliminate Your Eczema Now with Our Steroid-Free Cream!",
+        "under_content": "Here at The SkinBiome Co., we only use all-natural active ingredients to tackle mild Eczema. Soothe and Repair Your Skin with Our Steroid-Free Cream!",
         "btn_text": "buy now",
         "under_link": "shopify:\/\/products\/derma-relief-cream-1"
       }
     },
     "e66cfa6f-5595-4ea5-b1bb-7d58b29da011": {
       "type": "review",
-      "disabled": true,
       "blocks": {
         "8be03bda-c6ad-47ef-a3bf-ef867285cdbb": {
           "type": "text_block",
@@ -87,6 +95,7 @@
         "8be03bda-c6ad-47ef-a3bf-ef867285cdbb",
         "9e159d40-56d9-4e0f-b4bd-378d3afcdcd2"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Reviews"
       }
@@ -95,7 +104,7 @@
       "type": "call-to-action",
       "settings": {
         "heading": "The SkinBiome Co.",
-        "sub_heading": "Eliminate Your Eczema Now With our Steroid-Free Cream!",
+        "sub_heading": "Soothe and Repair Your Skin with Our Steroid-Free Cream!",
         "btn_text": "buy now",
         "btn_link": "shopify:\/\/products\/derma-relief-cream-1",
         "bg_img": "shopify:\/\/shop_images\/cream_img_2.png"

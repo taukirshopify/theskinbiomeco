@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "logo_width": 90,
@@ -291,7 +300,7 @@
         "type": "faq-cta",
         "settings": {
           "heading": "The SkinBiome Co.",
-          "sub_heading": "Eliminate Your Eczema Now With our Steroid-Free Cream!",
+          "sub_heading": "Soothe and Repair Your Skin with Our Steroid-Free Cream!",
           "btn_text": "buy now",
           "btn_link": "shopify:\/\/products\/derma-relief-cream-1",
           "bg_img": "shopify:\/\/shop_images\/cream_img_2.png"

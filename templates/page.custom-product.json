@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -79,7 +88,6 @@
     },
     "835fd4f8-6aa4-4909-b1e5-ced97e247150": {
       "type": "review",
-      "disabled": true,
       "blocks": {
         "d2940ef0-b90a-4093-bf2d-e5366d076340": {
           "type": "text_block",
@@ -110,6 +118,7 @@
         "d2940ef0-b90a-4093-bf2d-e5366d076340",
         "6d8ea95b-bbb5-4824-bc16-3bf673d11fa5"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Reviews"
       }
@@ -118,7 +127,7 @@
       "type": "call-to-action",
       "settings": {
         "heading": "The SkinBiome Co.",
-        "sub_heading": "Eliminate Your Eczema Now With our Steroid-Free Cream!",
+        "sub_heading": "Soothe and Repair Your Skin with Our Steroid-Free Cream!",
         "btn_text": "buy now",
         "btn_link": "shopify:\/\/products\/derma-relief-cream-1",
         "bg_img": "shopify:\/\/shop_images\/cream_img_2.png"

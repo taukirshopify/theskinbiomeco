@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "featured_collection": {
@@ -40,36 +40,36 @@
     "1b975708-65d4-441d-be96-ca7b3c4b610c": {
       "type": "home-hero",
       "settings": {
-        "hero_bg_img": "shopify:\/\/shop_images\/hero_bg_1.jpg",
-        "logo_img": "shopify:\/\/shop_images\/logo-big.png",
+        "hero_bg_img": "shopify://shop_images/hero_bg_1.jpg",
+        "logo_img": "shopify://shop_images/logo-big.png",
         "btn_text": "get started",
-        "btn_link": "shopify:\/\/pages\/our-product",
-        "btn_link_two_text": "buy now",
-        "btn_link_two": "shopify:\/\/products\/derma-relief-cream-1"
+        "btn_link": "shopify://pages/our-product",
+        "btn_link_two_text": "",
+        "btn_link_two": "shopify://products/derma-relief-cream-1"
       }
     },
     "1aeaf87d-6d14-48cc-a6ed-3d0302def53f": {
       "type": "home-product",
       "settings": {
         "heading": "Soothe and Repair Your Skin with Our Steroid-Free Cream!",
-        "img_one": "shopify:\/\/shop_images\/cream-small.png",
-        "img_two": "shopify:\/\/shop_images\/cream-big.png",
+        "img_one": "shopify://shop_images/cream-small.png",
+        "img_two": "shopify://shop_images/cream-big.png",
         "btn_text": "buy now",
-        "btn_link": "shopify:\/\/products\/derma-relief-cream-1"
+        "btn_link": "shopify://products/derma-relief-cream-1"
       }
     },
     "289d24be-ef95-4961-be49-9febd2819890": {
       "type": "home-about",
       "settings": {
         "heading": "Harness the Natural Power of Your Skin Microbiome with Our Steroid-Free Formula.",
-        "description": "<p class=\"fs-40 mt-n3\">\"Itchy, flaky skin can be a challenge. Discover a natural way to care for your skin!<\/p>\n<p class=\"fs-40 mb-n2\">A well-balanced skin microbiome is vital to skin health. When our skin microbiome is out of balance, and lacking certain good microbes, issues like Eczema can flare up. <br>\n<b>The answers are in your skin microbiome.<\/b>\n<\/p>",
+        "description": "<p class=\"fs-40 mt-n3\">\"Itchy, flaky skin can be a challenge. Discover a natural way to care for your skin!</p>\n<p class=\"fs-40 mb-n2\">A well-balanced skin microbiome is vital to skin health. When our skin microbiome is out of balance, and lacking certain good microbes, issues like Eczema can flare up. <br>\n<b>The answers are in your skin microbiome.</b>\n</p>",
         "btn_text": "More About Our Story",
         "btn_link": "#",
         "btn_text_two": "buy now",
-        "btn_link_two": "shopify:\/\/products\/derma-relief-cream-1",
-        "img_one": "shopify:\/\/shop_images\/box_1_1.jpg",
-        "img_two": "shopify:\/\/shop_images\/box_1_2.jpg",
-        "img_three": "shopify:\/\/shop_images\/box_1_3.jpg"
+        "btn_link_two": "shopify://products/derma-relief-cream-1",
+        "img_one": "shopify://shop_images/box_1_1.jpg",
+        "img_two": "shopify://shop_images/box_1_2.jpg",
+        "img_three": "shopify://shop_images/box_1_3.jpg"
       }
     },
     "3f0daae4-b61f-4342-978c-2e77d50999d8": {
@@ -78,36 +78,36 @@
         "6f5f19b6-b4fd-45fa-8948-6cada4a35fd4": {
           "type": "text_block",
           "settings": {
-            "testimonial_img": "shopify:\/\/shop_images\/testimonial_2.png",
+            "testimonial_img": "shopify://shop_images/testimonial_2.png",
             "author_heading": "More restful sleep at night!",
-            "author_description": "<p class=\"fs-30 mt-n2\">I've had eczema around my eye and it has been uncomfortable for many years. The skin would get red, dry, cracked, and sensitive. Just taking a shower or washing my face would cause painful stinging, and sometimes I would wake up at night with pain, which is very disruptive to my sleep. I hadn't found a good product until The SkinBiome Co.'s Derma Relief Cream. \n<\/p>\n<p class=\"fs-30\">\nThis product quickly soothes and relieves the discomfort around my eye within a day of application, and it's easy to consistently apply.<\/p>",
+            "author_description": "<p class=\"fs-30 mt-n2\">I've had eczema around my eye and it has been uncomfortable for many years. The skin would get red, dry, cracked, and sensitive. Just taking a shower or washing my face would cause painful stinging, and sometimes I would wake up at night with pain, which is very disruptive to my sleep. I hadn't found a good product until The SkinBiome Co.'s Derma Relief Cream. \n</p>\n<p class=\"fs-30\">\nThis product quickly soothes and relieves the discomfort around my eye within a day of application, and it's easy to consistently apply.</p>",
             "author_name": "Jeff <br>Derma Relief Cream"
           }
         },
         "69796ebc-3f04-476b-9a3a-8cbcb25ff1bb": {
           "type": "text_block",
           "settings": {
-            "testimonial_img": "shopify:\/\/shop_images\/testimonial_1.png",
+            "testimonial_img": "shopify://shop_images/testimonial_1.png",
             "author_heading": "Derma Relief Cream has restored my skin health and my confidence!",
-            "author_description": "<p class=\"fs-30 mt-n2\">I have been using steroids to relieve the sore and red skin around my lips, but my skin always became much worse once I stopped steroids. As a result, I get very conscious of the way I look and will always wear a mask or apply (heavy) make up before I leave my home.<\/p>\n<p class=\"fs-30\">TThanks to The SkinBiome Co.’s Derma Relief Cream, I can now restore my skin health without worrying about the side effects from steroids! I am super happy to have found a cream that provides lasting effect, making me confident in my skin appearance again!<\/p>",
+            "author_description": "<p class=\"fs-30 mt-n2\">I have been using steroids to relieve the sore and red skin around my lips, but my skin always became much worse once I stopped steroids. As a result, I get very conscious of the way I look and will always wear a mask or apply (heavy) make up before I leave my home.</p>\n<p class=\"fs-30\">TThanks to The SkinBiome Co.’s Derma Relief Cream, I can now restore my skin health without worrying about the side effects from steroids! I am super happy to have found a cream that provides lasting effect, making me confident in my skin appearance again!</p>",
             "author_name": "Jamie<br>Derma Relief Cream"
           }
         },
         "76067a89-5138-4cca-a93b-e74d8061f991": {
           "type": "text_block",
           "settings": {
-            "testimonial_img": "shopify:\/\/shop_images\/testimonial_3.png",
+            "testimonial_img": "shopify://shop_images/testimonial_3.png",
             "author_heading": "Steroid-free solution to calmer and healthier skin!",
-            "author_description": "<p class=\"testi-card_text\">I have sourced and tried many different products to help with my Eczema but none have truly worked. Steroid-based creams only provide temporary relief and I experience worse flare-ups after stopping use.<\/p>\n                            <p class=\"testi-card_text\">I am extremely happy to have discovered The SkinBiome Co.’s Derma Relief Cream! It reduced itching within hours and relieved my Eczema completely within a week! Most importantly, it is a sustainable solution to getting calmer and healthier skin!<\/p>",
+            "author_description": "<p class=\"testi-card_text\">I have sourced and tried many different products to help with my Eczema but none have truly worked. Steroid-based creams only provide temporary relief and I experience worse flare-ups after stopping use.</p>\n                            <p class=\"testi-card_text\">I am extremely happy to have discovered The SkinBiome Co.’s Derma Relief Cream! It reduced itching within hours and relieved my Eczema completely within a week! Most importantly, it is a sustainable solution to getting calmer and healthier skin!</p>",
             "author_name": "Jon <br>Derma Relief Cream"
           }
         },
         "ac755854-362d-41f0-90dd-44e16c9be2f9": {
           "type": "text_block",
           "settings": {
-            "testimonial_img": "shopify:\/\/shop_images\/testimonial_4.png",
+            "testimonial_img": "shopify://shop_images/testimonial_4.png",
             "author_heading": "Moisturizing cream that truly works!",
-            "author_description": "<p class=\"testi-card_text\">The SkinBiome Co.’s Derma Relief Cream is a true game changer in the field! For years, I have struggled with persistent flare-ups that leave my skin dry, feeling itchy and uncomfortable.<\/p>\n                            <p class=\"testi-card_text\">Unlike other creams and lotions, Derma Relief Cream is non-greasy and absorbs quickly into the skin. What I really like about this cream is that it contains all-natural active ingredients and is free of synthetic chemicals!<\/p>",
+            "author_description": "<p class=\"testi-card_text\">The SkinBiome Co.’s Derma Relief Cream is a true game changer in the field! For years, I have struggled with persistent flare-ups that leave my skin dry, feeling itchy and uncomfortable.</p>\n                            <p class=\"testi-card_text\">Unlike other creams and lotions, Derma Relief Cream is non-greasy and absorbs quickly into the skin. What I really like about this cream is that it contains all-natural active ingredients and is free of synthetic chemicals!</p>",
             "author_name": "Sherine <br>Derma Relief Cream"
           }
         }
@@ -127,13 +127,13 @@
       "disabled": true,
       "settings": {
         "heading": "More restful sleep at night!",
-        "description": "<p class=\"fs-30 mt-n2\">I've had eczema around my eye and it has been uncomfortable for many years. The skin would get red, dry, cracked, and sensitive. Just taking a shower or washing my face would cause painful stinging, and sometimes I would wake up at night with pain, which is very disruptive to my sleep. I hadn't found a good product until The SkinBiome Co.'s Derma Relief Cream. <\/p>\n<p class=\"fs-30\">This product quickly soothes and relieves the discomfort around my eye within a day of application, and it's easy to consistently apply.<\/p>",
+        "description": "<p class=\"fs-30 mt-n2\">I've had eczema around my eye and it has been uncomfortable for many years. The skin would get red, dry, cracked, and sensitive. Just taking a shower or washing my face would cause painful stinging, and sometimes I would wake up at night with pain, which is very disruptive to my sleep. I hadn't found a good product until The SkinBiome Co.'s Derma Relief Cream. </p>\n<p class=\"fs-30\">This product quickly soothes and relieves the discomfort around my eye within a day of application, and it's easy to consistently apply.</p>",
         "author_name": "Jeff <br>Derma Relief Cream",
-        "img_one": "shopify:\/\/shop_images\/box_2_2.jpg",
+        "img_one": "shopify://shop_images/box_2_2.jpg",
         "before_text": "Before",
-        "img_two": "shopify:\/\/shop_images\/box_2_3.jpg",
+        "img_two": "shopify://shop_images/box_2_3.jpg",
         "day_one_text": "Day 1",
-        "img_three": "shopify:\/\/shop_images\/box_2_1.jpg",
+        "img_three": "shopify://shop_images/box_2_1.jpg",
         "day_four_text": "Day 4"
       }
     },
@@ -141,13 +141,13 @@
       "type": "home-solutions",
       "settings": {
         "heading": "Natural Skincare Solution",
-        "description": "<p class=\"fs-40 mt-n3 mb-n2\">\"A well-balanced <b>skin microbiome is vital to skin health.<\/b> When our skin microbiome is out of balance, and lacking certain good microbes, issues like Eczema can flare up. <b>The good news<\/b> is that feeding your skin microbiome with the right ingredients can help your skin <b>regain a healthy balance.<\/b>  Our product contains <b> Dermafixium <\/b>, , a naturally-derived active ingredient that soothes and calms the skin, providing relief and comfort   \"<\/b><\/p>",
+        "description": "<p class=\"fs-40 mt-n3 mb-n2\">\"A well-balanced <b>skin microbiome is vital to skin health.</b> When our skin microbiome is out of balance, and lacking certain good microbes, issues like Eczema can flare up. <b>The good news</b> is that feeding your skin microbiome with the right ingredients can help your skin <b>regain a healthy balance.</b>  Our product contains <b> Dermafixium </b>, , a naturally-derived active ingredient that soothes and calms the skin, providing relief and comfort   \"</p>",
         "btn_text": "Learn More About Our Science",
-        "btn_link": "shopify:\/\/pages\/our-story",
+        "btn_link": "shopify://pages/our-story",
         "btn_text_two": "buy now",
-        "btn_link_two": "shopify:\/\/products\/derma-relief-cream-1",
-        "img_one": "shopify:\/\/shop_images\/rounded-cell.jpg",
-        "under_text": "The SkinBiomeCo. is here to help you get <br> <span class=\"text-theme\">Healthier skin today!<\/span>"
+        "btn_link_two": "shopify://products/derma-relief-cream-1",
+        "img_one": "shopify://shop_images/rounded-cell.jpg",
+        "under_text": "The SkinBiomeCo. is here to help you get <br> <span class=\"text-theme\">Healthier skin today!</span>"
       }
     },
     "7cdb7c3f-bf09-43e5-9be2-3572291f8e02": {
@@ -157,9 +157,9 @@
           "type": "text_block",
           "disabled": true,
           "settings": {
-            "img_one": "shopify:\/\/shop_images\/testi_1_1.jpg",
+            "img_one": "shopify://shop_images/testi_1_1.jpg",
             "heading_one": "Befor",
-            "img_two": "shopify:\/\/shop_images\/testi_1_2.jpg",
+            "img_two": "shopify://shop_images/testi_1_2.jpg",
             "heading_two": "After [one week]",
             "column": false,
             "author_description": "I love that my Derma Relief Cream is a sustainable steroid-free solution to calmer and healthier skin!",
@@ -170,9 +170,9 @@
           "type": "text_block",
           "disabled": true,
           "settings": {
-            "img_one": "shopify:\/\/shop_images\/image_2_2.jpg",
+            "img_one": "shopify://shop_images/image_2_2.jpg",
             "heading_one": "Before",
-            "img_two": "shopify:\/\/shop_images\/Rectangle_38_1.jpg",
+            "img_two": "shopify://shop_images/Rectangle_38_1.jpg",
             "heading_two": "After [one week]",
             "column": true,
             "author_description": "My Derma Relief Cream has restored my skin health and confidence in my skin appearance!",
@@ -183,9 +183,9 @@
           "type": "text_block",
           "disabled": true,
           "settings": {
-            "img_one": "shopify:\/\/shop_images\/image_5.png",
+            "img_one": "shopify://shop_images/image_5.png",
             "heading_one": "Before",
-            "img_two": "shopify:\/\/shop_images\/image_7.png",
+            "img_two": "shopify://shop_images/image_7.png",
             "heading_two": "After",
             "column": true,
             "author_description": "Derma Relief Cream acts fast to soothe and provides long-lasting relief, allowing me a good night sleep!",
@@ -195,9 +195,9 @@
         "4fb04df0-5b7d-4f08-9585-7eae5a896f1f": {
           "type": "text_block",
           "settings": {
-            "img_one": "shopify:\/\/shop_images\/image_14.jpg",
+            "img_one": "shopify://shop_images/image_14.jpg",
             "heading_one": "Before",
-            "img_two": "shopify:\/\/shop_images\/image_13.jpg",
+            "img_two": "shopify://shop_images/image_13.jpg",
             "heading_two": "After",
             "column": true,
             "author_description": "My Derma Relief Cream makes my skin feel really good- it is non-greasy and free of synthetic chemicals!",
@@ -222,8 +222,8 @@
         "heading": "The SkinBiome Co.",
         "sub_heading": "Soothe and Repair Your Skin with Our Steroid-Free Cream!",
         "btn_text": "buy now",
-        "btn_link": "shopify:\/\/products\/derma-relief-cream-1",
-        "bg_img": "shopify:\/\/shop_images\/cream_img_2.png"
+        "btn_link": "shopify://products/derma-relief-cream-1",
+        "bg_img": "shopify://shop_images/cream_img_2.png"
       }
     }
   },
